@@ -1,0 +1,102 @@
+{
+  "version": "1.0",
+  "description": "Educational illustration concepts for Declaration Guide",
+  "concepts": [
+    {
+      "id": "civic-responsibility",
+      "title": "Гражданская ответственность",
+      "description": "Активное участие граждан в жизни общества и принятии решений",
+      "category": "participation",
+      "thumb": "civic-responsibility_thumb_opt.webp",
+      "web": "civic-responsibility_web_opt.webp"
+    },
+    {
+      "id": "constitutional-rights",
+      "title": "Конституционные права",
+      "description": "Основные права и свободы, гарантированные конституцией",
+      "category": "rights",
+      "thumb": "constitutional-rights_thumb_opt.webp",
+      "web": "constitutional-rights_web_opt.webp"
+    },
+    {
+      "id": "democratic-participation",
+      "title": "Демократическое участие",
+      "description": "Право граждан участвовать в демократических процессах",
+      "category": "participation",
+      "thumb": "democratic-participation_thumb_opt.webp",
+      "web": "democratic-participation_web_opt.webp"
+    },
+    {
+      "id": "electoral-participation",
+      "title": "Избирательное участие",
+      "description": "Участие в выборах как основа демократии",
+      "category": "participation",
+      "thumb": "electoral-participation_thumb_opt.webp",
+      "web": "electoral-participation_web_opt.webp"
+    },
+    {
+      "id": "european-integration",
+      "title": "Европейская интеграция",
+      "description": "Объединение европейских стран в единое сообщество ценностей",
+      "category": "european",
+      "thumb": "european-integration_thumb_opt.webp",
+      "web": "european-integration_web_opt.webp"
+    },
+    {
+      "id": "european-values",
+      "title": "Европейские ценности",
+      "description": "Демократия, права человека, верховенство закона",
+      "category": "european",
+      "thumb": "european-values_thumb_opt.webp",
+      "web": "european-values_web_opt.webp"
+    },
+    {
+      "id": "freedom-expression",
+      "title": "Свобода выражения",
+      "description": "Право свободно выражать свои мысли и убеждения",
+      "category": "rights",
+      "thumb": "freedom-expression_thumb_opt.webp",
+      "web": "freedom-expression_web_opt.webp"
+    },
+    {
+      "id": "human-rights-protection",
+      "title": "Защита прав человека",
+      "description": "Охрана и защита фундаментальных прав каждого человека",
+      "category": "rights",
+      "thumb": "human-rights-protection_thumb_opt.webp",
+      "web": "human-rights-protection_web_opt.webp"
+    },
+    {
+      "id": "media-literacy",
+      "title": "Медиаграмотность",
+      "description": "Умение критически анализировать информацию и медиаконтент",
+      "category": "knowledge",
+      "thumb": "media-literacy_thumb_opt.webp",
+      "web": "media-literacy_web_opt.webp"
+    },
+    {
+      "id": "minority-rights",
+      "title": "Права меньшинств",
+      "description": "Защита интересов и прав меньшинств в обществе",
+      "category": "rights",
+      "thumb": "minority-rights_thumb_opt.webp",
+      "web": "minority-rights_web_opt.webp"
+    },
+    {
+      "id": "rule-of-law",
+      "title": "Верховенство закона",
+      "description": "Принцип равенства всех перед законом",
+      "category": "european",
+      "thumb": "rule-of-law_thumb_opt.webp",
+      "web": "rule-of-law_web_opt.webp"
+    },
+    {
+      "id": "social-justice",
+      "title": "Социальная справедливость",
+      "description": "Равенство возможностей и справедливое распределение ресурсов",
+      "category": "rights",
+      "thumb": "social-justice_thumb_opt.webp",
+      "web": "social-justice_web_opt.webp"
+    }
+  ]
+}
