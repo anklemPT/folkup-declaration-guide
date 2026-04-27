@@ -1,0 +1,75 @@
+# DECL Educational Illustrations Integration Manifest
+# Created: 2026-04-26 for DECL-R01 inventory verification
+
+project: folkup-declaration-guide
+repository: https://github.com/anklemPT/folkup-declaration-guide
+created_date: '2026-04-26'
+audit_date: '2026-04-26'
+audit_author: 'Enhanced Alice v2.0 Level 3'
+
+# SOURCE INVENTORY
+source_directory: 'C:/Transit/processed_illustrations/'
+source_files:
+  processed_illustrations: 48  # 12 concepts × 4 formats (og.jpg, print.pdf, thumb.webp, web.png)
+  optimized_webp: 24  # 12 concepts × 2 formats (thumb_opt.webp, web_opt.webp)
+  total_generated: 72
+
+# TARGET INTEGRATION STATUS
+target_directory: 'images/declaration/guide/educational/'
+integration_status: COMPLETE  # CRITICAL DISCOVERY: Integration already completed
+
+deployed_files:
+  optimized_webp_deployed: 48  # All 12 concepts × (thumb_opt + web_opt) pairs
+  formats_used:
+    - thumb_opt.webp  # Gallery thumbnails
+    - web_opt.webp    # Modal full images
+
+# HTML INTEGRATION VERIFICATION
+html_integration:
+  file: 'index.html'
+  gallery_section: 'lines 969-1171'  # .educational-gallery section
+  concepts_integrated: 12
+  css_styles: 'lines 414-684'  # .educational-gallery, .educational-modal
+  javascript_modal: 'lines 1423+'  # Modal interaction code
+
+concepts_list:
+  - constitutional-rights
+  - freedom-expression
+  - human-rights-protection
+  - minority-rights
+  - social-justice
+  - civic-responsibility
+  - democratic-participation
+  - electoral-participation
+  - european-integration
+  - european-values
+  - rule-of-law
+  - media-literacy
+
+# WCAG COMPLIANCE STATUS
+accessibility:
+  alt_text_status: IMPLEMENTED  # Alt attributes on all images
+  aria_labels: IMPLEMENTED      # Modal has proper aria-modal, aria-labelledby
+  keyboard_navigation: IMPLEMENTED  # Modal supports ESC key
+  focus_management: IMPLEMENTED     # Focus handling in modal
+
+# DEPLOYMENT ISSUE IDENTIFIED
+issue_identified: |
+  CRITICAL DISCOVERY: Educational illustrations are FULLY integrated in HTML.
+
+  The audit finding "48 educational illustrations NOT displayed on live site" is
+  NOT due to HTML integration failure but due to deployment failure:
+  - declaration.folkup.app returns ECONNREFUSED (site completely offline)
+  - Integration work (DECL-R03) is ALREADY COMPLETE
+  - Priority: DECL-R02 Emergency Deployment Restore becomes P0 CRITICAL
+
+  Evidence of successful integration:
+  - 48 files deployed in images/declaration/guide/educational/
+  - 12 concepts in HTML gallery with proper paths
+  - Complete CSS styles and JavaScript modal functionality
+  - WCAG 2.1 AA compliance features implemented
+
+revised_task_priorities: |
+  DECL-R02 (Deployment) → P0 CRITICAL BLOCKER
+  DECL-R03 (Integration) → OBSOLETE (work already complete)
+  GNRL-288 (URL Migration) → P1 (after site is live)

@@ -1,0 +1,9 @@
+name = "folkup-declaration-guide"
+pages_build_output_dir = "."
+
+[env.production]
+account_id = "df4ac254f54d45ae99d2273c0f1af48c"
+
+[[env.production.routes]]
+pattern = "declaration.folkup.app"
+custom_domain = true
