@@ -224,6 +224,45 @@
       color: var(--text);
     }
 
+    /* Language tabs */
+    .language-tabs {
+      display: flex;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+
+    .language-tab {
+      padding: 0.4rem 0.8rem;
+      border: 1px solid rgba(255,255,255,0.3);
+      background: transparent;
+      color: rgba(255,255,255,0.7);
+      border-radius: 4px;
+      cursor: pointer;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.85rem;
+      transition: all 0.2s;
+    }
+
+    .language-tab:hover {
+      color: #fff;
+      border-color: rgba(255,255,255,0.5);
+    }
+
+    .language-tab.active {
+      background: rgba(255,255,255,0.15);
+      color: #fff;
+      border-color: rgba(255,255,255,0.5);
+    }
+
+    /* Content switching */
+    .lang-content {
+      display: none;
+    }
+
+    .lang-content.active {
+      display: block;
+    }
+
     @media (max-width: 640px) {
       .container {
         padding: 1rem;
@@ -251,13 +290,21 @@
       <h1>The Unenclosed Knowledge Declaration</h1>
       <p class="subtitle">Initiated by FolkUp. Open for signature.</p>
 
+      <div class="language-tabs">
+        <button class="language-tab" data-lang="en">EN</button>
+        <button class="language-tab" data-lang="ru">РУ</button>
+        <button class="language-tab" data-lang="pt">PT</button>
+      </div>
+
       <nav>
         <a href="/guide/" class="nav-link">Student Guide</a>
       </nav>
     </header>
 
     <main class="declaration-content">
-      <blockquote>
+      <!-- English Content -->
+      <div class="lang-content" data-lang="en">
+        <blockquote>
         "I am, somehow, less interested in the weight and convolutions of Einstein's brain than in the near certainty that people of equal talent have lived and died in cotton fields and sweatshops."
         <br>— Stephen Jay Gould, <em>The Panda's Thumb</em> (1980)
       </blockquote>
@@ -366,6 +413,223 @@
       <p><em>Version 1.2 — March 2026</em></p>
 
       <p><em>To endorse this Declaration, visit: <a href="https://folkup.app/declaration">folkup.app/declaration</a></em></p>
+      </div>
+
+      <!-- Russian Content -->
+      <div class="lang-content" data-lang="ru">
+        <blockquote>
+          «Меня, признаться, куда меньше занимают вес и извилины мозга Эйнштейна, нежели почти несомненный факт: люди не меньшего таланта жили и умирали на хлопковых полях и в потогонных мастерских.»
+          <br>— Стивен Джей Гулд, <em>Большой палец панды</em> (1980)
+        </blockquote>
+
+        <hr>
+
+        <h2>Преамбула</h2>
+
+        <p>У человечества никогда не было лучших инструментов для обмена знаниями. И тем не менее сегодня за замком оказалось больше знаний, чем когда-либо в новейшей истории. За подписными барьерами. За алгоритмами, которые обслуживают рекламную выручку, а не понимание. Знание превращено в товар, измеряемый кликами, а не ясностью.</p>
+
+        <p>Это — новое огораживание.</p>
+
+        <p>Столетия назад общинные земли были отгорожены от людей, которые их возделывали. Сегодня то же самое происходит с самим знанием. Исследования, оплаченные обществом, скрыты за подписными барьерами. Культурное наследие погребено в проприетарных базах данных. Наше внимание — часы, потраченные на чтение, поиск, обучение — стало сырьём, которое извлекают и продают.</p>
+
+        <p>Мы отвергаем это огораживание. И мы строим нечто лучшее.</p>
+
+        <hr>
+
+        <h2>Принципы</h2>
+
+        <div class="principle">
+          <p><strong>I. Знание принадлежит человечеству.</strong></p>
+          <p>Знание, созданное на государственные средства, в ходе совместных исследований и коллективных культурных усилий, должно оставаться доступным для всех. Ни одна корпорация и ни одно правительство не вправе претендовать на исключительное владение тем, что сообщества, исследователи и культуры создавали вместе. Мы уважаем законодательство об интеллектуальной собственности, выступая при этом за его реформирование там, где оно не служит общественным интересам.</p>
+        </div>
+
+        <div class="principle">
+          <p><strong>II. Внимание суверенно.</strong></p>
+          <p>Каждый человек имеет право распоряжаться своим вниманием без манипуляций. Системы, спроектированные для захвата внимания посредством аддиктивных циклов, нагнетания возмущения или искусственного дефицита, нарушают это право. Суверенное внимание не подразумевает права на усиление сигнала или свободы от ответственности.</p>
+          <p>Интернет создавался для диалога — чтобы люди обменивались знаниями, оспаривали идеи и учились друг у друга. Рекомендательные системы, спроектированные для максимизации вовлечённости, а не понимания, подменили этот обмен бесконечным пассивным потреблением. Когда алгоритм решает, что вы увидите следующим, ваше внимание перестаёт быть суверенным. Оно становится ресурсом для извлечения.</p>
+        </div>
+
+        <div class="principle">
+          <p><strong>III. Созидание должно предшествовать извлечению.</strong></p>
+          <p>Системы, которые ничего не производят, но присваивают всё, разрушают основополагающее соглашение, на котором держится общее достояние: прежде чем брать — внеси свой вклад. Информационная экономика, вознаграждающая огораживание выше вклада, подрывает собственный фундамент.</p>
+        </div>
+
+        <div class="principle">
+          <p><strong>IV. Прозрачность не подлежит обсуждению.</strong></p>
+          <p>Любая система, формирующая общественное знание, — будь то поисковая машина, контентная платформа или рекомендательный алгоритм — должна быть подотчётна обществу и подлежать независимому аудиту. То, что нельзя проверить, нельзя считать заслуживающим доверия.</p>
+        </div>
+
+        <div class="principle">
+          <p><strong>V. Доступ без слежки.</strong></p>
+          <p>Ценой знания не должна быть утрата приватности. Никто не должен подвергаться отслеживанию, профилированию или монетизации за сам акт обучения. Чтение — не транзакция. Любознательность — не точка данных.</p>
+        </div>
+
+        <div class="principle">
+          <p><strong>VI. Местная мудрость — всеобщее достояние.</strong></p>
+          <p>Культурное и общинное знание должно свободно пересекать границы, сохраняя уважение к своим истокам. Энциклопедия деревни — её рецепты, её снадобья, её предания — принадлежит миру. Но мир обязан чтить деревню, действуя с осознанного согласия и при участии её жителей. Открытый доступ — не извлечение под другим именем.</p>
+        </div>
+
+        <div class="principle">
+          <p><strong>VII. Строить, а не разрушать.</strong></p>
+          <p>Мы создаём альтернативы в рамках закона. Мы не сносим то, что существует, — мы строим то, что должно существовать рядом с ним. Наши инструменты — прозрачность, сотрудничество, открытые стандарты и терпеливая работа по обеспечению доступности знания.</p>
+        </div>
+
+        <hr>
+
+        <h2>Что мы наблюдаем</h2>
+        <p>Огораживание — не абстракция. Оно конкретно и измеримо:</p>
+        <ul>
+          <li>Публично финансируемые исследования заперты за платным доступом, который взимает плату с тех, кто их оплатил.</li>
+          <li>Алгоритмы усиливают разобщённость, потому что разобщённость порождает вовлечённость, а вовлечённость приносит доход.</li>
+          <li>Культурное наследие, оцифрованное государственными учреждениями, затем передаётся по исключительной лицензии частным платформам.</li>
+          <li>Образовательные ресурсы оценены за пределами досягаемости тех сообществ, которые нуждаются в них более всего.</li>
+          <li>Персональные данные собирают при каждом акте чтения, поиска и обучения — а затем продают, чтобы формировать ту самую информацию, которую мы получаем.</li>
+          <li>Платформы, созданные для живого общения между людьми, превращены в системы доставки контента, где рекомендательные алгоритмы определяют, что миллионы людей читают, смотрят и во что верят, — оптимизируя не ради знания, а ради проведённого времени.</li>
+        </ul>
+        <p>Это не неизбежные последствия технологий. Это выбор. И выбор можно сделать иным.</p>
+
+        <hr>
+
+        <h2>Наши обязательства</h2>
+        <p>Поддерживая настоящую Декларацию, мы обязуемся:</p>
+        <ol>
+          <li><strong>Создавать и делиться</strong> открыто. Там, где мы создаём знание, мы будем делать его доступным на условиях открытых лицензий, допускающих распространение, адаптацию и перераспределение.</li>
+          <li><strong>Уважать закон</strong> и действовать в его рамках. Мы не призываем к обходу или разрушению. Мы строим правовые, устойчивые, открытые альтернативы.</li>
+          <li><strong>Защищать приватность</strong> как условие доступа. Мы не будем требовать слежки в качестве платы за знание.</li>
+          <li><strong>Поддерживать открытую инфраструктуру</strong> — инструменты с открытым кодом, открытые стандарты, открытые протоколы — которые ни одна организация не сможет огородить.</li>
+          <li><strong>Требовать прозрачности</strong> от систем, формирующих общественное знание, и практиковать её в собственной работе.</li>
+          <li><strong>Подходить к машинному обучению принципиально.</strong> Открытое знание не должно становиться лазейкой для несанкционированного извлечения автоматизированными системами. Мы поддерживаем прозрачные, справедливые рамки для того, как знание обучает технологии — рамки, которые уважают создателей и остаются открытыми для проверки.</li>
+          <li><strong>Стоять на стороне тех, кому не хватает доступа.</strong> Ценность открытого знания измеряется тем, кто может до него добраться, а не тем, кто уже им обладает.</li>
+        </ol>
+
+        <hr>
+
+        <h2>Призыв к действию</h2>
+
+        <p>Мы приглашаем каждого человека и каждую организацию поддержать эту Декларацию.</p>
+
+        <p>Добавив своё имя, вы присоединяетесь к растущему сообществу строителей: библиотекарям, педагогам, исследователям, разработчикам, архивистам, журналистам и гражданам, работающим за сохранение открытости знания. Если ваша организация, проект или сообщество разделяет эти принципы — сделайте это официально.</p>
+
+        <p>Прочитайте полный текст, поставьте свою подпись и поделитесь им: <strong>folkup.app/declaration</strong></p>
+
+        <hr>
+
+        <p><em>Инициатива <a href="https://folkup.app">FolkUp</a> — Знание, организованное.</em></p>
+
+        <p><em>Эта Декларация — живой документ, подлежащий периодическому пересмотру и правкам её подписантами.</em></p>
+
+        <p><em>Версия 1.2 — март 2026</em></p>
+
+        <p><em>Чтобы поддержать эту Декларацию, перейдите по ссылке: <a href="https://folkup.app/declaration">folkup.app/declaration</a></em></p>
+      </div>
+
+      <!-- Portuguese Content -->
+      <div class="lang-content" data-lang="pt">
+        <blockquote>
+          "Estou, de alguma forma, menos interessado no peso e nas circunvoluções do cérebro de Einstein do que na certeza de que pessoas de igual talento viveram e morreram em campos de algodão e oficinas insalubres."
+          <br>— Stephen Jay Gould, <em>O Polegar do Panda</em> (1980)
+        </blockquote>
+
+        <hr>
+
+        <h2>Preâmbulo</h2>
+
+        <p>A humanidade nunca teve melhores ferramentas para partilhar conhecimento. E no entanto, mais dele está trancado do que em qualquer ponto da história moderna. Por trás de paywalls. Guardado por algoritmos que servem receita publicitária, não compreensão. Tratado como uma mercadoria medida em cliques em vez de clareza.</p>
+
+        <p>Este é o novo cercamento.</p>
+
+        <p>Séculos atrás, terras comuns foram vedadas das pessoas que as cultivavam. Hoje, a mesma coisa está acontecendo com o próprio conhecimento. Pesquisa que o público pagou fica por trás de portões de assinatura. Patrimônio cultural está enterrado em bases de dados proprietárias. Nossa atenção — as horas que passamos lendo, procurando, aprendendo — tornou-se uma matéria-prima para ser extraída e vendida.</p>
+
+        <p>Rejeitamos este cercamento, e estamos construindo algo melhor.</p>
+
+        <hr>
+
+        <h2>Princípios</h2>
+
+        <div class="principle">
+          <p><strong>I. O conhecimento pertence à humanidade.</strong></p>
+          <p>O conhecimento produzido através de financiamento público, investigação partilhada e esforço cultural coletivo deve permanecer acessível a todos. Nenhuma corporação ou governo pode legitimamente reivindicar propriedade exclusiva sobre o que comunidades, investigadores e culturas construíram juntos. Respeitamos a lei de propriedade intelectual enquanto defendemos sua reforma onde ela falha o interesse público.</p>
+        </div>
+
+        <div class="principle">
+          <p><strong>II. A atenção é soberana.</strong></p>
+          <p>Toda pessoa tem o direito de dirigir sua própria atenção sem manipulação. Sistemas projetados para sequestrar a atenção através de loops viciantes, amplificação de ultraje ou escassez manufaturada violam esse direito. Atenção soberana não implica direito à amplificação ou liberdade de responsabilidade.</p>
+          <p>A internet foi construída para o diálogo — para as pessoas trocarem conhecimento, desafiarem ideias e aprenderem umas com as outras. Sistemas de recomendação, projetados para maximizar engajamento em vez de compreensão, substituíram essa troca por consumo passivo infinito. Quando um algoritmo determina o que você vê a seguir, sua atenção não é mais soberana. É colhida.</p>
+        </div>
+
+        <div class="principle">
+          <p><strong>III. A criação deve preceder a extração.</strong></p>
+          <p>Sistemas que não produzem nada mas capturam tudo quebram o acordo básico que mantém os comuns unidos: você contribui antes de tomar. Uma economia da informação que recompensa o cercamento sobre a contribuição mina sua própria fundação.</p>
+        </div>
+
+        <div class="principle">
+          <p><strong>IV. A transparência não é negociável.</strong></p>
+          <p>Qualquer sistema que molda o conhecimento público — motor de busca, plataforma de conteúdo, algoritmo de recomendação — deve estar sujeito a prestação de contas pública significativa e auditoria independente. O que não pode ser examinado não pode ser confiado.</p>
+        </div>
+
+        <div class="principle">
+          <p><strong>V. Acesso sem vigilância.</strong></p>
+          <p>O preço do conhecimento não deve ser a perda de privacidade. Ninguém deve ser rastreado, perfilado ou monetizado pelo próprio ato de aprender. Ler não é uma transação. Curiosidade não é um ponto de dados.</p>
+        </div>
+
+        <div class="principle">
+          <p><strong>VI. Sabedoria local é patrimônio global.</strong></p>
+          <p>O conhecimento cultural e comunitário deve fluir livremente através das fronteiras, mantendo o respeito por suas origens. A enciclopédia de uma aldeia — suas receitas, seus remédios, suas histórias — pertence ao mundo. Mas o mundo tem o dever de honrar a aldeia, agindo com consentimento informado e participação. Acesso aberto não é extração por outro nome.</p>
+        </div>
+
+        <div class="principle">
+          <p><strong>VII. Construir, não queimar.</strong></p>
+          <p>Construímos alternativas dentro da lei. Não derrubamos o que existe — construímos o que deveria existir ao lado dele. Nossas ferramentas são transparência, cooperação, padrões abertos e o trabalho paciente de tornar o conhecimento acessível.</p>
+        </div>
+
+        <hr>
+
+        <h2>O que observamos</h2>
+        <p>O cercamento não é abstrato. É específico e mensurável:</p>
+        <ul>
+          <li>Pesquisa financiada publicamente trancada por trás de paywalls que cobram dos mesmos contribuintes que a financiaram.</li>
+          <li>Algoritmos que amplificam divisão porque divisão gera engajamento, e engajamento gera receita.</li>
+          <li>Patrimônio cultural digitalizado por instituições públicas, depois licenciado exclusivamente para plataformas privadas.</li>
+          <li>Recursos educacionais com preços além do alcance das comunidades que mais precisam deles.</li>
+          <li>Dados pessoais colhidos de cada ato de ler, procurar e aprender — depois vendidos para moldar a própria informação que recebemos.</li>
+          <li>Plataformas originalmente construídas para conversação humana, transformadas em sistemas de entrega onde algoritmos de recomendação determinam o que milhões leem, assistem e acreditam — otimizando não para conhecimento mas para tempo gasto.</li>
+        </ul>
+        <p>Estas não são consequências inevitáveis da tecnologia. São escolhas. E as escolhas podem ser feitas de forma diferente.</p>
+
+        <hr>
+
+        <h2>Nossos compromissos</h2>
+        <p>Ao endossar esta Declaração, nos comprometemos a:</p>
+        <ol>
+          <li><strong>Criar e partilhar abertamente.</strong> Onde produzimos conhecimento, o tornaremos acessível sob licenças abertas que permitem partilha, adaptação e redistribuição.</li>
+          <li><strong>Respeitar a lei e trabalhar dentro dela.</strong> Não defendemos contorno ou destruição. Construímos alternativas legais, sustentáveis e abertas.</li>
+          <li><strong>Proteger a privacidade como condição de acesso.</strong> Não exigiremos vigilância como pagamento pelo conhecimento.</li>
+          <li><strong>Apoiar infraestrutura aberta</strong> — ferramentas de código aberto, padrões abertos, protocolos abertos — que nenhuma entidade pode cercar.</li>
+          <li><strong>Exigir transparência</strong> de sistemas que moldam o conhecimento público, e praticá-la em nosso próprio trabalho.</li>
+          <li><strong>Navegar o aprendizado de máquina com princípio.</strong> Conhecimento aberto não deve se tornar uma brecha para extração não creditada por sistemas automatizados. Apoiamos estruturas transparentes e justas sobre como o conhecimento treina tecnologia — estruturas que respeitam criadores e permanecem abertas ao escrutínio.</li>
+          <li><strong>Ficar com aqueles que carecem de acesso.</strong> O valor do conhecimento aberto é medido por quem pode alcançá-lo, não por quem já o tem.</li>
+        </ol>
+
+        <hr>
+
+        <h2>Um chamado à ação</h2>
+
+        <p>Convidamos toda pessoa e organização a endossar esta Declaração.</p>
+
+        <p>Ao adicionar seu nome, você se junta a uma comunidade crescente de construtores: bibliotecários, educadores, pesquisadores, desenvolvedores, arquivistas, jornalistas e cidadãos trabalhando para manter o conhecimento aberto. Se sua instituição, projeto ou comunidade partilha destes princípios, torne-o oficial.</p>
+
+        <p>Leia o texto completo, adicione sua assinatura e partilhe: <strong>folkup.app/declaration</strong></p>
+
+        <hr>
+
+        <p><em>Iniciado por <a href="https://folkup.app">FolkUp</a> — Conhecimento, organizado.</em></p>
+
+        <p><em>Esta Declaração é um documento vivo, sujeito a revisão periódica e revisão por seus signatários.</em></p>
+
+        <p><em>Versão 1.2 — Março 2026</em></p>
+
+        <p><em>Para endossar esta Declaração, visite: <a href="https://folkup.app/declaration">folkup.app/declaration</a></em></p>
+      </div>
     </main>
 
     <footer>
@@ -381,5 +645,7 @@
       </div>
     </footer>
   </div>
+
+  <script src="/declaration-i18n.js"></script>
 </body>
 </html>
