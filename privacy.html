@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — FolkUp Declaration Guide</title>
+  <meta name="description" content="Privacy policy for the Declaration Guide - how we protect your privacy and data.">
+  <meta property="og:title" content="Privacy Policy — FolkUp Declaration Guide">
+  <meta property="og:description" content="Transparent information about privacy protection on the Declaration Guide">
+  <meta property="og:image" content="/images/og-folkup.png">
+  <meta property="og:url" content="https://declaration.folkup.app/privacy">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <style>
+    @font-face { font-family: 'Instrument Serif'; font-style: normal; font-weight: 400; font-display: swap; src: url(/fonts/instrument-serif-normal-latin-ext.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+    @font-face { font-family: 'Instrument Serif'; font-style: normal; font-weight: 400; font-display: swap; src: url(/fonts/instrument-serif-normal-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+    @font-face { font-family: 'Inter'; font-style: normal; font-weight: 300 700; font-display: swap; src: url(/fonts/inter-latin-ext.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+    @font-face { font-family: 'Inter'; font-style: normal; font-weight: 300 700; font-display: swap; src: url(/fonts/inter-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+    :root {
+      --bordo: #5E2F3A;
+      --bordo-light: #7D4450;
+      --sage: #4E6B42;
+      --sage-light: #839E75;
+      --amber: #E8AD4A;
+      --bg: #FEFCF6;
+      --text: #1a1a1a;
+      --muted: #777;
+      --border: #e2ddd5;
+      --light: #f0ede6;
+      color-scheme: light only;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Header */
+    .header {
+      background: var(--bordo);
+      color: #fff;
+      padding: 1.25rem 2rem;
+    }
+    .header-inner {
+      max-width: 860px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .brand {
+      font-family: 'Instrument Serif', serif;
+      font-size: 1.5rem;
+      color: #fff;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .brand:hover { opacity: 0.9; }
+    .brand-logo {
+      width: 24px;
+      height: 24px;
+      filter: brightness(0) invert(1);
+    }
+    .brand-text {
+      font-size: inherit;
+    }
+    nav { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+    .nav-link {
+      color: rgba(255,255,255,0.8);
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 500;
+      padding: 0.25rem 0;
+      border-bottom: 2px solid transparent;
+      transition: color 0.2s, border-color 0.2s;
+    }
+    .nav-link:hover { color: #fff; }
+    .nav-link.active { color: #fff; border-bottom-color: #fff; }
+
+    /* Main Content */
+    .main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 2rem 2rem 3rem;
+    }
+
+    .page-title {
+      font-family: 'Instrument Serif', serif;
+      font-size: clamp(1.8rem, 4vw, 2.4rem);
+      font-weight: 400;
+      color: var(--bordo);
+      margin-bottom: 1rem;
+      line-height: 1.2;
+    }
+
+    .page-subtitle {
+      font-size: 1.1rem;
+      color: var(--muted);
+      margin-bottom: 2rem;
+      line-height: 1.5;
+    }
+
+    .content h2 {
+      font-family: 'Instrument Serif', serif;
+      font-size: clamp(1.3rem, 3vw, 1.6rem);
+      font-weight: 400;
+      color: var(--bordo);
+      margin: 2rem 0 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .content h2:first-child { margin-top: 0; }
+
+    .content h3 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--text);
+      margin: 1.5rem 0 0.75rem;
+    }
+
+    .content p {
+      margin-bottom: 1rem;
+      font-size: 1.05rem;
+      line-height: 1.7;
+    }
+
+    .content ul {
+      margin: 1rem 0 1rem 1.5rem;
+    }
+
+    .content li {
+      margin-bottom: 0.5rem;
+      font-size: 1.05rem;
+      line-height: 1.6;
+    }
+
+    .content strong {
+      color: var(--bordo);
+      font-weight: 600;
+    }
+
+    .highlight-box {
+      background: var(--light);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--sage);
+      border-radius: 6px;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+    }
+
+    .highlight-box h3 {
+      color: var(--sage);
+      margin-top: 0;
+    }
+
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+      font-size: 0.9rem;
+    }
+
+    .data-table th,
+    .data-table td {
+      border: 1px solid var(--border);
+      padding: 0.75rem;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .data-table th {
+      background: var(--light);
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .data-table tr:nth-child(even) {
+      background: rgba(240, 237, 230, 0.3);
+    }
+
+    /* Footer */
+    .footer {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 1.5rem 2rem;
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+    }
+    .footer a { color: var(--bordo-light); text-decoration: none; }
+    .footer a:hover { text-decoration: underline; }
+    .footer-brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+    }
+    .footer-logo {
+      width: 16px;
+      height: 16px;
+      opacity: 0.7;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .data-table {
+        font-size: 0.8rem;
+      }
+
+      .data-table th,
+      .data-table td {
+        padding: 0.5rem;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .header { padding: 1rem; }
+      .main { padding: 1.5rem 1.25rem 2.5rem; }
+
+      .data-table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-inner">
+      <a href="/" class="brand">
+        <img src="/images/folkup-lantern.png" alt="FolkUp" class="brand-logo">
+        <span class="brand-text">FolkUp</span>
+      </a>
+      <nav aria-label="Navigation">
+        <a href="/declaration/" class="nav-link">Declaration</a>
+        <a href="/declaration/guide/" class="nav-link">Guide</a>
+        <a href="/privacy" class="nav-link active" aria-current="page">Privacy</a>
+        <a href="/cookies" class="nav-link">Cookies</a>
+        <a href="/terms" class="nav-link">Terms</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <h1 class="page-title">Privacy Policy</h1>
+    <p class="page-subtitle">How we protect your privacy and handle any data we collect</p>
+
+    <div class="content">
+      <div class="highlight-box">
+        <h3>Privacy at a Glance</h3>
+        <p><strong>We collect very little data.</strong> This site works without requiring personal information. Any analytics data is anonymous and optional — you control whether we collect it through our cookie consent system.</p>
+      </div>
+
+      <h2>Who we are</h2>
+      <p>This site is operated by FolkUp, a project dedicated to open knowledge and digital rights education. We believe privacy is a fundamental right, especially for young people learning about digital citizenship.</p>
+
+      <h2>What data we collect and why</h2>
+
+      <h3>Required for the site to function</h3>
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Data</th>
+            <th>Purpose</th>
+            <th>Legal basis</th>
+            <th>Retention</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Language preference</td>
+            <td>Remember which language you selected (EN/RU/PT)</td>
+            <td>Legitimate interest (site functionality)</td>
+            <td>Session storage only</td>
+          </tr>
+          <tr>
+            <td>Cookie consent status</td>
+            <td>Remember your choice about analytics</td>
+            <td>Legal compliance (GDPR)</td>
+            <td>1 year or until withdrawn</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Optional analytics (only with consent)</h3>
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Data</th>
+            <th>Purpose</th>
+            <th>Legal basis</th>
+            <th>Retention</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Page visits (anonymous)</td>
+            <td>Understand which content is most useful</td>
+            <td>Consent</td>
+            <td>13 months</td>
+          </tr>
+          <tr>
+            <td>Time on page (anonymous)</td>
+            <td>Improve content quality</td>
+            <td>Consent</td>
+            <td>13 months</td>
+          </tr>
+          <tr>
+            <td>General location (country)</td>
+            <td>Language usage patterns</td>
+            <td>Consent</td>
+            <td>13 months</td>
+          </tr>
+          <tr>
+            <td>Device type (desktop/mobile)</td>
+            <td>Optimize design for different screens</td>
+            <td>Consent</td>
+            <td>13 months</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Special protection for under-16s</h2>
+      <p>Under European law (GDPR Article 8), young people under 16 have special protection. If you're under 16:</p>
+      <ul>
+        <li><strong>Ask a grown-up:</strong> Please involve a parent or guardian in privacy decisions</li>
+        <li><strong>Extra protections:</strong> We take additional care with any data from young users</li>
+        <li><strong>Educational purpose:</strong> This site is designed to help young people learn about digital rights</li>
+        <li><strong>No profiling:</strong> We never build behavioral profiles of individual users</li>
+      </ul>
+
+      <h2>What we don't do</h2>
+      <ul>
+        <li><strong>No personal accounts:</strong> You don't need to register or log in</li>
+        <li><strong>No email collection:</strong> We don't collect email addresses</li>
+        <li><strong>No social media tracking:</strong> No Facebook pixels, Twitter tracking, or similar</li>
+        <li><strong>No cross-site tracking:</strong> Analytics only work on this site</li>
+        <li><strong>No data sales:</strong> We never sell, rent, or share data with third parties</li>
+        <li><strong>No advertising networks:</strong> No Google Ads, ad networks, or behavioral advertising</li>
+        <li><strong>No precise location:</strong> We don't track your exact location</li>
+        <li><strong>No device fingerprinting:</strong> We don't create unique identifiers for your device</li>
+      </ul>
+
+      <h2>Your rights (GDPR)</h2>
+      <p>Under European data protection law, you have several rights:</p>
+
+      <h3>Access and portability</h3>
+      <ul>
+        <li><strong>Right to know:</strong> Ask what data we have about you (though it's very little)</li>
+        <li><strong>Data portability:</strong> Get a copy of your data in a readable format</li>
+      </ul>
+
+      <h3>Correction and deletion</h3>
+      <ul>
+        <li><strong>Right to correct:</strong> Fix any incorrect data</li>
+        <li><strong>Right to delete:</strong> Ask us to delete your data ("right to be forgotten")</li>
+        <li><strong>Right to restrict:</strong> Limit how we use your data</li>
+      </ul>
+
+      <h3>Consent and objection</h3>
+      <ul>
+        <li><strong>Withdraw consent:</strong> Change your mind about analytics anytime</li>
+        <li><strong>Object to processing:</strong> Ask us to stop using your data</li>
+        <li><strong>No automated decisions:</strong> We don't make automated decisions about you</li>
+      </ul>
+
+      <p>To exercise these rights, contact us at <strong>privacy@folkup.app</strong></p>
+
+      <h2>Technical security</h2>
+      <ul>
+        <li><strong>HTTPS encryption:</strong> All data transmitted securely</li>
+        <li><strong>Minimal data storage:</strong> We store as little as possible</li>
+        <li><strong>Regular security updates:</strong> Server and software kept up to date</li>
+        <li><strong>Access controls:</strong> Only authorized personnel can access systems</li>
+        <li><strong>Data retention limits:</strong> Automatic deletion after retention periods</li>
+      </ul>
+
+      <h2>Third parties</h2>
+      <p>This site uses minimal third-party services:</p>
+
+      <h3>Analytics (only with consent)</h3>
+      <ul>
+        <li><strong>Service:</strong> Self-hosted analytics (analytics.folkup.app)</li>
+        <li><strong>Data shared:</strong> Anonymous usage data only</li>
+        <li><strong>Location:</strong> Hosted in European Union</li>
+        <li><strong>Privacy policy:</strong> Same as this policy</li>
+      </ul>
+
+      <h3>Fonts and assets</h3>
+      <ul>
+        <li><strong>Self-hosted:</strong> All fonts and images served from our servers</li>
+        <li><strong>No external tracking:</strong> No Google Fonts or similar services that track users</li>
+      </ul>
+
+      <h2>International transfers</h2>
+      <p>Your data stays within the European Union:</p>
+      <ul>
+        <li><strong>Hosting:</strong> Servers located in the EU</li>
+        <li><strong>Analytics:</strong> Processed within the EU</li>
+        <li><strong>No US transfers:</strong> No data sent to United States or other countries</li>
+        <li><strong>GDPR compliance:</strong> Full protection under European law</li>
+      </ul>
+
+      <h2>Changes to this policy</h2>
+      <p>We may update this privacy policy from time to time. Any significant changes will be clearly announced. You can always find the current version at this page.</p>
+
+      <h2>Contact and complaints</h2>
+
+      <h3>Data controller</h3>
+      <ul>
+        <li><strong>Organization:</strong> FolkUp</li>
+        <li><strong>Email:</strong> privacy@folkup.app</li>
+        <li><strong>Response time:</strong> Within 30 days (usually much faster)</li>
+      </ul>
+
+      <h3>Supervisory authority</h3>
+      <p>If you're not satisfied with our response to a privacy concern, you can file a complaint with your local data protection authority or the lead supervisory authority for FolkUp.</p>
+
+      <h3>For young users</h3>
+      <p>If you're under 18 and have questions about privacy, don't hesitate to ask a trusted adult to help you contact us or understand your rights.</p>
+
+      <p style="margin-top: 2rem; font-size: 0.9rem; color: var(--muted);">
+        <strong>Last updated:</strong> December 27, 2026
+      </p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 <a href="/" class="footer-brand">
+      <img src="/images/folkup-lantern.png" alt="" class="footer-logo">
+      FolkUp
+    </a> &mdash; Knowledge, organized.</p>
+  </footer>
+
+</body>
+</html>
