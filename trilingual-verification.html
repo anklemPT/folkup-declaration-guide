@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilingual Verification Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .test-section { margin: 20px 0; padding: 15px; border: 1px solid #ccc; }
+        .pass { color: green; font-weight: bold; }
+        .fail { color: red; font-weight: bold; }
+        .info { color: blue; }
+        .lang-buttons { margin: 10px 0; }
+        button { padding: 8px 16px; margin: 0 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Declaration Site Trilingual Verification</h1>
+
+    <div class="test-section">
+        <h2>Structural Analysis</h2>
+        <div id="structure-results"></div>
+    </div>
+
+    <div class="test-section">
+        <h2>Content Verification</h2>
+        <div id="content-results"></div>
+    </div>
+
+    <div class="test-section">
+        <h2>Interactive Test</h2>
+        <p>Test language switching (requires declaration site running on localhost):</p>
+        <div class="lang-buttons">
+            <button onclick="testLanguage('en')">Test English</button>
+            <button onclick="testLanguage('ru')">Test Russian</button>
+            <button onclick="testLanguage('pt')">Test Portuguese</button>
+        </div>
+        <div id="interactive-results"></div>
+    </div>
+
+    <script>
+        // Check HTML structure from main index.html file
+        async function verifyStructure() {
+            const results = document.getElementById('structure-results');
+
+            try {
+                const response = await fetch('./index.html');
+                const html = await response.text();
+
+                // Check for language tabs
+                const hasLanguageTabs = html.includes('language-tab') &&
+                                       html.includes('data-lang="en"') &&
+                                       html.includes('data-lang="ru"') &&
+                                       html.includes('data-lang="pt"');
+
+                // Check for content blocks
+                const hasContentBlocks = html.includes('lang-content') &&
+                                        html.split('data-lang="en"').length > 5 &&
+                                        html.split('data-lang="ru"').length > 5 &&
+                                        html.split('data-lang="pt"').length > 5;
+
+                // Check for educational gallery
+                const hasEducationalGallery = html.includes('educational-gallery') &&
+                                            html.includes('category-section') &&
+                                            html.includes('gallery-item');
+
+                // Check for modals
+                const hasModalSystem = html.includes('educational-modal') &&
+                                      html.includes('openModal') &&
+                                      html.includes('closeModal');
+
+                // Check for i18n script
+                const hasI18nScript = html.includes('switchLanguage') &&
+                                    html.includes('detectLanguageFromURL') &&
+                                    html.includes('modalContent');
+
+                results.innerHTML = `
+                    <p class="${hasLanguageTabs ? 'pass' : 'fail'}">
+                        ✓ Language Tabs: ${hasLanguageTabs ? 'IMPLEMENTED' : 'MISSING'}
+                    </p>
+                    <p class="${hasContentBlocks ? 'pass' : 'fail'}">
+                        ✓ Trilingual Content Blocks: ${hasContentBlocks ? 'IMPLEMENTED' : 'MISSING'}
+                    </p>
+                    <p class="${hasEducationalGallery ? 'pass' : 'fail'}">
+                        ✓ Educational Gallery: ${hasEducationalGallery ? 'IMPLEMENTED' : 'MISSING'}
+                    </p>
+                    <p class="${hasModalSystem ? 'pass' : 'fail'}">
+                        ✓ Modal System: ${hasModalSystem ? 'IMPLEMENTED' : 'MISSING'}
+                    </p>
+                    <p class="${hasI18nScript ? 'pass' : 'fail'}">
+                        ✓ i18n JavaScript: ${hasI18nScript ? 'IMPLEMENTED' : 'MISSING'}
+                    </p>
+                `;
+
+                // Content analysis
+                const enContentCount = (html.match(/data-lang="en"/g) || []).length;
+                const ruContentCount = (html.match(/data-lang="ru"/g) || []).length;
+                const ptContentCount = (html.match(/data-lang="pt"/g) || []).length;
+
+                document.getElementById('content-results').innerHTML = `
+                    <p class="info">English content blocks: ${enContentCount}</p>
+                    <p class="info">Russian content blocks: ${ruContentCount}</p>
+                    <p class="info">Portuguese content blocks: ${ptContentCount}</p>
+                    <p class="${enContentCount === ruContentCount && ruContentCount === ptContentCount ? 'pass' : 'fail'}">
+                        Content Parity: ${enContentCount === ruContentCount && ruContentCount === ptContentCount ? 'ACHIEVED' : 'UNEVEN'}
+                    </p>
+                `;
+
+            } catch (error) {
+                results.innerHTML = `<p class="fail">Error: ${error.message}</p>`;
+            }
+        }
+
+        function testLanguage(lang) {
+            const results = document.getElementById('interactive-results');
+            const url = lang === 'en' ? 'http://localhost:3000/' : `http://localhost:3000/${lang}/`;
+
+            results.innerHTML = `
+                <p class="info">Testing ${lang.toUpperCase()} version...</p>
+                <p><a href="${url}" target="_blank">Open ${lang.toUpperCase()} version</a></p>
+            `;
+        }
+
+        // Run verification on page load
+        document.addEventListener('DOMContentLoaded', verifyStructure);
+    </script>
+</body>
+</html>
