@@ -978,16 +978,7 @@
     }
 
 
-    // URL detection and routing
-    function detectLanguageFromURL() {
-      const path = window.location.pathname;
-      if (path.includes('/ru/')) return 'ru';
-      if (path.includes('/pt/')) return 'pt';
-      if (path.includes('/en/')) return 'en';
-      return 'en'; // default
-    }
-
-    // Get language from localStorage or URL or browser default
+    // Get language from localStorage or browser default
     function getPreferredLanguage() {
       // 1. Check localStorage first
       const saved = localStorage.getItem('preferredLanguage');
@@ -995,13 +986,7 @@
         return saved;
       }
 
-      // 2. Fall back to URL detection
-      const urlLang = detectLanguageFromURL();
-      if (urlLang !== 'en') {
-        return urlLang;
-      }
-
-      // 3. Detect browser language
+      // 2. Detect browser language
       const browserLang = navigator.language.split('-')[0];
       if (browserLang === 'ru' || browserLang === 'pt') {
         return browserLang;
@@ -1019,33 +1004,19 @@
     function init() {
       const currentLang = getPreferredLanguage();
       switchLanguage(currentLang);
-      // Update URL if needed
-      if (currentLang !== 'en') {
-        const newPath = `/${currentLang}/`;
-        history.replaceState({lang: currentLang}, '', newPath);
-      }
-
       // Language tab click handlers
       document.querySelectorAll('.language-tab').forEach(tab => {
         tab.addEventListener('click', function(e) {
           e.preventDefault();
           const lang = this.dataset.lang;
 
-          // Save preference and update URL with pushState
+          // Save preference and switch language without URL change
           saveLanguagePreference(lang);
-          const newPath = lang === 'en' ? '/' : `/${lang}/`;
-          history.pushState({lang}, '', newPath);
           switchLanguage(lang);
         });
       });
 
     }
-
-    // Browser back/forward support
-    window.addEventListener('popstate', function(e) {
-      const lang = e.state?.lang || detectLanguageFromURL();
-      switchLanguage(lang);
-    });
 
     // Initialize when DOM is ready
     if (document.readyState === 'loading') {
