@@ -13,7 +13,7 @@ The declaration addresses modern "knowledge enclosures" - publicly funded resear
 ## Status
 
 **Production Ready** - Deployed and stable at https://declaration.folkup.app
-- 89,822 bytes optimized for performance
+- 51,350 bytes optimized for performance
 - Full trilingual content implementation complete
 - WCAG 2.1 AA accessibility compliance verified
 - Business functionality active (user sign-ups working)
@@ -21,7 +21,6 @@ The declaration addresses modern "knowledge enclosures" - publicly funded resear
 ## Features
 
 - **Multi-language support**: English, Russian, and Portuguese with localStorage persistence
-- **Educational illustrations**: 48 thematic illustrations supporting key concepts
 - **Accessibility compliant**: WCAG 2.1 AA standards with ARIA attributes and focus management
 - **Mobile-responsive**: Optimized for all devices
 - **Print-friendly**: Clean print layouts for offline use
@@ -43,7 +42,7 @@ npx serve .
 ```
 
 ### Technical Architecture
-- **Single file deployment**: Primary content in `index.html` (89,822 bytes)
+- **Single file deployment**: Primary content in `index.html` (51,350 bytes)
 - **Progressive enhancement**: Graceful fallback without JavaScript
 - **VPS deployment**: File sync via SSH + Docker volume auto-pickup
 - **Zero dependencies**: Uses only browser-native APIs

@@ -27,6 +27,7 @@
 - ✅ **Interactive cookie controls:** Toggle switches for consent management
 
 **Implementation Files:**
+- `index.html`: Primary content (51,350 bytes, phantom blocks removed)
 - `cookies.html`: Complete new file (19,282 bytes)
 - Cookie consent management JavaScript included
 - Navigation links updated across all pages
