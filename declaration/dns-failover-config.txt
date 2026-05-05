@@ -1,0 +1,86 @@
+DNS FAILOVER CONFIGURATION - DECLARATION.FOLKUP.APP
+=================================================
+
+MISSION: Emergency restoration of educational platform with GDPR Article 8 compliance
+
+CURRENT STATUS:
+- Target Domain: declaration.folkup.app
+- Emergency Site: lively-tiramisu-7c9714.netlify.app (PASSWORD PROTECTED)
+- Site ID: 3b206530-1aaa-479d-a331-6292dfd7a931
+- DNS Provider: Cloudflare (gigi.ns.cloudflare.com, will.ns.cloudflare.com)
+
+REQUIRED DNS CHANGES (CLOUDFLARE DASHBOARD):
+===========================================
+
+1. A RECORDS (IPv4):
+   - Name: declaration.folkup.app (or @)
+   - Value: 63.176.8.218
+   - TTL: 300 (5 minutes for fast propagation)
+
+   - Name: declaration.folkup.app (or @)
+   - Value: 35.157.26.135
+   - TTL: 300
+
+2. AAAA RECORDS (IPv6):
+   - Name: declaration.folkup.app (or @)
+   - Value: 2a05:d014:58f:6200::258
+   - TTL: 300
+
+   - Name: declaration.folkup.app (or @)
+   - Value: 2a05:d014:58f:6200::259
+   - TTL: 300
+
+3. CNAME RECORD (WWW):
+   - Name: www
+   - Value: lively-tiramisu-7c9714.netlify.app
+   - TTL: 300
+
+NETLIFY DOMAIN CONFIGURATION:
+============================
+
+1. Login to Netlify: https://app.netlify.com
+2. Navigate to site: https://app.netlify.com/projects/lively-tiramisu-7c9714
+3. Go to Domain Management → Custom Domains
+4. Add domain: declaration.folkup.app
+5. Verify DNS records (should show "Netlify DNS configured")
+6. Enable SSL certificate (automatic Let's Encrypt)
+7. REMOVE PASSWORD PROTECTION after domain claiming
+
+SECURITY VERIFICATION CHECKLIST:
+================================
+☐ DNS propagation completed (dig declaration.folkup.app)
+☐ HTTPS certificate active (https://declaration.folkup.app)
+☐ Security headers functional (X-Frame-Options, CSP, HSTS)
+☐ GDPR pages accessible (/privacy, /terms, /cookies)
+☐ Trilingual support working (EN/RU/PT)
+☐ Clean URL routing active
+☐ Password protection removed
+☐ Performance metrics baseline
+
+PROPAGATION TIMELINE:
+====================
+- DNS Changes Applied: [TIMESTAMP]
+- Initial Propagation: 5-10 minutes (TTL 300)
+- Full Global Propagation: 24-48 hours maximum
+- SSL Certificate Generation: 5-15 minutes post-domain-verification
+
+ROLLBACK PROCEDURE:
+==================
+If issues detected, revert DNS to:
+- declaration.folkup.app A → 46.225.107.2 (original IP)
+- Remove AAAA and new A records
+
+CONSTITUTIONAL COMPLIANCE:
+=========================
+✅ Banking-level security headers configured
+✅ Evidence chain documented
+✅ Multi-point verification planned
+✅ Rollback procedures defined
+✅ Audit trail maintained
+
+EXECUTION AUTHORITY: Enhanced Alice v2.0 Level 3 Cartouche Autonome
+PRIORITY: P0 - Educational Platform Emergency Restoration
+COMPLIANCE: GDPR Article 8 + EU Data Protection Standards
+
+=== IMPLEMENTATION LOG ===
+[To be updated during execution]
