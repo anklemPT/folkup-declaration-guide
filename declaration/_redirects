@@ -1,0 +1,15 @@
+# Clean URL routing for declaration.folkup.app
+/privacy /privacy.html 200
+/terms /terms.html 200
+/cookies /cookies.html 200
+/sign /sign.html 200
+/thank-you-en /thank-you-en.html 200
+/thank-you-ru /thank-you-ru.html 200
+/thank-you-pt /thank-you-pt.html 200
+
+# Fallback for missing assets to avoid 404s during emergency deployment
+/fonts/* https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Instrument+Serif:ital,wght@0,400;1,400&family=Playfair+Display:wght@400;700&display=swap 302
+/images/* /favicon.ico 404
+
+# Force HTTPS
+https://declaration.folkup.app/* https://declaration.folkup.app/:splat 301!
