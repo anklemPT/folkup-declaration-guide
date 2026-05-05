@@ -1,0 +1,26 @@
+{
+  "name": "declaration",
+  "version": "1.0.0",
+  "description": "An educational guide explaining the Unenclosed Knowledge Declaration for students aged 13-15. Seven principles about open knowledge presented in plain language.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "python -m http.server 8080",
+    "storybook": "storybook dev -p 6006",
+    "storybook:build": "storybook build",
+    "storybook:deploy": "npm run storybook:build && echo 'Storybook build complete'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@storybook/addon-a11y": "^8.6.18",
+    "@storybook/addon-essentials": "^8.6.14",
+    "@storybook/addon-interactions": "^8.6.14",
+    "@storybook/blocks": "^8.6.14",
+    "@storybook/html": "^8.6.18",
+    "@storybook/html-vite": "^8.6.14",
+    "@storybook/test": "^8.6.14",
+    "storybook": "^8.6.18"
+  }
+}

@@ -1,0 +1,100 @@
+/* FolkUp Button Component */
+@import '../../styles/tokens.css';
+
+.btn {
+  /* Base button styles */
+  display: inline-block;
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  border-radius: var(--radius-md);
+  padding: var(--space-md) var(--space-2xl);
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  min-height: var(--touch-target-min);
+  text-align: center;
+  line-height: 1.4;
+
+  /* Focus states for accessibility */
+  &:focus-visible {
+    outline: 2px solid var(--amber);
+    outline-offset: 3px;
+  }
+}
+
+/* Primary Button (CTA) */
+.btn--primary {
+  background: var(--bordo);
+  color: #fff;
+
+  &:hover {
+    background: var(--bordo-light);
+    transform: translateY(-1px);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+/* Secondary Button (Outlined) */
+.btn--secondary {
+  background: none;
+  border: 2px solid var(--bordo);
+  color: var(--bordo);
+  border-radius: var(--radius-lg);
+
+  &:hover {
+    background: var(--light);
+    border-color: var(--bordo-light);
+    color: var(--bordo-light);
+  }
+}
+
+/* Small variant */
+.btn--small {
+  font-size: 0.875rem;
+  padding: var(--space-sm) var(--space-xl);
+  min-height: 36px;
+}
+
+/* Large variant */
+.btn--large {
+  font-size: 1.125rem;
+  padding: var(--space-lg) var(--space-3xl);
+  min-height: 52px;
+}
+
+/* Disabled state */
+.btn:disabled,
+.btn--disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* Loading state */
+.btn--loading {
+  position: relative;
+  color: transparent;
+}
+
+.btn--loading::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -8px 0 0 -8px;
+  width: 16px;
+  height: 16px;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  border-top-color: transparent;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}

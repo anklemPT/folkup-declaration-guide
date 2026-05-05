@@ -1,0 +1,44 @@
+/* FolkUp Design Tokens */
+:root {
+  /* Brand Colors */
+  --bordo: #5E2F3A;
+  --bordo-light: #7D4450;
+  --sage: #4E6B42;
+  --sage-light: #839E75;
+  --amber: #E8AD4A;
+
+  /* System Colors */
+  --bg: #FEFCF6;
+  --text: #1a1a1a;
+  --muted: #777;
+  --border: #e2ddd5;
+  --light: #f0ede6;
+
+  /* Typography */
+  --font-primary: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Instrument Serif', Georgia, serif;
+  --font-display: 'Playfair Display', Georgia, serif;
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 0.75rem;
+  --space-lg: 1rem;
+  --space-xl: 1.5rem;
+  --space-2xl: 2rem;
+  --space-3xl: 2.5rem;
+
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+
+  /* Touch Targets (WCAG 2.1 AA) */
+  --touch-target-min: 44px;
+
+  /* Transitions */
+  --transition-fast: 0.15s;
+  --transition-normal: 0.2s;
+
+  color-scheme: light only;
+}

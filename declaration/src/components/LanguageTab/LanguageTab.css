@@ -1,0 +1,94 @@
+/* FolkUp Language Tab Component */
+@import '../../styles/tokens.css';
+
+.lang-tabs {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-xs);
+  padding: var(--space-lg) var(--space-2xl) 0;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.lang-tab {
+  background: none;
+  border: 1px solid var(--border);
+  border-bottom: none;
+  padding: var(--space-md) var(--space-xl);
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--muted);
+  cursor: pointer;
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
+  transition: all var(--transition-normal);
+  min-height: var(--touch-target-min);
+  text-align: center;
+  line-height: 1.4;
+
+  /* Ensure proper touch targets on mobile */
+  min-width: var(--touch-target-min);
+
+  &:hover {
+    color: var(--text);
+    background: var(--light);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--amber);
+    outline-offset: 2px;
+  }
+
+  /* Active state - constitutional compliance */
+  &.active,
+  &[aria-current="true"] {
+    color: var(--bordo);
+    background: var(--bg);
+    border-color: var(--bordo);
+    font-weight: 600;
+  }
+
+  /* Disabled state */
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+  .lang-tabs {
+    padding: var(--space-lg) 1.25rem 0;
+  }
+
+  .lang-tab {
+    padding: var(--space-md) var(--space-lg);
+    font-size: 0.875rem;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .lang-tab {
+    border-width: 2px;
+  }
+
+  .lang-tab.active {
+    border-width: 3px;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .lang-tab {
+    transition: none;
+  }
+}
+
+/* Print styles */
+@media print {
+  .lang-tabs {
+    display: none;
+  }
+}
