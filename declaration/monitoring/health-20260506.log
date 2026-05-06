@@ -11,3 +11,16 @@ Checking content integrity...
 ❌ Educational content missing
 === Check complete ===
 
+=== DECL Health Check Wed May  6 11:39:23     2026 ===
+Checking site accessibility...
+❌ Site inaccessible
+Checking SSL certificate...
+SSL expires: 
+Checking security headers...
+❌ HSTS header missing
+Checking content integrity...
+❌ Content loading issues
+❌ Language switching missing
+❌ Educational content missing
+=== Check complete ===
+

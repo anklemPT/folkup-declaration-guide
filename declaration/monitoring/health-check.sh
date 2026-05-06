@@ -31,7 +31,7 @@ fi
 
 # 4. Content integrity
 echo "Checking content integrity..." >> $LOG_FILE
-if curl -s $URL | grep -q "Declaration Guide"; then
+if curl -s $URL | grep -q "Unenclosed Knowledge Declaration"; then
     echo "✅ Content loads correctly" >> $LOG_FILE
 else
     echo "❌ Content loading issues" >> $LOG_FILE
@@ -45,7 +45,7 @@ else
 fi
 
 # 6. Educational content verification
-if curl -s $URL | grep -q "civic responsibility"; then
+if curl -s $URL | grep -q "Knowledge belongs to humanity"; then
     echo "✅ Educational content present" >> $LOG_FILE
 else
     echo "❌ Educational content missing" >> $LOG_FILE
