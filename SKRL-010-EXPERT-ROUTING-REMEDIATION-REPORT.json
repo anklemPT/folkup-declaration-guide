@@ -1,0 +1,2720 @@
+﻿{
+    "total_violations":  339,
+    "remediation_tasks":  [
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DPLT-034",
+                                  "current_assignment":  "Enhanced Alice v2.0 Level 3 (protocol enforcement)",
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "SKRL-008B-BASELINE-ANALYZER",
+                                  "current_assignment":  "cooper",
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "SKRL-002",
+                                  "current_assignment":  "Alice + Expert Coordination Panel",
+                                  "remediation_action":  "UPDATE assigned_expert to include Cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "Cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "SKRL-003",
+                                  "current_assignment":  "pechkin",
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "SKRL-006",
+                                  "current_assignment":  "typesetter",
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "SKRL-009",
+                                  "current_assignment":  "ÐšÐ¸Ð±ÐµÑ€Ð“Ð¾Ð½Ð·Ð¾ + Alice + Constitutional Framework Panel",
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "SKRL-010",
+                                  "current_assignment":  "Enhanced Alice v2.0 Level 3 (autonomous execution) + Constitutional Framework Panel (validation)",
+                                  "remediation_action":  "UPDATE assigned_expert to include Cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "Cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-147",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-146",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-145",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-141",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-140",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-142",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-143",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-088",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "ORGA-089",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-090",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-091",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "ORGA-092",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include Cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "Cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-093",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-094",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DPLT-001",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "PHRN-001",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "PHRN-002",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DPLT-002",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DPLT-003",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DPLT-004",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DPLT-005",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DPLT-008",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DPLT-009",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DPLT-011",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DPLT-012",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DPLT-013",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DPLT-014",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DPLT-016",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DECL-003",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DECL-005",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DECL-006",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DECL-008",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DPLT-068",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DPLT-071",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DPLT-019",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DPLT-020",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DPLT-023",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DPLT-025",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DPLT-029",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DPLT-031",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DPLT-032",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DPLT-034",
+                                  "current_assignment":  "johnny",
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DPLT-036",
+                                  "current_assignment":  "Enhanced Alice v2.0 Level 3",
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-058",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "INFR-227",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "INFR-228",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "INFR-229",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "INFR-230",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "INFR-231",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "AGIL-020",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-021",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-022",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-023",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-001",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-002",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "GNRL-220",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "GNRL-228",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "GNRL-222",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "GNRL-234",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "GNRL-226",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-005",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-006",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "INFR-205",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "INFR-201",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "INFR-150",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "GNRL-207",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "GNRL-227",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "GNRL-209",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "GNRL-215",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include Cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "Cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "GNRL-216",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include Cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "Cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "GNRL-217",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "GNRL-218",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "GNRL-219",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include Cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "Cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "GNRL-233",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "GNRL-221",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "GNRL-212",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include johnny",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "johnny"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-038",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-037",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-041",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-042",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-011",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-012",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-013",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include johnny",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "johnny"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-014",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "ORGA-018",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "GNRL-208",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "GNRL-214",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "GNRL-229",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "GNRL-230",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "GNRL-231",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "GNRL-232",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-044",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include johnny",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "johnny"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-045",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include johnny",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "johnny"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "FP3D-003",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "LCRN-065",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "LCRN-060",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "LCRN-060A",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "LCRN-060B",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "LCRN-060C",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "LCRN-060D",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "LCRN-073",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "AGIL-046",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-047",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "AGIL-050",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-051",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "LCRN-133",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "ORGA-019",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-020",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include johnny",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "johnny"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-021",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "INFR-237",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "INFR-239",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "INFR-240",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "INFR-241",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AUTH-002",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AUTH-003",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "INFR-242",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "INFR-250",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "INFR-243",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "INFR-244",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "INFR-246",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DSHB-001",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "LCRN-062",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include johnny",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "johnny"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-054",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-055",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-056",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-057",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "ORGA-023",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "INFR-233",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "INFR-234",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "GNRL-237",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "LCRN-074",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "AGIL-059",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "AGIL-060",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-061",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-062",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-065",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-066",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-067",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-068",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "GNRL-276",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-031",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-032",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-033",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "ORGA-058",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "GNRL-239",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "GNRL-240",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "GNRL-242",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-034",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-035",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-036",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-037",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-041",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-043",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-044",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-045",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-046",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-048",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include johnny",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "johnny"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-049",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include johnny",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "johnny"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-051",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DSHB-002",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DSHB-003",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DSHB-006",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DSHB-007",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DSHB-008",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DSHB-009",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include Cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "Cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DSHB-011",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "GNRL-277",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DSHB-012",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DSHB-013",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DSHB-014",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DSHB-016",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-069",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-070",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "AGIL-071",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-085",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-075",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-080",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-082",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-100",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-104",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-105",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-110",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include johnny",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "johnny"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-112",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include johnny",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "johnny"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-113",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include johnny",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "johnny"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-114",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-116",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include johnny",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "johnny"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-118",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include johnny",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "johnny"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-119",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include johnny",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "johnny"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-120",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include johnny",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "johnny"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-121",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-123",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-124",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include johnny",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "johnny"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-125",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include johnny",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "johnny"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-126",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-127",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-128",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include johnny",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "johnny"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-129",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-131",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-133",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-136",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-117",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include johnny",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "johnny"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-115",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include johnny",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "johnny"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-111",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-057",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "ORGA-072.1",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-072.4",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-073",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-060",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include johnny",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "johnny"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-061",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-062",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-063",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-066",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include johnny",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "johnny"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DFRG-001",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DSHB-048",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DSHB-049",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DSHB-051",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DSHB-050",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DSHB-052",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DSHB-063",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DSHB-064",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "GNRL-281",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include Cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "Cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "GNRL-283",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "VALT-001",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "VALT-002",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "VALT-006",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "VALT-007",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "INFR-267",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "INFR-039",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "INFR-275",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "INFR-276",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "GNRL-284",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include Cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "Cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "GNRL-285",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include Cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "Cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "INFR-277",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "INFR-278",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "INFR-279",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "INFR-280",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "INFR-281",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "INFR-283",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "INFR-284",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include johnny",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "johnny"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "ORGA-067",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-068",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-069",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-070",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-071",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AUTH-005",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-075",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include johnny",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "johnny"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-076",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include johnny",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "johnny"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-077",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-078",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "ORGA-079",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "ORGA-080",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-081",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "ORGA-082",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-083",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-084",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "GNRL-288",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "GNRL-289",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DECL-R01",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DECL-R02",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DECL-R03",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include johnny",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "johnny"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DECL-R04",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DECL-R05",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DECL-R10",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "INFR-294",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "ORGA-085",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "ORGA-086",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DECL-R06",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DECL-R07",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include johnny",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "johnny"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DECL-R08",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DECL-010",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DECL-012",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DECL-013",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DECL-014",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include johnny",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "johnny"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DECL-015",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include johnny",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "johnny"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "FQST-001",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "FQST-002",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "FQST-003",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "FQST-004",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "FQST-005",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "SETB-001",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DFRG-002",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "LCRN-135",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "FQST-006",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "ORGA-087",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "FQST-012",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "FQST-014",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "FQST-014.2",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "FQST-015.1",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "FQST-016",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "FQST-017",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "FQST-022",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "FQST-023",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include Cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "Cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "FQST-024",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "FQST-025",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include Cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "Cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "FQST-028",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "FQST-029",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "FQST-031",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "GNRL-290",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include Cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "Cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "GNRL-291",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "INFR-290",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include Cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "Cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "INFR-291",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include Cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "Cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "INFR-292",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include Cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "Cooper"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "INFR-293",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include Cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "Cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "INFR-295",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "GNRL-292",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "GNRL-293",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "AGIL-139",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-098",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "FQST-101",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "FQST-102",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "FQST-103",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "FQST-104",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "FQST-202",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "FQST-203",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include johnny",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "johnny"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "FQST-204",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include typesetter",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "typesetter"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "FQST-402",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "ORGA-097",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "ORGA-099",
+                                  "current_assignment":  null,
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DPLT-039",
+                                  "current_assignment":  "Enhanced Alice v2.0 Level 3",
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DPLT-040",
+                                  "current_assignment":  "Enhanced Alice v2.0 Level 3",
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DPLT-042",
+                                  "current_assignment":  "Enhanced Alice v2.0 Level 3",
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DPLT-043",
+                                  "current_assignment":  "Enhanced Alice v2.0 Level 3 + ??????",
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DPLT-044",
+                                  "current_assignment":  "Enhanced Alice v2.0 Level 3 Cartouche Autonome",
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DPLT-050",
+                                  "current_assignment":  "Enhanced Alice v2.0 Level 3 Constitutional Framework",
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DPLT-051",
+                                  "current_assignment":  "ÐŸÐµÑ‡ÐºÐ¸Ð½ + Enhanced Alice v2.0 Level 3",
+                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "pechkin"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DPLT-057",
+                                  "current_assignment":  "Enhanced Alice v2.0 Level 3 Constitutional Framework",
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DPLT-060",
+                                  "current_assignment":  "Enhanced Alice v2.0 Level 3 Constitutional Framework",
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DPLT-065",
+                                  "current_assignment":  "Enhanced Alice v2.0 Level 3 Constitutional Framework",
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DPLT-066",
+                                  "current_assignment":  "Enhanced Alice v2.0 Level 3 Constitutional Framework + Expert Panel",
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DPLT-068",
+                                  "current_assignment":  "ÐšÐ¸Ð±ÐµÑ€Ð“Ð¾Ð½Ð·Ð¾ (Research Methodology Lead) + Enhanced Alice v2.0 Level 3",
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              },
+                              {
+                                  "verification_required":  "Standard verification",
+                                  "task_id":  "DPLT-069",
+                                  "current_assignment":  "cooper",
+                                  "remediation_action":  "UPDATE assigned_expert to include cyber-gonzo",
+                                  "constitutional_priority":  "MAJOR",
+                                  "required_assignment":  "cyber-gonzo"
+                              },
+                              {
+                                  "verification_required":  "Alpha+Beta verification",
+                                  "task_id":  "DPLT-070",
+                                  "current_assignment":  "Enhanced Alice v2.0 Level 3",
+                                  "remediation_action":  "UPDATE assigned_expert to include cooper",
+                                  "constitutional_priority":  "CRITICAL",
+                                  "required_assignment":  "cooper"
+                              }
+                          ],
+    "timestamp":  "2026-05-07 23:27:53",
+    "major_violations":  216,
+    "critical_violations":  123
+}

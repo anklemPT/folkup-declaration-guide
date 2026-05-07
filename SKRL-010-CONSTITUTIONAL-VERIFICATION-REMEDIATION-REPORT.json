@@ -1,0 +1,1927 @@
+﻿{
+    "timestamp":  "2026-05-07 23:30:14",
+    "remediation_tasks":  [
+                              {
+                                  "task_id":  "",
+                                  "required_fields":  [
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "verification",
+                                                              "violation_type":  "MissingAlphaBetaVerification",
+                                                              "required_value":  "Alpha+Beta verification protocol applied"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_status",
+                                                              "violation_type":  "MissingConstitutionalStatus",
+                                                              "required_value":  "alpha_beta_verified"
+                                                          },
+                                                          {
+                                                              "priority":  "CRITICAL",
+                                                              "field_name":  "constitutional_compliance",
+                                                              "violation_type":  "MissingConstitutionalCompliance",
+                                                              "required_value":  "banking_level_standards_enforced"
+                                                          }
+                                                      ],
+                                  "violations_count":  319
+                              }
+                          ],
+    "critical_violations":  319,
+    "total_violations":  319
+}
