@@ -1,0 +1,42 @@
+﻿{
+    "PerformanceBaselines":  {
+                                 "TaskCompletion":  {
+                                                        "P2AverageHours":  null,
+                                                        "P1AverageHours":  null,
+                                                        "P0AverageHours":  null,
+                                                        "AverageHours":  null
+                                                    },
+                                 "CommitVelocity":  {
+                                                        "CommitsPerDay":  0.1,
+                                                        "ConstitutionalChangeRate":  27.78,
+                                                        "P0FixRate":  47.22
+                                                    },
+                                 "ConstitutionalCompliance":  {
+                                                                  "EvidenceBasedRate":  900,
+                                                                  "ComplianceRate":  100,
+                                                                  "AlphaBetaVerificationRate":  0
+                                                              },
+                                 "ExpertCoordination":  {
+                                                            "UtilizationRate":  900,
+                                                            "SemanticIntegrationRate":  0,
+                                                            "SuccessRate":  100
+                                                        }
+                             },
+    "QualityThresholds":  {
+                              "P0FixRateMaximum":  10,
+                              "ExpertCoordinationMinimum":  90,
+                              "CommitVelocityMinimum":  1.5,
+                              "ConstitutionalComplianceMinimum":  95,
+                              "EvidenceBasedTaskMinimum":  80
+                          },
+    "EarlyWarningSystem":  {
+                               "ActiveWarnings":  [
+                                                      "HighP0FixRate",
+                                                      "IncreasingP0Frequency"
+                                                  ],
+                               "ConstitutionalFrameworkProtection":  true,
+                               "MonitoringEnabled":  true
+                           },
+    "ConstitutionalFramework":  "Enhanced Alice v2.0 Level 3",
+    "AnalysisDate":  "2026-05-07 20:14:57 UTC"
+}
