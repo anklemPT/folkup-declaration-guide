@@ -1,14 +1,6 @@
 ﻿{
-    "total_violations":  339,
+    "total_violations":  338,
     "remediation_tasks":  [
-                              {
-                                  "verification_required":  "Standard verification",
-                                  "task_id":  "DPLT-034",
-                                  "current_assignment":  "Enhanced Alice v2.0 Level 3 (protocol enforcement)",
-                                  "remediation_action":  "UPDATE assigned_expert to include pechkin",
-                                  "constitutional_priority":  "MAJOR",
-                                  "required_assignment":  "pechkin"
-                              },
                               {
                                   "verification_required":  "Standard verification",
                                   "task_id":  "SKRL-008B-BASELINE-ANALYZER",
@@ -387,7 +379,7 @@
                               },
                               {
                                   "verification_required":  "Alpha+Beta verification",
-                                  "task_id":  "DPLT-034",
+                                  "task_id":  "DPLT-033",
                                   "current_assignment":  "johnny",
                                   "remediation_action":  "UPDATE assigned_expert to include cooper",
                                   "constitutional_priority":  "CRITICAL",
@@ -2714,7 +2706,7 @@
                                   "required_assignment":  "cooper"
                               }
                           ],
-    "timestamp":  "2026-05-07 23:27:53",
-    "major_violations":  216,
+    "timestamp":  "2026-05-07 23:39:27",
+    "major_violations":  215,
     "critical_violations":  123
 }
