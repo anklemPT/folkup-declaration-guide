@@ -12,8 +12,8 @@ The declaration addresses modern "knowledge enclosures" - publicly funded resear
 
 ## Status
 
-**Production Ready** - Deployed and stable at https://declaration.folkup.app
-- 89,822 bytes optimized for performance
+**Development Status** - SSL certificate configuration required for https://declaration.folkup.app
+- 48,879 bytes optimized for performance
 - Full trilingual content implementation complete
 - WCAG 2.1 AA accessibility compliance verified
 - Business functionality active (user sign-ups working)
@@ -43,7 +43,7 @@ npx serve .
 ```
 
 ### Technical Architecture
-- **Single file deployment**: Primary content in `index.html` (89,822 bytes)
+- **Single file deployment**: Primary content in `index.html` (48,879 bytes)
 - **Progressive enhancement**: Graceful fallback without JavaScript
 - **VPS deployment**: File sync via SSH + Docker volume auto-pickup
 - **Zero dependencies**: Uses only browser-native APIs
