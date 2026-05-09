@@ -1,0 +1,52 @@
+version: '3.8'
+
+services:
+  control-center-backend:
+    build: .
+    container_name: folkup-control-center-backend
+    restart: unless-stopped
+    ports:
+      - "3001:3001"
+    environment:
+      # Configuration loaded from SOPS encrypted file
+      - PORT=3001
+      - HOST=0.0.0.0
+      - NODE_ENV=production
+      # These will be loaded from /opt/folkup/secrets/dashboard-aggregator.env
+      - AGGREGATOR_ENABLED=${AGGREGATOR_ENABLED:-false}
+      - CACHE_TTL_SEC=${CACHE_TTL_SEC:-45}
+      - RATE_LIMIT_WARN_THRESHOLD=${RATE_LIMIT_WARN_THRESHOLD:-80}
+      - GH_PAT_READONLY=${GH_PAT_READONLY}
+      - KUMA_URL=${KUMA_URL}
+      - KUMA_TOKEN=${KUMA_TOKEN}
+      - CROWDSEC_LAPI_URL=${CROWDSEC_LAPI_URL}
+      - CROWDSEC_LAPI_KEY=${CROWDSEC_LAPI_KEY}
+    volumes:
+      # Mount secrets directory for SOPS configuration access
+      - /opt/folkup/secrets:/opt/secrets:ro
+    healthcheck:
+      test: ["CMD", "node", "-e", "const http = require('http'); const options = { hostname: 'localhost', port: 3001, path: '/api/health', timeout: 5000 }; const req = http.request(options, (res) => { if (res.statusCode === 200) { process.exit(0); } else { process.exit(1); } }); req.on('error', () => process.exit(1)); req.on('timeout', () => { req.destroy(); process.exit(1); }); req.end();"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    labels:
+      - "com.folkup.service=control-center-backend"
+      - "com.folkup.version=1.0.0"
+      - "com.folkup.dshb=053-057"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    security_opt:
+      - no-new-privileges:true
+    read_only: true
+    tmpfs:
+      - /tmp:noexec,nosuid,size=100m
+    networks:
+      - folkup-internal
+
+networks:
+  folkup-internal:
+    driver: bridge
