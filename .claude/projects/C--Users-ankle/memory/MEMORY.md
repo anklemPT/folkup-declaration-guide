@@ -19,6 +19,7 @@
 - [ORGA-093 Phantom Remediation Complete](session-context-orga093-phantom-remediation-2026-05-09.md) — Hostile verification methodology validation with phantom evidence elimination and investigation template system deployment
 - [INFR-290 P0 Security Complete](session-context-infr290-p0-security-complete-2026-05-09.md) — Critical CVSS 9.3 Docker socket vulnerability eliminated through hostile verification and evidence-first methodology
 - [GNRL-292 Monitor Tool Deployment Complete](session-context-gnrl292-monitor-deployment-complete-2026-05-09.md) — Successful infrastructure foundation deployment with background process monitoring operational and context optimization baseline
+- [GNRL-287 Constitutional Investigation Complete](session-context-gnrl287-constitutional-investigation-complete-2026-05-09.md) — Constitutional gate failure root cause identified with banking-level enhancement recommendations and hostile verification methodology validation
 
 ## Design Quality Feedback
 - [DECL Design Quality Failure](design-quality-failure-2026-05-05.md) — Critical UI/UX oversight requiring constitutional framework amendment
