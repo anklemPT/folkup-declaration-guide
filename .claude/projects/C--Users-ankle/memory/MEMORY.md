@@ -28,6 +28,7 @@
 - [DSHB-056 Command Palette Execution Ready](session-context-dshb056-autonomous-execution-2026-05-09.md) — Enhanced Alice v2.0 Level 3 Command Palette autonomous execution with phantom evidence remediation and expert panel consensus
 - [Infrastructure Phantom Discovery](session-context-infrastructure-phantom-discovery-2026-05-10.md) — Critical DSHB infrastructure foundation phantom evidence discovery through hostile verification with expert panel consensus
 - [DSHB-059 Real Integration Success](session-context-dshb059-real-integration-success-2026-05-10.md) — Враждебная верификация prevents phantom API development and achieves functional integration using existing endpoints
+- [API Token Hostile Verification Session](session-context-api-token-hostile-verification-2026-05-10.md) — Critical security incident response with hostile verification eliminating phantom confidence and massive API token exposures
 
 ## Design Quality Feedback
 - [DECL Design Quality Failure](design-quality-failure-2026-05-05.md) — Critical UI/UX oversight requiring constitutional framework amendment
@@ -42,6 +43,7 @@
 
 ## Security Incident Documentation
 - [API Token Security Incident](api-token-security-incident-2026-05-10.md) — Critical hostile verification reveals massive API token exposures Alice missed
+- [Hostile Verification Security Success INFR-002](hostile-verification-security-success-2026-05-10.md) — Враждебная верификация discovers CRITICAL vulnerabilities Cooper expert assessment missed, validates constitutional methodology effectiveness
 
 ## Session Continuity
 This index tracks critical session contexts for seamless continuation across conversation compactions.
