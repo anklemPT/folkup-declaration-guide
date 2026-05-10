@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+            xmlns:wx="http://schemas.microsoft.com/office/word/2003/auxHint"
+            xmlns:o="urn:schemas-microsoft-com:office:office"
+            xmlns:v="urn:schemas-microsoft-com:vml">
+  <w:body>
+    <!-- Header Section with ЛКФ Branding -->
+    <w:p>
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:spacing w:before="0" w:after="240"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:sz w:val="28"/>
+          <w:color w:val="0066CC"/>
+        </w:rPr>
+        <w:t>ЛАБОРАТОРНЫЙ КОМПЛЕКС ДЛЯ ФИЗИКИ (ЛКФ)</w:t>
+      </w:r>
+    </w:p>
+
+    <w:p>
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:spacing w:before="0" w:after="120"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="16"/>
+          <w:color w:val="666666"/>
+        </w:rPr>
+        <w:t>Документация по электронным компонентам и сборке</w:t>
+      </w:r>
+    </w:p>
+
+    <!-- Document Information Table -->
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:w="5000" w:type="pct"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:sz="4" w:space="0" w:color="CCCCCC"/>
+          <w:left w:val="single" w:sz="4" w:space="0" w:color="CCCCCC"/>
+          <w:bottom w:val="single" w:sz="4" w:space="0" w:color="CCCCCC"/>
+          <w:right w:val="single" w:sz="4" w:space="0" w:color="CCCCCC"/>
+          <w:insideH w:val="single" w:sz="4" w:space="0" w:color="CCCCCC"/>
+          <w:insideV w:val="single" w:sz="4" w:space="0" w:color="CCCCCC"/>
+        </w:tblBorders>
+      </w:tblPr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="2000" w:type="pct"/>
+            <w:shd w:val="clear" w:color="auto" w:fill="F5F5F5"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr><w:b/></w:rPr>
+              <w:t>Номер документа:</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="3000" w:type="pct"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:t>[Введите номер документа]</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:shd w:val="clear" w:color="auto" w:fill="F5F5F5"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr><w:b/></w:rPr>
+              <w:t>Наименование:</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:p>
+            <w:r>
+              <w:t>[Введите название схемы/сборки]</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:shd w:val="clear" w:color="auto" w:fill="F5F5F5"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr><w:b/></w:rPr>
+              <w:t>Тип документа:</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:p>
+            <w:r>
+              <w:t>☐ Сборочная карта  ☐ Операционная карта  ☐ Схема электрическая</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:shd w:val="clear" w:color="auto" w:fill="F5F5F5"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr><w:b/></w:rPr>
+              <w:t>Дата создания:</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:p>
+            <w:r>
+              <w:t>[Дата]</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:shd w:val="clear" w:color="auto" w:fill="F5F5F5"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr><w:b/></w:rPr>
+              <w:t>Версия:</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:p>
+            <w:r>
+              <w:t>1.0</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+
+    <!-- Electronics Components Section -->
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="480" w:after="240"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:sz w:val="20"/>
+          <w:color w:val="0066CC"/>
+        </w:rPr>
+        <w:t>ЭЛЕКТРОННЫЕ КОМПОНЕНТЫ</w:t>
+      </w:r>
+    </w:p>
+
+    <!-- Components Table -->
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:w="5000" w:type="pct"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:sz="8" w:space="0" w:color="0066CC"/>
+          <w:left w:val="single" w:sz="4" w:space="0" w:color="CCCCCC"/>
+          <w:bottom w:val="single" w:sz="4" w:space="0" w:color="CCCCCC"/>
+          <w:right w:val="single" w:sz="4" w:space="0" w:color="CCCCCC"/>
+          <w:insideH w:val="single" w:sz="4" w:space="0" w:color="CCCCCC"/>
+          <w:insideV w:val="single" w:sz="4" w:space="0" w:color="CCCCCC"/>
+        </w:tblBorders>
+      </w:tblPr>
+
+      <!-- Header Row -->
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1000" w:type="pct"/>
+            <w:shd w:val="clear" w:color="auto" w:fill="0066CC"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:color w:val="FFFFFF"/>
+              </w:rPr>
+              <w:t>Поз.</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1500" w:type="pct"/>
+            <w:shd w:val="clear" w:color="auto" w:fill="0066CC"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:color w:val="FFFFFF"/>
+              </w:rPr>
+              <w:t>Обозначение</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1500" w:type="pct"/>
+            <w:shd w:val="clear" w:color="auto" w:fill="0066CC"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:color w:val="FFFFFF"/>
+              </w:rPr>
+              <w:t>Номинал</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1000" w:type="pct"/>
+            <w:shd w:val="clear" w:color="auto" w:fill="0066CC"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:color w:val="FFFFFF"/>
+              </w:rPr>
+              <w:t>Корпус</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+
+      <!-- Example Component Rows -->
+      <w:tr>
+        <w:tc>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:t>1</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:p>
+            <w:r>
+              <w:t>R₁</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:p>
+            <w:r>
+              <w:t>10кΩ ±5%</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:p>
+            <w:r>
+              <w:t>0805</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+
+      <w:tr>
+        <w:tc>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:t>2</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:p>
+            <w:r>
+              <w:t>C₁</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:p>
+            <w:r>
+              <w:t>100мкФ ±10%</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:p>
+            <w:r>
+              <w:t>Радиальный</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+
+      <w:tr>
+        <w:tc>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:t>3</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:p>
+            <w:r>
+              <w:t>IC₁</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:p>
+            <w:r>
+              <w:t>LM358</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:p>
+            <w:r>
+              <w:t>DIP-8</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+
+    <!-- Assembly Instructions Section -->
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="480" w:after="240"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:sz w:val="20"/>
+          <w:color w:val="0066CC"/>
+        </w:rPr>
+        <w:t>ПОРЯДОК СБОРКИ</w:t>
+      </w:r>
+    </w:p>
+
+    <!-- Assembly Steps -->
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="1"/>
+        </w:numPr>
+        <w:spacing w:before="120" w:after="120"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+        <w:t>Подготовка компонентов</w:t>
+      </w:r>
+    </w:p>
+
+    <w:p>
+      <w:pPr>
+        <w:ind w:left="720"/>
+        <w:spacing w:before="60" w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>• Проверить номиналы резисторов мультиметром</w:t>
+      </w:r>
+    </w:p>
+
+    <w:p>
+      <w:pPr>
+        <w:ind w:left="720"/>
+        <w:spacing w:before="60" w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>• Проверить полярность конденсаторов</w:t>
+      </w:r>
+    </w:p>
+
+    <w:p>
+      <w:pPr>
+        <w:ind w:left="720"/>
+        <w:spacing w:before="60" w:after="120"/>
+      </w:pPr>
+      <w:r>
+        <w:t>• Проверить маркировку микросхем</w:t>
+      </w:r>
+    </w:p>
+
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="1"/>
+        </w:numPr>
+        <w:spacing w:before="120" w:after="120"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+        <w:t>Установка резистора R₁</w:t>
+      </w:r>
+    </w:p>
+
+    <w:p>
+      <w:pPr>
+        <w:ind w:left="720"/>
+        <w:spacing w:before="60" w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>• Вставить выводы резистора в отверстия печатной платы</w:t>
+      </w:r>
+    </w:p>
+
+    <w:p>
+      <w:pPr>
+        <w:ind w:left="720"/>
+        <w:spacing w:before="60" w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>• Зафиксировать компонент на плате</w:t>
+      </w:r>
+    </w:p>
+
+    <w:p>
+      <w:pPr>
+        <w:ind w:left="720"/>
+        <w:spacing w:before="60" w:after="120"/>
+      </w:pPr>
+      <w:r>
+        <w:t>• Запаять соединения со стороны печатных проводников</w:t>
+      </w:r>
+    </w:p>
+
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="1"/>
+        </w:numPr>
+        <w:spacing w:before="120" w:after="120"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+        <w:t>Контроль качества</w:t>
+      </w:r>
+    </w:p>
+
+    <w:p>
+      <w:pPr>
+        <w:ind w:left="720"/>
+        <w:spacing w:before="60" w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>• Визуальный осмотр качества пайки</w:t>
+      </w:r>
+    </w:p>
+
+    <w:p>
+      <w:pPr>
+        <w:ind w:left="720"/>
+        <w:spacing w:before="60" w:after="120"/>
+      </w:pPr>
+      <w:r>
+        <w:t>• Проверка сопротивления цепи мультиметром</w:t>
+      </w:r>
+    </w:p>
+
+    <!-- Circuit Diagram Section -->
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="480" w:after="240"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:sz w:val="20"/>
+          <w:color w:val="0066CC"/>
+        </w:rPr>
+        <w:t>ЭЛЕКТРИЧЕСКАЯ СХЕМА</w:t>
+      </w:r>
+    </w:p>
+
+    <!-- Placeholder for Circuit Diagram -->
+    <w:p>
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:spacing w:before="240" w:after="240"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:color w:val="666666"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>[Место для вставки электрической схемы]</w:t>
+      </w:r>
+    </w:p>
+
+    <w:p>
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:spacing w:before="0" w:after="240"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:color w:val="666666"/>
+          <w:sz w:val="14"/>
+        </w:rPr>
+        <w:t>Вставьте схему через "Вставка" → "Рисунки" или "Объект"</w:t>
+      </w:r>
+    </w:p>
+
+    <!-- Safety and Notes Section -->
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="480" w:after="240"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:sz w:val="20"/>
+          <w:color w:val="FF6600"/>
+        </w:rPr>
+        <w:t>⚠ ТРЕБОВАНИЯ БЕЗОПАСНОСТИ</w:t>
+      </w:r>
+    </w:p>
+
+    <!-- Safety Requirements Table -->
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:w="5000" w:type="pct"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:sz="8" w:space="0" w:color="FF6600"/>
+          <w:left w:val="single" w:sz="4" w:space="0" w:color="FFCCCC"/>
+          <w:bottom w:val="single" w:sz="4" w:space="0" w:color="FFCCCC"/>
+          <w:right w:val="single" w:sz="4" w:space="0" w:color="FFCCCC"/>
+          <w:insideH w:val="single" w:sz="4" w:space="0" w:color="FFCCCC"/>
+        </w:tblBorders>
+      </w:tblPr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:shd w:val="clear" w:color="auto" w:fill="FFF0F0"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:color w:val="CC0000"/>
+              </w:rPr>
+              <w:t>⚡ ESD ЗАЩИТА: Используйте антистатический браслет при работе с CMOS компонентами</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:shd w:val="clear" w:color="auto" w:fill="FFF8F0"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:color w:val="FF6600"/>
+              </w:rPr>
+              <w:t>🔥 ТЕМПЕРАТУРА: Температура паяльника 280-320°C для бессвинцовых припоев</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:shd w:val="clear" w:color="auto" w:fill="F0F8FF"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:color w:val="0066CC"/>
+              </w:rPr>
+              <w:t>🔍 КОНТРОЛЬ: Обязательная проверка полярности перед подачей питания</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+
+    <!-- Quality Control Section -->
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="480" w:after="240"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:sz w:val="20"/>
+          <w:color w:val="008800"/>
+        </w:rPr>
+        <w:t>✓ КОНТРОЛЬНЫЕ ТОЧКИ</w:t>
+      </w:r>
+    </w:p>
+
+    <!-- Quality Control Checklist -->
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:w="5000" w:type="pct"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:sz="8" w:space="0" w:color="008800"/>
+          <w:left w:val="single" w:sz="4" w:space="0" w:color="CCFFCC"/>
+          <w:bottom w:val="single" w:sz="4" w:space="0" w:color="CCFFCC"/>
+          <w:right w:val="single" w:sz="4" w:space="0" w:color="CCFFCC"/>
+          <w:insideH w:val="single" w:sz="4" w:space="0" w:color="CCFFCC"/>
+          <w:insideV w:val="single" w:sz="4" w:space="0" w:color="CCFFCC"/>
+        </w:tblBorders>
+      </w:tblPr>
+
+      <!-- Header Row -->
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="500" w:type="pct"/>
+            <w:shd w:val="clear" w:color="auto" w:fill="008800"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:color w:val="FFFFFF"/>
+              </w:rPr>
+              <w:t>КТ</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="3000" w:type="pct"/>
+            <w:shd w:val="clear" w:color="auto" w:fill="008800"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:color w:val="FFFFFF"/>
+              </w:rPr>
+              <w:t>Контролируемый параметр</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1000" w:type="pct"/>
+            <w:shd w:val="clear" w:color="auto" w:fill="008800"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:color w:val="FFFFFF"/>
+              </w:rPr>
+              <w:t>Норма</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="500" w:type="pct"/>
+            <w:shd w:val="clear" w:color="auto" w:fill="008800"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:color w:val="FFFFFF"/>
+              </w:rPr>
+              <w:t>✓</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+
+      <!-- Control Points -->
+      <w:tr>
+        <w:tc>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+              </w:rPr>
+              <w:t>001</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:p>
+            <w:r>
+              <w:t>Сопротивление R₁</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:p>
+            <w:r>
+              <w:t>9,5 - 10,5 кΩ</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:t>☐</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+
+      <w:tr>
+        <w:tc>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+              </w:rPr>
+              <w:t>002</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:p>
+            <w:r>
+              <w:t>Качество пайки</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:p>
+            <w:r>
+              <w:t>Визуальный осмотр</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:t>☐</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+
+      <w:tr>
+        <w:tc>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+              </w:rPr>
+              <w:t>003</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:p>
+            <w:r>
+              <w:t>Изоляция проводников</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:p>
+            <w:r>
+              <w:t>&gt; 10 МΩ</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:t>☐</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+
+    <!-- Signatures Section -->
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="480" w:after="240"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:sz w:val="20"/>
+          <w:color w:val="333333"/>
+        </w:rPr>
+        <w:t>ПОДПИСИ И УТВЕРЖДЕНИЕ</w:t>
+      </w:r>
+    </w:p>
+
+    <!-- Signatures Table -->
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:w="5000" w:type="pct"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:sz="4" w:space="0" w:color="CCCCCC"/>
+          <w:left w:val="single" w:sz="4" w:space="0" w:color="CCCCCC"/>
+          <w:bottom w:val="single" w:sz="4" w:space="0" w:color="CCCCCC"/>
+          <w:right w:val="single" w:sz="4" w:space="0" w:color="CCCCCC"/>
+          <w:insideH w:val="single" w:sz="4" w:space="0" w:color="CCCCCC"/>
+          <w:insideV w:val="single" w:sz="4" w:space="0" w:color="CCCCCC"/>
+        </w:tblBorders>
+      </w:tblPr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1500" w:type="pct"/>
+            <w:shd w:val="clear" w:color="auto" w:fill="F5F5F5"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr><w:b/></w:rPr>
+              <w:t>Разработал:</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="2000" w:type="pct"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:t>________________________</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1500" w:type="pct"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:t>Дата: ___________</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:shd w:val="clear" w:color="auto" w:fill="F5F5F5"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr><w:b/></w:rPr>
+              <w:t>Проверил:</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:p>
+            <w:r>
+              <w:t>________________________</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:p>
+            <w:r>
+              <w:t>Дата: ___________</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:shd w:val="clear" w:color="auto" w:fill="F5F5F5"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr><w:b/></w:rPr>
+              <w:t>Утвердил:</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:p>
+            <w:r>
+              <w:t>________________________</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:p>
+            <w:r>
+              <w:t>Дата: ___________</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+
+    <!-- Footer Information -->
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="720" w:after="0"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="14"/>
+          <w:color w:val="666666"/>
+        </w:rPr>
+        <w:t>Документ соответствует требованиям ГОСТ 2.701-2008 и ЕСТД</w:t>
+      </w:r>
+    </w:p>
+
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="60" w:after="0"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="14"/>
+          <w:color w:val="666666"/>
+        </w:rPr>
+        <w:t>ЛКФ (Лабораторный комплекс для физики) - Шаблон документации по электронике</w:t>
+      </w:r>
+    </w:p>
+  </w:body>
+</w:document>
