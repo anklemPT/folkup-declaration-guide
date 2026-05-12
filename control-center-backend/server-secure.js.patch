@@ -1,0 +1,92 @@
+--- server.js.original
++++ server-secure.js
+@@ -1,6 +1,9 @@
+ #!/usr/bin/env node
+ require('dotenv').config();
+
++// INFR-007 Environment Protection
++const { sanitizeConfig, getServiceStatus, getSanitizedServerInfo, secureLog, environmentProtectionMiddleware } = require('./middleware/environment-protection');
++
+ const express = require('express');
+ const rateLimit = require("express-rate-limit");
+ const cors = require('cors');
+@@ -774,11 +777,12 @@ async function fetchOverview() {
+         last_update: new Date().toISOString()
+       },
+       aggregatorEnabled: CONFIG.AGGREGATOR_ENABLED,
+-      services: {
+-        uptime: CONFIG.KUMA_URL ? 'configured' : 'not-configured',
+-        security: CONFIG.CROWDSEC_LAPI_URL ? 'configured' : 'not-configured',
+-        github: CONFIG.GH_PAT_READONLY ? 'configured' : 'not-configured'
+-      }
++      // SECURITY FIX: Remove service configuration disclosure
++      services: {
++        integration_layer: 'operational',
++        health_monitoring: 'enabled',
++        security_layer: 'active',
++        data_aggregation: 'functional'
++      }
+     };
+
+     cache.set(cacheKey, overview);
+@@ -1825,19 +1829,25 @@ app.use('*', (req, res) => {
+   });
+ });
+
++// INFR-007 Environment Protection Error Handler
++app.use(environmentProtectionMiddleware);
++
+ // Server Startup
+ if (CONFIG.AGGREGATOR_ENABLED) {
+   app.listen(CONFIG.PORT, CONFIG.HOST, () => {
+-    const serverInfo = {
++    // SECURITY FIX: Use sanitized server info
++    const serverInfo = getSanitizedServerInfo(CONFIG);
++
++    secureLog('info', '=== FolkUp Control Center Backend Started ===');
++    secureLog('info', 'Server Information', {
+       service: 'folkup-control-center-backend',
+       version: '1.0.0',
+       port: CONFIG.PORT,
+-      host: CONFIG.HOST,
+-      aggregatorEnabled: CONFIG.AGGREGATOR_ENABLED,
+-      cacheТTL: CONFIG.CACHE_TTL_SEC,
+-      endpoints: [
+-        '/api/health',
+-        '/api/overview',
++      host: CONFIG.HOST === '0.0.0.0' ? '[ALL_INTERFACES]' : CONFIG.HOST,
++      mode: CONFIG.AGGREGATOR_ENABLED ? 'active' : 'standby',
++      security_hardening: 'enabled',
++      startTime: new Date().toISOString()
++    });
++
++    logAudit('server', 'startup-complete', {
+         '/api/incidents',
+         '/api/incidents/:id/acknowledge',
+         '/api/incidents/:id/snooze',
+@@ -1846,17 +1856,12 @@ if (CONFIG.AGGREGATOR_ENABLED) {
+         '/api/admin/cache-security',
+         '/api/admin/security-events',
+         '/api/admin/cache-flush'
+-      ],
+-      startTime: new Date().toISOString()
+-    };
+-
+-    console.log('=== FolkUp Control Center Backend Started ===');
+-    console.log(JSON.stringify(serverInfo, null, 2));
+-
+-    logAudit('server', 'startup-complete', serverInfo);
++      service: serverInfo.service,
++      version: serverInfo.version,
++      port: serverInfo.port,
++      mode: CONFIG.AGGREGATOR_ENABLED ? 'active' : 'standby',
++      timestamp: new Date().toISOString()
++    });
+   });
+ } else {
+-  console.log('=== FolkUp Control Center Backend ===');
+-  console.log('AGGREGATOR_ENABLED=false - Service not started');
+-  console.log('Set AGGREGATOR_ENABLED=true to enable the service');
++  secureLog('info', 'Service in standby mode - set AGGREGATOR_ENABLED=true to activate');
+
+   logAudit('server', 'startup-disabled', {
