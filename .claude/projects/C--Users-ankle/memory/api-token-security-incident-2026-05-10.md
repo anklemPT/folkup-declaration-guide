@@ -11,8 +11,8 @@ Critical security incident following hostile verification mandate reveals massiv
 **How to apply:** ALWAYS apply hostile verification to security assessments. Never declare security work "complete" without independent skeptical review. Assume multiple exposure vectors exist until proven otherwise with comprehensive scanning.
 
 **Critical Findings:**
-- Telegraph API token: `b968da509bb76866c35425099bc0989a5ddf96447bd0cc5bfcab6413` exposed in `create-telegraph-post.sh`
-- Telegram Bot token: `8429933636:AAGC5MXCbmrlswwIki6kmuCV67qSTOBflVs` exposed in `test-telegraph-bot.sh` and `test-telegraph-bot-fixed.sh`
+- Telegraph API token: `[REDACTED - TOKEN ROTATED]` exposed in `create-telegraph-post.sh`
+- Telegram Bot token: `[REDACTED - TOKEN ROTATED]` exposed in `test-telegraph-bot.sh` and `test-telegraph-bot-fixed.sh`
 - Phantom environment variable security (claimed Cloudflare keys in env vars but no env vars existed)
 
 **Hostile Verification Success:** Independent reviewer detected all critical gaps Alice missed, preventing continued exposure.

@@ -45,5 +45,7 @@
 - [API Token Security Incident](api-token-security-incident-2026-05-10.md) — Critical hostile verification reveals massive API token exposures Alice missed
 - [Hostile Verification Security Success INFR-002](hostile-verification-security-success-2026-05-10.md) — Враждебная верификация discovers CRITICAL vulnerabilities Cooper expert assessment missed, validates constitutional methodology effectiveness
 
+- [Ecosystem Audit Session 2026-05-12](session-context-audit-ecosystem-2026-05-12.md) — 4-agent comprehensive audit with API token vault security enhancement and 10 BACKLOG task formalization
+
 ## Session Continuity
 This index tracks critical session contexts for seamless continuation across conversation compactions.
