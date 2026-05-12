@@ -8,26 +8,22 @@ services:
     ports:
       - "3001:3001"
     environment:
-      # SECURITY ENHANCEMENT: Direct environment variables instead of volume mounts
-      # Configuration loaded via secure environment variable injection
+      # Configuration loaded from SOPS encrypted file
       - PORT=3001
       - HOST=0.0.0.0
       - NODE_ENV=production
-      # Dashboard Aggregator Configuration
+      # These will be loaded from /opt/folkup/secrets/dashboard-aggregator.env
       - AGGREGATOR_ENABLED=${AGGREGATOR_ENABLED:-false}
       - CACHE_TTL_SEC=${CACHE_TTL_SEC:-45}
       - RATE_LIMIT_WARN_THRESHOLD=${RATE_LIMIT_WARN_THRESHOLD:-80}
-      # Secure Secret Management - No direct host volume mounts
       - GH_PAT_READONLY=${GH_PAT_READONLY}
       - KUMA_URL=${KUMA_URL}
       - KUMA_TOKEN=${KUMA_TOKEN}
       - CROWDSEC_LAPI_URL=${CROWDSEC_LAPI_URL}
       - CROWDSEC_LAPI_KEY=${CROWDSEC_LAPI_KEY}
-      # JWT Authentication
-      - JWT_SECRET=${JWT_SECRET}
-    # SECURITY REMEDIATION: Removed dangerous host volume mount
-    # OLD INSECURE: - /opt/folkup/secrets:/opt/secrets:ro
-    # NEW SECURE: Environment variable injection via .env file or Docker secrets
+    volumes:
+      # Mount secrets directory for SOPS configuration access
+      - /opt/folkup/secrets:/opt/secrets:ro
     healthcheck:
       test: ["CMD", "node", "-e", "const http = require('http'); const options = { hostname: 'localhost', port: 3001, path: '/api/health', timeout: 5000 }; const req = http.request(options, (res) => { if (res.statusCode === 200) { process.exit(0); } else { process.exit(1); } }); req.on('error', () => process.exit(1)); req.on('timeout', () => { req.destroy(); process.exit(1); }); req.end();"]
       interval: 30s
@@ -37,34 +33,20 @@ services:
     labels:
       - "com.folkup.service=control-center-backend"
       - "com.folkup.version=1.0.0"
-      - "com.folkup.dshb=053-057-security-hardened"
+      - "com.folkup.dshb=053-057"
     logging:
       driver: "json-file"
       options:
         max-size: "10m"
         max-file: "3"
-    # Enhanced Security Configuration
     security_opt:
       - no-new-privileges:true
-      - seccomp:unconfined  # Allow controlled syscalls for Node.js operation
     read_only: true
     tmpfs:
       - /tmp:noexec,nosuid,size=100m
-    # Additional Security Hardening
-    cap_drop:
-      - ALL
-    cap_add:
-      - CHOWN
-      - SETUID
-      - SETGID
-    user: "1001:1001"  # Non-root user
     networks:
       - folkup-internal
 
 networks:
   folkup-internal:
     driver: bridge
-    # Network isolation
-    ipam:
-      config:
-        - subnet: 172.20.0.0/24

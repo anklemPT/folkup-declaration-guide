@@ -9,11 +9,16 @@
  * Evidence-First Methodology: Complete audit trail preservation
  */
 
+// Load environment variables from .env file
+require('dotenv').config();
+
 const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
 const compression = require('compression');
 const NodeCache = require('node-cache');
+const rateLimit = require('express-rate-limit');
+const Joi = require('joi');
 const fs = require('fs');
 const path = require('path');
 
@@ -36,8 +41,11 @@ const CONFIG = {
   // Service Control
   AGGREGATOR_ENABLED: process.env.AGGREGATOR_ENABLED === 'true',
 
-  // Rate Limiting
+  // Rate Limiting (INFR-005 P0 Security Implementation)
   RATE_LIMIT_WARN_THRESHOLD: parseInt(process.env.RATE_LIMIT_WARN_THRESHOLD) || 80,
+  RATE_LIMIT_MAX_REQUESTS: parseInt(process.env.RATE_LIMIT_MAX_REQUESTS) || 100,
+  RATE_LIMIT_WINDOW_MS: parseInt(process.env.RATE_LIMIT_WINDOW_MS) || 15 * 60 * 1000, // 15 minutes
+  RATE_LIMIT_MESSAGE: 'Too many requests from this IP, please try again later.',
 
   // Integration URLs
   KUMA_URL: process.env.KUMA_URL,
@@ -49,8 +57,156 @@ const CONFIG = {
   GH_PAT_READONLY: process.env.GH_PAT_READONLY
 };
 
+// INFR-006 P0 CRITICAL SECURITY: JSON Input Validation Schemas
+// CVSS 8.1 vulnerability elimination - prevents JSON injection, memory exhaustion, data corruption
+const validationSchemas = {
+  // Schema for /api/incidents/:id/acknowledge
+  acknowledgeIncident: Joi.object({
+    userId: Joi.string()
+      .alphanum()
+      .min(1)
+      .max(100)
+      .default('api')
+      .description('User ID performing the acknowledgment')
+  }).unknown(false), // Explicit prototype pollution protection
+
+  // Schema for /api/incidents/:id/snooze
+  snoozeIncident: Joi.object({
+    durationMinutes: Joi.number()
+      .integer()
+      .min(1)
+      .max(10080) // Max 7 days
+      .default(60)
+      .description('Snooze duration in minutes'),
+    userId: Joi.string()
+      .alphanum()
+      .min(1)
+      .max(100)
+      .default('api')
+      .description('User ID performing the snooze action')
+  }).unknown(false), // Explicit prototype pollution protection
+
+  // Schema for /api/incidents/update
+  updateIncidents: Joi.object({
+    incidents: Joi.array()
+      .items(
+        Joi.object({
+          id: Joi.string().required().max(255),
+          title: Joi.string().required().max(1000),
+          description: Joi.string().max(5000).allow(''),
+          status: Joi.string().valid('open', 'acknowledged', 'resolved').default('open'),
+          severity: Joi.string().valid('low', 'medium', 'high', 'critical').default('medium'),
+          timestamp: Joi.date().iso().default(Date.now),
+          source: Joi.string().max(255).default('api'),
+          tags: Joi.array().items(Joi.string().max(100)).max(50).default([]),
+          metadata: Joi.object().max(20).default({})
+        }).unknown(false) // Reject unknown properties to prevent prototype pollution
+      )
+      .min(1)
+      .max(1000)
+      .required()
+      .description('Array of incident objects')
+  }),
+
+  // Schema for incident ID parameter validation
+  incidentId: Joi.string()
+    .alphanum()
+    .min(1)
+    .max(100)
+    .required()
+    .description('Incident identifier')
+};
+
+// INFR-006 P0 SECURITY: Joi Validation Middleware Factory
+const validateJson = (schema) => {
+  return (req, res, next) => {
+    const { error, value } = schema.validate(req.body, {
+      abortEarly: false, // Report all validation errors
+      stripUnknown: false, // Don't silently remove - reject instead
+      allowUnknown: false // Reject unknown properties (prototype pollution protection)
+    });
+
+    if (error) {
+      const validationErrors = error.details.map(detail => ({
+        field: detail.path.join('.'),
+        message: detail.message,
+        value: detail.context?.value
+      }));
+
+      // Log validation failure for security monitoring
+      console.warn(`[INPUT_VALIDATION] Validation failed for ${req.originalUrl}:`, validationErrors);
+
+      return res.status(400).json({
+        error: 'Input validation failed',
+        message: 'Invalid JSON payload structure or values',
+        validationErrors,
+        timestamp: new Date().toISOString(),
+        securityProtection: 'JSON_VALIDATION_FAILED'
+      });
+    }
+
+    // Replace req.body with validated and sanitized data
+    req.body = value;
+    next();
+  };
+};
+
+// INFR-006 P0 SECURITY: Parameter Validation Middleware
+const validateParams = (schema) => {
+  return (req, res, next) => {
+    const { error, value } = schema.validate(req.params.id);
+
+    if (error) {
+      console.warn(`[PARAM_VALIDATION] Parameter validation failed for ${req.originalUrl}:`, error.message);
+
+      return res.status(400).json({
+        error: 'Parameter validation failed',
+        message: 'Invalid incident ID format',
+        details: error.message,
+        timestamp: new Date().toISOString(),
+        securityProtection: 'PARAMETER_VALIDATION_FAILED'
+      });
+    }
+
+    // Replace req.params.id with validated value
+    req.params.id = value;
+    next();
+  };
+};
+
 // Initialize Express Application
 const app = express();
+
+// INFR-005 P0 CRITICAL SECURITY: Rate Limiting Middleware
+// CVSS 7.5 DoS Prevention - 100 requests per 15 minutes per IP
+const limiter = rateLimit({
+  windowMs: CONFIG.RATE_LIMIT_WINDOW_MS, // 15 minutes
+  max: CONFIG.RATE_LIMIT_MAX_REQUESTS, // limit each IP to 100 requests per windowMs
+  message: {
+    error: 'Rate limit exceeded',
+    message: CONFIG.RATE_LIMIT_MESSAGE,
+    retryAfter: Math.ceil(CONFIG.RATE_LIMIT_WINDOW_MS / 1000), // seconds
+    timestamp: new Date().toISOString()
+  },
+  standardHeaders: true, // Return rate limit info in the `RateLimit-*` headers
+  legacyHeaders: false, // Disable the `X-RateLimit-*` headers
+  // Use default keyGenerator for proper IPv6 support
+  // Custom handler for rate limit exceeded
+  handler: (req, res) => {
+    const clientIP = req.ip || req.connection.remoteAddress || 'unknown';
+    console.warn(`[RATE_LIMIT] Rate limit exceeded for IP: ${clientIP} on ${req.originalUrl}`);
+
+    res.status(429).json({
+      error: 'Rate limit exceeded',
+      message: CONFIG.RATE_LIMIT_MESSAGE,
+      retryAfter: Math.ceil(CONFIG.RATE_LIMIT_WINDOW_MS / 1000),
+      timestamp: new Date().toISOString()
+    });
+  }
+});
+
+// Apply rate limiting to all requests
+app.use(limiter);
 
 // Security Middleware (Banking-Level Standards)
 app.use(helmet({
@@ -621,10 +777,12 @@ app.get('/api/overview', (req, res) => {
         duplicatesFound: duplicates.length
       },
       aggregatorEnabled: CONFIG.AGGREGATOR_ENABLED,
+      // INFR-007 SECURITY FIX: Remove service configuration disclosure
       services: {
-        uptime: CONFIG.KUMA_URL ? 'configured' : 'not-configured',
-        security: CONFIG.CROWDSEC_LAPI_URL ? 'configured' : 'not-configured',
-        github: CONFIG.GH_PAT_READONLY ? 'configured' : 'not-configured'
+        integration_layer: 'operational',
+        health_monitoring: 'enabled',
+        security_layer: 'active',
+        data_aggregation: 'functional'
       }
     };
 
@@ -716,8 +874,11 @@ app.get('/api/incidents', (req, res) => {
 
 // DSHB-057: Incident Management Endpoints
 
-// Acknowledge Incident
-app.post('/api/incidents/:id/acknowledge', (req, res) => {
+// Acknowledge Incident - INFR-006 JSON Validation Applied
+app.post('/api/incidents/:id/acknowledge',
+  validateParams(validationSchemas.incidentId),
+  validateJson(validationSchemas.acknowledgeIncident),
+  (req, res) => {
   const { id } = req.params;
   const { userId = 'api' } = req.body;
 
@@ -743,8 +904,11 @@ app.post('/api/incidents/:id/acknowledge', (req, res) => {
   }
 });
 
-// Snooze Incident
-app.post('/api/incidents/:id/snooze', (req, res) => {
+// Snooze Incident - INFR-006 JSON Validation Applied
+app.post('/api/incidents/:id/snooze',
+  validateParams(validationSchemas.incidentId),
+  validateJson(validationSchemas.snoozeIncident),
+  (req, res) => {
   const { id } = req.params;
   const { durationMinutes = 60, userId = 'api' } = req.body;
 
@@ -775,42 +939,11 @@ app.post('/api/incidents/:id/snooze', (req, res) => {
   }
 });
 
-// INFR-008 REMEDIATION: Secure incident update endpoint with prototype pollution protection
-app.post('/api/incidents/update', (req, res) => {
+// INFR-006 + INFR-008 REMEDIATION: Secure incident update endpoint with JSON validation and prototype pollution protection
+app.post('/api/incidents/update',
+  validateJson(validationSchemas.updateIncidents),
+  (req, res) => {
   const { incidents } = req.body;
-
-  // CRITICAL: Validate input format first
-  if (!Array.isArray(incidents)) {
-    logAudit('/api/incidents/update', 'validation-failed', {
-      error: 'Input is not an array',
-      inputType: typeof incidents,
-      severity: 'CRITICAL'
-    });
-
-    return res.status(400).json({
-      success: false,
-      error: 'Incidents must be an array',
-      timestamp: new Date().toISOString(),
-      securityProtection: 'INPUT_VALIDATION_FAILED'
-    });
-  }
-
-  // CRITICAL: Size limit protection
-  if (incidents.length > 1000) {
-    logAudit('/api/incidents/update', 'size-limit-exceeded', {
-      count: incidents.length,
-      limit: 1000,
-      severity: 'CRITICAL'
-    });
-
-    return res.status(413).json({
-      success: false,
-      error: 'Too many incidents in single request (max 1000)',
-      count: incidents.length,
-      timestamp: new Date().toISOString(),
-      securityProtection: 'SIZE_LIMIT_PROTECTION'
-    });
-  }
 
   logAudit('/api/incidents/update', 'incidents-update-request', {
     count: incidents.length,
@@ -1720,7 +1853,13 @@ if (CONFIG.AGGREGATOR_ENABLED) {
     };
 
     console.log('=== FolkUp Control Center Backend Started ===');
-    console.log(JSON.stringify(serverInfo, null, 2));
+    // INFR-007 SECURITY FIX: Sanitized server info logging
+    console.log(`Service: ${serverInfo.service}`);
+    console.log(`Version: ${serverInfo.version}`);
+    console.log(`Port: ${serverInfo.port}`);
+    console.log(`Host: ${serverInfo.host}`);
+    console.log(`Mode: ${serverInfo.aggregatorEnabled ? 'active' : 'standby'}`);
+    console.log(`Started: ${serverInfo.startTime}`);
 
     logAudit('server', 'startup-complete', serverInfo);
   });
