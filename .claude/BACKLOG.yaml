@@ -392,7 +392,7 @@
   project: AGIL
   title: "Content Freeze Quality Gates Implementation"
   priority: P1
-  status: completed
+  status: done
   category: content_quality_infrastructure
   date_created: '2026-05-10'
   date_completed: '2026-05-10'
@@ -440,7 +440,7 @@
   project: AGIL
   title: "Phase 2: Chapters 8 + 7 Editorial Humanization"
   priority: P1
-  status: completed
+  status: done
   category: editorial_excellence
   date_created: '2026-05-10'
   date_completed: '2026-05-11'
@@ -505,7 +505,7 @@
   project: AGIL
   title: "Typography Foundation Implementation (Verified Complete)"
   priority: P1
-  status: completed
+  status: done
   category: typography_foundation
   date_created: '2026-05-10'
   date_completed: '2026-05-10'
@@ -534,7 +534,7 @@
   project: AGIL
   title: "Dark Mode Typography Enhancement"
   priority: P1
-  status: completed
+  status: done
   category: typography
   date_created: '2026-05-10'
   date_completed: '2026-05-10'
@@ -546,7 +546,7 @@
   project: AGIL
   title: "Text Width Constraint (65ch Academic Standard)"
   priority: P1
-  status: completed
+  status: done
   category: typography
   date_created: '2026-05-10'
   date_completed: '2026-05-10'
@@ -919,7 +919,7 @@
   project: AGIL
   title: "Enhanced Alice v2.0 L3 Враждебная Верификация Protocol — SUCCESS DOCUMENTED"
   priority: P1
-  status: completed
+  status: done
   category: constitutional_framework_validation
   date_created: '2026-05-12'
   date_completed: '2026-05-12'

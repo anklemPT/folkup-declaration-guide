@@ -1,4 +1,3 @@
-version: '3.8'
 
 services:
   control-center-backend:
@@ -13,6 +12,9 @@ services:
       - PORT=3001
       - HOST=0.0.0.0
       - NODE_ENV=production
+      # nginx-proxy automatic configuration
+      - VIRTUAL_HOST=dashboard.folkup.app
+      - VIRTUAL_PORT=3001
       # Dashboard Aggregator Configuration
       - AGGREGATOR_ENABLED=${AGGREGATOR_ENABLED:-false}
       - CACHE_TTL_SEC=${CACHE_TTL_SEC:-45}
@@ -29,14 +31,14 @@ services:
     # OLD INSECURE: - /opt/folkup/secrets:/opt/secrets:ro
     # NEW SECURE: Environment variable injection via .env file or Docker secrets
     healthcheck:
-      test: ["CMD", "node", "-e", "const http = require('http'); const options = { hostname: 'localhost', port: 3001, path: '/api/health', timeout: 5000 }; const req = http.request(options, (res) => { if (res.statusCode === 200) { process.exit(0); } else { process.exit(1); } }); req.on('error', () => process.exit(1)); req.on('timeout', () => { req.destroy(); process.exit(1); }); req.end();"]
+      test: ["CMD", "node", "-e", "const http = require('http'); const options = { hostname: '127.0.0.1', port: 3001, path: '/api/health', timeout: 5000 }; const req = http.request(options, (res) => { if (res.statusCode === 200) { process.exit(0); } else { process.exit(1); } }); req.on('error', () => process.exit(1)); req.on('timeout', () => { req.destroy(); process.exit(1); }); req.end();"]
       interval: 30s
       timeout: 10s
       retries: 3
       start_period: 40s
     labels:
       - "com.folkup.service=control-center-backend"
-      - "com.folkup.version=1.0.0"
+      - "com.folkup.version=1.0.0-dshb057"
       - "com.folkup.dshb=053-057-security-hardened"
     logging:
       driver: "json-file"
@@ -59,12 +61,15 @@ services:
       - SETGID
     user: "1001:1001"  # Non-root user
     networks:
+      - internal
       - folkup-internal
 
 networks:
+  internal:
+    external: true
   folkup-internal:
     driver: bridge
     # Network isolation
     ipam:
       config:
-        - subnet: 172.20.0.0/24
+        - subnet: 172.22.0.0/24

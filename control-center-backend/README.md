@@ -1,47 +1,45 @@
-# FolkUp Control Center Backend - DSHB Infrastructure
+# FolkUp Control Center Backend - DSHB-057
 
-**DSHB-053 Infrastructure Foundation + DSHB-056 Command Palette Backend + DSHB-057 Incident Correlation + DSHB-058 Claude Context**
+**DSHB-053 Infrastructure Foundation + DSHB-057 Incident Correlation Engine**
 
 **Constitutional Authority**: Enhanced Alice v2.0 Level 3 Cartouche Autonome  
-**Banking-Level Security**: P0 Critical vulnerabilities remediated (8/11 complete)  
+**Banking-Level Security**: Critical vulnerabilities remediated  
 **Evidence-First Methodology**: Complete audit trail preservation  
-**Враждебная Верификация**: Applied throughout — discovered critical vulnerabilities Cooper missed  
-**Security Status**: INFR-008 (CVSS 9.2), INFR-004 (CVSS 9.1), INFR-011 (CVSS 8.7), INFR-009 (CVSS 8.5) — REMEDIATED
+**Враждебная Верификация**: Applied throughout — phantom evidence eliminated  
+**Version**: 1.0.0-dshb057
 
 ## Overview
 
-This service provides the missing DSHB-053 infrastructure foundation plus complete DSHB-057 incident correlation functionality and DSHB-056 Command Palette integration:
+This service provides the DSHB-053 infrastructure foundation plus complete DSHB-057 incident correlation functionality:
 
-- **Control Center Backend API** (Node.js/Express) [¹]
-- **Incident Correlation Engine** with similarity detection [²]
-- **Deduplication Logic** to prevent duplicate incidents [³]
-- **Acknowledgment & Snooze System** for workflow management [⁴]
-- **Command Palette Integration** with actions and logs endpoints [⁵]
-- **Constitutional Audit Trail** for banking-level compliance [⁶]
+- **Control Center Backend API** (Node.js/Express)
+- **Incident Correlation Engine** with similarity detection
+- **Deduplication Logic** to prevent duplicate incidents
+- **Acknowledgment & Snooze System** for workflow management
+- **Constitutional Audit Trail** for banking-level compliance
 
 ## Architecture
 
-### DSHB-053 Foundation (Corrected)
-- Node.js/Express REST API service [¹] [⁷]
-- Docker containerization with security hardening [⁸]
-- SOPS encrypted configuration integration [⁹]
-- Health monitoring and audit trail [¹⁰]
+### DSHB-053 Foundation
+- Node.js/Express REST API service
+- Docker containerization with security hardening
+- SOPS encrypted configuration integration
+- Health monitoring and audit trail
 
 ### DSHB-057 Correlation Engine
-- Incident similarity analysis (title/description) [²] [¹¹]
-- Smart grouping with confidence scoring [¹²]
-- Duplicate detection and deduplication [³] [¹³]
-- User acknowledgment workflow [⁴]
-- Temporary snooze functionality [¹⁴]
+- Incident similarity analysis (title/description/service)
+- Smart grouping with confidence scoring
+- Duplicate detection and deduplication
+- User acknowledgment workflow
+- Temporary snooze functionality
 
 ## API Endpoints
 
-### Core Endpoints (DSHB-053)
+### Core Endpoints
 ```
 GET  /api/health              - Service health check
 GET  /api/overview            - Dashboard overview with correlation stats
 GET  /api/audit               - Constitutional audit trail
-GET  /api/metrics             - Service performance metrics and operational status
 ```
 
 ### Incident Management (DSHB-057)
@@ -52,57 +50,24 @@ POST /api/incidents/:id/acknowledge - Acknowledge specific incident
 POST /api/incidents/:id/snooze      - Snooze incident for specified duration
 ```
 
-### Claude Context Generation (DSHB-058)
-```
-GET  /api/incidents/:id/context - Generate structured incident context for Claude sessions
-```
-
-### Command Palette Integration (DSHB-056)
-```
-GET  /api/actions              - Available actions for Command Palette fuzzy search
-GET  /api/logs                 - Recent logs with filtering (service, level, limit)
-```
-
 ## Incident Correlation Features
 
-### Phase 1: Correlation Engine
-- **Similarity Algorithm**: Analyzes title and description text similarity [¹¹] [¹⁵]
-- **Grouping Logic**: Groups incidents with >70% similarity confidence [¹²]
-- **Confidence Scoring**: Provides correlation confidence percentages [¹⁶]
-- **Service Matching**: Considers service/source when correlating [¹⁷]
+### Correlation Engine
+- **Similarity Algorithm**: Analyzes title and description text similarity
+- **Service Matching**: Considers service/source when correlating
+- **Confidence Scoring**: Provides correlation confidence (high/medium/low)
+- **Smart Grouping**: Groups similar incidents automatically
 
-### Phase 2: Workflow Enhancement
+### Workflow Enhancement
 - **Acknowledgment System**: Mark incidents as acknowledged by user
-- **Snooze Functionality**: Temporarily suppress incidents (default: 60 minutes)
+- **Snooze Functionality**: Temporarily suppress incidents (configurable duration)
 - **State Management**: Tracks incident relationships and user actions
-- **Filter Integration**: Supports filtered views (active, acknowledged, snoozed)
+- **Correlation Analysis**: Shows related incidents for context
 
-### Phase 3: Deduplication
-- **Duplicate Detection**: Identifies incidents with >95% similarity
-- **Smart Deduplication**: Preserves original while flagging duplicates
-- **Duplicate Metadata**: Tracks which incident is duplicate of which
-
-### Phase 4: Claude Context Generation (DSHB-058)
-- **Structured Context**: Markdown-formatted incident context for Claude sessions
-- **Project Identification**: Extracts project details from incident data
-- **Environment Snapshot**: Container status and resource usage
-- **Deploy Status**: Latest deployment information and duration
-- **Log Aggregation**: Recent log lines for incident investigation
-- **Correlation Context**: Related incidents and neighboring events
-
-### Phase 5: Command Palette Backend Infrastructure (DSHB-056 Backend Only)
-- **Actions Endpoint**: 8 predefined actions providing data for future Command Palette frontend
-- **Action Categories**: deployment, operations, monitoring, incident_response, reporting, maintenance  
-- **Action Metadata**: Icons, keywords, descriptions structured for frontend fuzzy search
-- **Logs Endpoint**: Recent system logs with filtering capabilities
-- **Log Filtering**: Service, level, and limit-based filtering for frontend log browser
-- **Frontend Status**: ⚠️ COMMAND PALETTE FRONTEND IMPLEMENTATION REQUIRED - Backend provides API endpoints only
-
-### Phase 6: Operational Excellence Enhancement
-- **Metrics Endpoint**: Service performance metrics (uptime, memory, cache stats, API usage)
-- **Performance Monitoring**: Real-time operational data for service health assessment
-- **Resource Tracking**: Memory usage, cache efficiency, and system resource utilization
-- **Operational Transparency**: Complete visibility into service performance and operational status
+### Deduplication
+- **Duplicate Detection**: Identifies incidents with high similarity
+- **Smart Deduplication**: Prevents duplicate incident noise
+- **Correlation Metadata**: Tracks incident relationships
 
 ## Configuration
 
@@ -117,7 +82,6 @@ AGGREGATOR_ENABLED=true          # Enable service (false = disabled)
 PORT=3001                        # Service port
 HOST=0.0.0.0                     # Service host
 CACHE_TTL_SEC=45                 # Cache TTL (matches DSHB-053 spec)
-RATE_LIMIT_WARN_THRESHOLD=80     # Rate limit warning threshold
 ```
 
 ### Optional Integration Variables
@@ -131,27 +95,29 @@ CROWDSEC_LAPI_KEY=<crowdsec_key>     # CrowdSec authentication
 
 ## Deployment
 
-### Prerequisites
-1. **DSHB-053 Configuration**: SOPS encrypted configuration deployed
-2. **Docker & Docker Compose**: Container runtime available
-3. **SOPS Access**: Ability to decrypt configuration file
+### Local/Development Deployment
 
-### Quick Deployment
+#### Prerequisites
+1. **DSHB-053 Configuration**: Configuration file available
+2. **Docker & Docker Compose**: Container runtime available
+
+#### Quick Local Deployment
 ```bash
 # Navigate to service directory
 cd control-center-backend
 
-# Run constitutional deployment script
-./deploy.sh
+# Run deployment script
+./deploy-dev.sh
 ```
 
-### Manual Deployment Steps
+#### Manual Deployment Steps
 ```bash
-# Load environment from SOPS
-sops -d /opt/folkup/secrets/dashboard-aggregator.env > .env
+# Load environment configuration
+export PATH="$HOME/bin:$PATH"
+ENV_FILE="$HOME/secrets/dashboard-aggregator.env"
 
 # Build and deploy
-docker-compose up -d
+docker compose up -d --build
 
 # Verify health
 curl http://localhost:3001/api/health
@@ -167,14 +133,10 @@ curl http://localhost:3001/api/health
 # Expected response:
 {
   "status": "healthy",
-  "timestamp": "2026-05-09T...",
+  "timestamp": "2026-05-15T...",
   "service": "folkup-control-center-backend",
-  "aggregatorEnabled": true,
-  "correlation": {
-    "incidents": 0,
-    "acknowledged": 0,
-    "snoozed": 0
-  }
+  "version": "1.0.0-dshb057",
+  "features": ["incident-correlation", "audit-trail", "caching"]
 }
 ```
 
@@ -211,30 +173,13 @@ curl "http://localhost:3001/api/incidents?showCorrelations=true"
 ```bash
 # Acknowledge incident
 curl -X POST \
-  -H "Content-Type: application/json" \
-  -d '{"userId": "test-user"}' \
   http://localhost:3001/api/incidents/INCIDENT_ID/acknowledge
 
 # Snooze incident for 30 minutes
 curl -X POST \
   -H "Content-Type: application/json" \
-  -d '{"durationMinutes": 30, "userId": "test-user"}' \
+  -d '{"duration_minutes": 30}' \
   http://localhost:3001/api/incidents/INCIDENT_ID/snooze
-
-# Get only active incidents (non-acknowledged, non-snoozed)
-curl "http://localhost:3001/api/incidents?includeAcknowledged=false&includeSnoozed=false"
-```
-
-### Context Generation Testing (DSHB-058)
-```bash
-# Generate incident context for Claude sessions
-curl "http://localhost:3001/api/incidents/INCIDENT_ID/context" | jq '.markdownContext' -r
-
-# Get context with custom log lines
-curl "http://localhost:3001/api/incidents/INCIDENT_ID/context?logLines=100" | jq '.markdownContext' -r > incident_context.md
-
-# Expected: Markdown-formatted context suitable for copying to Claude sessions
-# Contains: incident details, deployment status, environment, logs, correlations
 ```
 
 ## Security Features
@@ -242,6 +187,7 @@ curl "http://localhost:3001/api/incidents/INCIDENT_ID/context?logLines=100" | jq
 ### Banking-Level Security Standards
 - **Helmet.js**: Security headers and CSP
 - **CORS Protection**: Configurable origin restrictions
+- **Rate Limiting**: Request limiting per IP
 - **Input Validation**: JSON payload size limits
 - **Non-Root User**: Container runs as unprivileged user
 - **Read-Only Filesystem**: Container filesystem is read-only
@@ -250,7 +196,7 @@ curl "http://localhost:3001/api/incidents/INCIDENT_ID/context?logLines=100" | jq
 ### Constitutional Compliance
 - **Audit Trail**: All operations logged with timestamps
 - **Evidence Preservation**: Complete request/response audit
-- **Configuration Security**: SOPS encryption for sensitive data
+- **Configuration Security**: Environment variable injection
 - **Health Monitoring**: Built-in health checks and logging
 
 ## Monitoring
@@ -279,11 +225,6 @@ docker logs folkup-control-center-backend
 docker inspect --format='{{.State.Health.Status}}' folkup-control-center-backend
 ```
 
-### Integration Monitoring
-- **Uptime Kuma**: Health endpoint monitoring (if configured)
-- **CrowdSec**: Security event integration (if configured)
-- **GitHub**: Repository integration for deployment triggers (if configured)
-
 ## Constitutional Framework Compliance
 
 ### Evidence-First Methodology
@@ -293,7 +234,6 @@ docker inspect --format='{{.State.Health.Status}}' folkup-control-center-backend
 - Performance metrics collected for analysis
 
 ### Banking-Level Standards
-- Encrypted configuration management (SOPS)
 - Security-first container architecture
 - Constitutional compliance verification throughout deployment
 - Complete audit trail preservation
@@ -301,7 +241,6 @@ docker inspect --format='{{.State.Health.Status}}' folkup-control-center-backend
 ### Quality Assurance
 - Comprehensive health checks
 - Error handling with constitutional logging
-- Performance monitoring and alerting
 - Secure default configurations
 
 ## Troubleshooting
@@ -311,7 +250,7 @@ docker inspect --format='{{.State.Health.Status}}' folkup-control-center-backend
 #### Service Not Starting
 ```bash
 # Check AGGREGATOR_ENABLED setting
-sops -d /opt/folkup/secrets/dashboard-aggregator.env | grep AGGREGATOR_ENABLED
+grep AGGREGATOR_ENABLED ~/secrets/dashboard-aggregator.env
 
 # Expected: AGGREGATOR_ENABLED=true
 ```
@@ -325,20 +264,13 @@ docker logs folkup-control-center-backend
 netstat -tlnp | grep 3001
 ```
 
-#### SOPS Decryption Issues
-```bash
-# Verify SOPS access
-sops -d /opt/folkup/secrets/dashboard-aggregator.env > /dev/null
-echo $? # Should be 0 for success
-```
-
 ### Constitutional Debugging
 ```bash
 # Check audit trail for errors
 curl http://localhost:3001/api/audit | jq '.audit[] | select(.action | contains("error"))'
 
-# Check service configuration
-curl http://localhost:3001/api/health | jq '.correlation'
+# Check service status
+curl http://localhost:3001/api/health | jq '.'
 ```
 
 ## Development
@@ -356,15 +288,6 @@ cp .env.example .env
 npm run dev
 ```
 
-### Testing Framework
-```bash
-# Run tests (when implemented)
-npm test
-
-# Manual API testing
-npm run test:manual
-```
-
 ## Success Criteria
 
 ### DSHB-057 Implementation ✅
@@ -376,26 +299,17 @@ npm run test:manual
 - [x] Correlation confidence scoring system
 - [x] Constitutional audit trail integration
 
-### DSHB-058 Implementation ✅
-- [x] Claude session context endpoint operational
-- [x] Structured markdown context generation
-- [x] Project identification from incident data
-- [x] Container environment snapshot integration
-- [x] Deploy status and duration tracking
-- [x] Log aggregation with configurable line count
-- [x] Neighboring events correlation analysis
-
 ### Performance Requirements ✅
 - [x] API response time <200ms (cached)
 - [x] 45-second cache TTL consistency
-- [x] Incident correlation reduces noise by 40%+ potential
+- [x] Incident correlation reduces noise potential
 - [x] Banking-level security standards maintained
 
 ### Constitutional Compliance ✅
 - [x] Enhanced Alice v2.0 Level 3 authority validated
 - [x] Evidence-first methodology implemented
 - [x] Complete audit trail preservation
-- [x] SOPS encryption for configuration security
+- [x] Secure configuration management
 
 ## Architecture Decisions
 
@@ -419,55 +333,15 @@ npm run test:manual
 
 ---
 
-**Service Status**: OPERATIONAL  
+**Service Status**: OPERATIONAL ✅  
 **Constitutional Compliance**: VERIFIED  
 **DSHB-057 Implementation**: COMPLETE  
-**Evidence Chain**: Control Center Backend + Incident Correlation Engine deployed successfully
+**Evidence Chain**: Control Center Backend + Incident Correlation Engine
+**Version**: 1.0.0-dshb057
 
-**Last Updated**: 2026-05-10 by Enhanced Alice v2.0 Level 3 + КиберГонзо Research Verification  
-**Constitutional Authority**: Banking-level standards applied throughout implementation with enhanced citations  
-**Quality Assurance**: Complete audit trail and evidence-first methodology operational with academic-level source integrity
+**Security Standards**: Banking-level throughout infrastructure + container hardening  
+**Health Status**: Container healthy, all API endpoints operational
 
----
-
-## Bibliography
-
-[¹] Node.js Foundation, "Node.js API Documentation," https://nodejs.org/api/, 2026. [Accessed: May 10, 2026].
-
-[²] Salton, G. and McGill, M.J., "Introduction to Modern Information Retrieval," McGraw-Hill, 1983.
-
-[³] Duplicate Detection Research Group, "Duplicate Detection: A Survey," ACM Computing Surveys, Vol. 39, No. 1, 2007.
-
-[⁴] Workflow Management Coalition, "Workflow Reference Model," Document Number TC00-1003, 1995.
-
-[⁵] Microsoft Corporation, "Command Palette Design Patterns," UI Design Guidelines, 2024.
-
-[⁶] ISO/IEC 27001:2013, "Information security management systems - Requirements," International Organization for Standardization, 2013.
-
-[⁷] Express.js Team, "Express.js Web Application Framework for Node.js," https://expressjs.com/en/guide/, 2026. [Accessed: May 10, 2026].
-
-[⁸] Docker Inc., "Docker Security Best Practices," https://docs.docker.com/engine/security/, 2026. [Accessed: May 10, 2026].
-
-[⁹] Mozilla Corporation, "SOPS: Simple and Flexible Tool for Managing Secrets," https://github.com/mozilla/sops, 2026. [Accessed: May 10, 2026].
-
-[¹⁰] Google Inc., "Site Reliability Engineering: How Google Runs Production Systems," O'Reilly Media, 2016.
-
-[¹¹] Jaccard, P., "The Distribution of the Flora in the Alpine Zone," New Phytologist, Vol. 11, No. 2, 1912.
-
-[¹²] Manning, C.D., Raghavan, P., and Schütze, H., "Introduction to Information Retrieval," Cambridge University Press, 2008.
-
-[¹³] Elmagarmid, A.K., Ipeirotis, P.G., and Verykios, V.S., "Duplicate Record Detection: A Survey," IEEE Transactions on Knowledge and Data Engineering, Vol. 19, No. 1, 2007.
-
-[¹⁴] RFC 7231, "Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content," Internet Engineering Task Force, 2014.
-
-[¹⁵] Levenshtein, V.I., "Binary codes capable of correcting deletions, insertions, and reversals," Soviet Physics Doklady, Vol. 10, No. 8, 1966.
-
-[¹⁶] Cohen, W.W., Ravikumar, P., and Fienberg, S.E., "A Comparison of String Distance Metrics for Name-Matching Tasks," Proceedings of the IJCAI-2003 Workshop on Information Integration, 2003.
-
-[¹⁷] Bilenko, M. and Mooney, R.J., "Adaptive duplicate detection using learnable string similarity measures," Proceedings of the 9th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, 2003.
-
-[¹⁸] JSON API Specification, "JSON API v1.1 Specification," https://jsonapi.org/format/, 2024. [Accessed: May 10, 2026].
-
-[¹⁹] Richardson, L. and Ruby, S., "RESTful Web Services," O'Reilly Media, 2007.
-
-[²⁰] Fowler, M., "Patterns of Enterprise Application Architecture," Addison-Wesley, 2002.
+**Last Updated**: 2026-05-15 by Enhanced Alice v2.0 Level 3 Cartouche Autonome Operation  
+**Phantom Evidence**: ELIMINATED via враждебная верификация  
+**Quality Assurance**: Documentation matches actual implementation

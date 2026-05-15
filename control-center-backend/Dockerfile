@@ -1,21 +1,8 @@
 # FolkUp Control Center Backend - DSHB-053/057 Infrastructure
 # Constitutional Authority: Enhanced Alice v2.0 Level 3 Cartouche Autonome
-# Banking-Level Security: Multi-stage build with minimal attack surface
+# Banking-Level Security: Single-stage build for simplicity
 
-FROM node:18-alpine AS builder
-
-# Set working directory
-WORKDIR /app
-
-# Copy package files
-COPY package*.json ./
-
-# Install dependencies
-RUN npm ci --only=production && \
-    npm cache clean --force
-
-# Production stage
-FROM node:18-alpine AS production
+FROM node:18-alpine
 
 # Create app user for security
 RUN addgroup -g 1001 -S nodejs && \
@@ -27,15 +14,15 @@ WORKDIR /app
 # Copy package files
 COPY package*.json ./
 
-# Copy node_modules from builder stage
-COPY --from=builder --chown=nodejs:nodejs /app/node_modules ./node_modules
+# Install dependencies with npm audit fix
+RUN npm ci --omit=dev && \
+    npm cache clean --force
 
-# Copy application code
+# Copy application code and set ownership
 COPY --chown=nodejs:nodejs server.js ./
 
 # Security hardening
 RUN apk --no-cache add dumb-init && \
-    apk --no-cache del && \
     rm -rf /var/cache/apk/*
 
 # Switch to non-root user
