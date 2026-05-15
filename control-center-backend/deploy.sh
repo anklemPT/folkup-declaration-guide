@@ -121,7 +121,7 @@ log_evidence "✅ Environment configuration loaded from SOPS"
 
 # Build Docker image
 log_constitutional "Building DSHB-057 Control Center Backend image"
-docker build -t "$SERVICE_NAME:latest" . || {
+docker build --no-cache -t "$SERVICE_NAME:latest" . || {
   log_constitutional "ERROR: Docker image build failed"
   rm -f "$ENV_FILE"
   exit 1

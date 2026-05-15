@@ -205,3 +205,26 @@ $RECYCLE.BIN/
 # Backup files from editors
 *.orig
 *.rej
+# System and user directories (prevent future bloat)
+AppData/
+Documents/
+Downloads/
+My Documents/
+Contacts/
+Creative Cloud Files/
+CrossDevice/
+OneDrive/
+
+# Personal dotfiles
+.cache/
+.config/
+.local/
+.bash_history
+.bash_profile
+.gitconfig
+.gitignore_global
+
+# Personal documents
+*.csv
+comprovativo_*
+

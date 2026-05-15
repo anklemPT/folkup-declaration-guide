@@ -44,9 +44,11 @@
 ## Security Incident Documentation
 - [API Token Security Incident](api-token-security-incident-2026-05-10.md) — Critical hostile verification reveals massive API token exposures Alice missed
 - [Hostile Verification Security Success INFR-002](hostile-verification-security-success-2026-05-10.md) — Враждебная верификация discovers CRITICAL vulnerabilities Cooper expert assessment missed, validates constitutional methodology effectiveness
+- [Hostile Verification Git Corruption Success](hostile-verification-git-corruption-success-2026-05-15.md) — Враждебная верификация detects git repository corruption and phantom success claims, prevents infrastructure damage
 
 - [Ecosystem Audit Session 2026-05-12](session-context-audit-ecosystem-2026-05-12.md) — 4-agent comprehensive audit with API token vault security enhancement and 10 BACKLOG task formalization
 - [DSHB-057 Phantom Evidence Elimination Complete](session-context-dshb-phantom-elimination-complete-2026-05-15.md) — Враждебная верификация successful phantom evidence elimination with deployment verification
+- [SYS Batch Hostile Verification Success](session-context-sys-batch-hostile-verification-success-2026-05-15.md) — Enhanced Alice v2.0 Level 3 Cartouche Autonome SYS execution with critical hostile verification preventing git corruption
 
 ## Session Continuity
 This index tracks critical session contexts for seamless continuation across conversation compactions.
