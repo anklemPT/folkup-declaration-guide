@@ -1,3 +1,4 @@
+# precommit:allow-ai-mentions
 # Enhanced .gitignore for Sensitive File Protection
 # Updated 2026-05-15 - SYS-003 Security gaps remediation
 
@@ -228,3 +229,4 @@ OneDrive/
 *.csv
 comprovativo_*
 
+dist/

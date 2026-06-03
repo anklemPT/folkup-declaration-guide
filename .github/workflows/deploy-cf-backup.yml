@@ -1,0 +1,64 @@
+# CF Pages backup deploy для declaration.folkup.app.
+# Failure isolation: ubuntu-latest, не depends on VPS reachability.
+#
+# Wave 3 unblock of BACKLOG INFRA-DR-CF-BACKUP-011 (was "existing wrangler.toml
+# conflict — needs disambiguation"). Resolution: keep existing wrangler.toml
+# (unused — references different project name "folkup-declaration-guide"),
+# deploy explicitly via --project-name=declaration-backup. Build script
+# (scripts/build-cf-backup.sh) does explicit-copy staging to dist/ — defensible
+# against config drift vs .cloudflareignore (Кочегар Option B verdict 2026-06-03).
+#
+# CF Pages project: declaration-backup (id 9a7de085-3add-4db8-afd7-c4e6a57b76a8)
+# Failover orchestration: folkup-infra/scripts/failover.sh
+# Owner: Алиса Cartouche L3 (Wave 3)
+
+name: Deploy to CF Pages (backup)
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+concurrency:
+  group: cf-backup-${{ github.repository }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+env:
+  ACTIONS_STEP_DEBUG: "false"
+
+jobs:
+  build-and-deploy-cf:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Build dist/ via explicit-copy staging
+        run: bash scripts/build-cf-backup.sh
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@da0e0dfe58b7a431659754fdf3f186c529afbe65 # v3.14.1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_PAGES_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist --project-name=declaration-backup --branch=master
+
+      # precommit:allow-secrets — step intentionally contains secret-format regex
+      # patterns for §4 self-verify. Detection patterns, not values.
+      - name: Post-deploy secret scan (agent-secret-hygiene §4)
+        if: always()
+        run: |
+          if [ -n "${GITHUB_STEP_SUMMARY:-}" ] && [ -f "${GITHUB_STEP_SUMMARY}" ]; then
+            PATTERNS='(ghp_|github_pat_|xoxb-|sk_live_|r8_|AKIA[0-9A-Z]{16}|AGE-SECRET-KEY-1|-----BEGIN (RSA |OPENSSH |EC )?PRIVATE KEY-----|[0-9]{8,10}:[A-Za-z0-9_-]{35})'
+            if grep -qE "$PATTERNS" "${GITHUB_STEP_SUMMARY}" 2>/dev/null; then
+              echo "::error::Potential secret detected в step summary — investigate immediately"
+              exit 1
+            fi
+          fi
+          echo "::notice::Step-summary secret scan complete (ACTIONS_STEP_DEBUG=false is primary G1 mitigation)"
