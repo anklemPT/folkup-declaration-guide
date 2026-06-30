@@ -4,30 +4,71 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Unenclosed Knowledge Declaration — FolkUp</title>
-  <meta name="description" content="The Unenclosed Knowledge Declaration — Seven principles for open knowledge. Initiated by FolkUp, open for signature.">
-  <meta property="og:title" content="The Unenclosed Knowledge Declaration — FolkUp">
-  <meta property="og:description" content="Seven principles for open knowledge. Initiated by FolkUp, open for signature.">
+  <meta name="description" content="A manifesto for open knowledge. Seven principles against the enclosure of the mind. Initiated by FolkUp — open for signature.">
+  <meta property="og:title" content="The Unenclosed Knowledge Declaration">
+  <meta property="og:description" content="Knowledge belongs to humanity. Seven principles against the enclosure of the mind.">
   <meta property="og:image" content="/images/og-folkup.png">
-  <meta property="og:url" content="https://declaration.folkup.app/">
+  <meta property="og:url" content="https://declaration.folkup.app">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="alternate" hreflang="en" href="https://declaration.folkup.app">
+  <link rel="alternate" hreflang="ru" href="https://declaration.folkup.app/ru/">
+  <link rel="alternate" hreflang="pt" href="https://declaration.folkup.app/pt/">
+  <link rel="alternate" hreflang="x-default" href="https://declaration.folkup.app">
+  <link rel="canonical" href="https://declaration.folkup.app">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CreativeWork",
+        "@id": "https://declaration.folkup.app#manifesto",
+        "name": "The Unenclosed Knowledge Declaration",
+        "description": "A manifesto for open knowledge. Seven principles against the enclosure of the mind.",
+        "url": "https://declaration.folkup.app",
+        "datePublished": "2026-03-01",
+        "inLanguage": ["en", "ru", "pt"],
+        "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": {"@id": "https://folkup.app/#organization"},
+        "publisher": {"@id": "https://folkup.app/#organization"},
+        "isAccessibleForFree": true,
+        "version": "1.2",
+        "about": ["open knowledge", "intellectual commons", "information enclosure", "attention sovereignty"]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://folkup.app/#organization",
+        "name": "FolkUp",
+        "url": "https://folkup.app",
+        "founder": {"@type": "Person", "name": "Andrei Klemenchonok"},
+        "email": "anklem@folkup.app",
+        "sameAs": [
+          "https://sapiens.folkup.life/",
+          "https://declaration.folkup.app/"
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "FolkUp", "item": "https://folkup.app"},
+          {"@type": "ListItem", "position": 2, "name": "Declaration", "item": "https://declaration.folkup.app"}
+        ]
+      }
+    ]
+  }
+  </script>
   <style>
-    @font-face { font-family: 'Instrument Serif'; font-style: normal; font-weight: 400; font-display: swap; src: url(/fonts/instrument-serif-normal-latin-ext.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
-    @font-face { font-family: 'Instrument Serif'; font-style: normal; font-weight: 400; font-display: swap; src: url(/fonts/instrument-serif-normal-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-    @font-face { font-family: 'Instrument Serif'; font-style: italic; font-weight: 400; font-display: swap; src: url(/fonts/instrument-serif-italic-latin-ext.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
-    @font-face { font-family: 'Instrument Serif'; font-style: italic; font-weight: 400; font-display: swap; src: url(/fonts/instrument-serif-italic-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-    @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 400; font-display: swap; src: url(/fonts/playfair-normal-cyrillic.woff2) format('woff2'); unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
-    @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 400; font-display: swap; src: url(/fonts/playfair-normal-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-    @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/fonts/playfair-bold-cyrillic.woff2) format('woff2'); unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
-    @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/fonts/playfair-bold-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-    @font-face { font-family: 'Inter'; font-style: normal; font-weight: 300 700; font-display: swap; src: url(/fonts/inter-cyrillic-ext.woff2) format('woff2'); unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
-    @font-face { font-family: 'Inter'; font-style: normal; font-weight: 300 700; font-display: swap; src: url(/fonts/inter-cyrillic.woff2) format('woff2'); unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
-    @font-face { font-family: 'Inter'; font-style: normal; font-weight: 300 700; font-display: swap; src: url(/fonts/inter-latin-ext.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
-    @font-face { font-family: 'Inter'; font-style: normal; font-weight: 300 700; font-display: swap; src: url(/fonts/inter-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-
+    @font-face { font-family: 'Instrument Serif'; font-style: normal; font-weight: 400; font-display: swap; src: url(fonts/instrument-serif-normal-latin-ext.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+    @font-face { font-family: 'Instrument Serif'; font-style: normal; font-weight: 400; font-display: swap; src: url(fonts/instrument-serif-normal-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+    @font-face { font-family: 'Instrument Serif'; font-style: italic; font-weight: 400; font-display: swap; src: url(fonts/instrument-serif-italic-latin-ext.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+    @font-face { font-family: 'Instrument Serif'; font-style: italic; font-weight: 400; font-display: swap; src: url(fonts/instrument-serif-italic-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+    @font-face { font-family: 'Inter'; font-style: normal; font-weight: 300 700; font-display: swap; src: url(fonts/inter-cyrillic-ext.woff2) format('woff2'); unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+    @font-face { font-family: 'Inter'; font-style: normal; font-weight: 300 700; font-display: swap; src: url(fonts/inter-cyrillic.woff2) format('woff2'); unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+    @font-face { font-family: 'Inter'; font-style: normal; font-weight: 300 700; font-display: swap; src: url(fonts/inter-latin-ext.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+    @font-face { font-family: 'Inter'; font-style: normal; font-weight: 300 700; font-display: swap; src: url(fonts/inter-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
     :root {
       --bordo: #5E2F3A;
       --bordo-light: #7D4450;
@@ -41,10 +82,8 @@
       --light: #f0ede6;
       color-scheme: light only;
     }
-
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-
     body {
       font-family: 'Inter', system-ui, -apple-system, sans-serif;
       background: var(--bg);
@@ -52,30 +91,11 @@
       line-height: 1.7;
       -webkit-font-smoothing: antialiased;
     }
-
-    /* Skip to content link for keyboard navigation */
-    .skip-link {
-      position: absolute;
-      top: -40px;
-      left: 6px;
-      background: var(--amber);
-      color: var(--text);
-      padding: 8px;
-      text-decoration: none;
-      border-radius: 4px;
-      font-weight: 600;
-      z-index: 1000;
-      transition: top 0.2s;
-    }
-    .skip-link:focus {
-      top: 6px;
-    }
-
     /* Header */
     .header {
       background: var(--bordo);
       color: #fff;
-      padding: 1.25rem 2rem;
+      padding: 1.5rem 2rem;
     }
     .header-inner {
       max-width: 860px;
@@ -91,25 +111,8 @@
       font-size: 1.5rem;
       color: #fff;
       text-decoration: none;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
     }
     .brand:hover { opacity: 0.9; }
-    .brand:focus-visible {
-      outline: 2px solid var(--amber);
-      outline-offset: 2px;
-      border-radius: 2px;
-    }
-    .brand-logo {
-      width: 24px;
-      height: 24px;
-      filter: brightness(0) invert(1);
-    }
-    .brand-text {
-      font-size: inherit;
-    }
-    nav { display: flex; gap: 1.5rem; flex-wrap: wrap; }
     .nav-link {
       color: rgba(255,255,255,0.8);
       text-decoration: none;
@@ -120,728 +123,315 @@
       transition: color 0.2s, border-color 0.2s;
     }
     .nav-link:hover { color: #fff; }
-    .nav-link.active { color: #fff; border-bottom-color: #fff; }
-    .nav-link:focus-visible {
-      outline: 2px solid var(--amber);
-      outline-offset: 2px;
-      border-radius: 2px;
+    .nav-link.active {
+      color: #fff;
+      border-bottom-color: #fff;
     }
-
+    nav { display: flex; gap: 1.5rem; flex-wrap: wrap; }
     /* Hero */
     .hero {
       background: linear-gradient(180deg, var(--bordo) 0%, #3d1c24 100%);
       color: #fff;
-      padding: 2.5rem 2rem 2rem;
+      padding: 3rem 2rem 2.5rem;
       text-align: center;
     }
-    .hero-inner { max-width: 700px; margin: 0 auto; }
+    .hero-inner {
+      max-width: 700px;
+      margin: 0 auto;
+    }
     .hero h1 {
       font-family: 'Instrument Serif', serif;
-      font-size: clamp(1.6rem, 4vw, 2.2rem);
+      font-size: 2.4rem;
       font-weight: 400;
-      line-height: 1.3;
-      margin-bottom: 0.75rem;
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
     }
-    .hero p {
-      font-size: 1rem;
+    .hero .subtitle {
+      font-style: italic;
       opacity: 0.85;
-      line-height: 1.6;
+      font-size: 1rem;
+      margin-bottom: 2rem;
     }
-    [lang="ru"] .hero h1 { font-family: 'Playfair Display', Georgia, serif; }
-
-    /* Language tabs */
-    .lang-tabs {
+    .epigraph {
+      font-family: 'Instrument Serif', serif;
+      font-style: italic;
+      font-size: 1.15rem;
+      line-height: 1.6;
+      opacity: 0.9;
+      max-width: 560px;
+      margin: 0 auto;
+      padding: 1.25rem 1.5rem;
+      border-left: 3px solid rgba(255,255,255,0.4);
+      text-align: left;
+    }
+    /* Language switcher */
+    .lang-bar {
       display: flex;
       justify-content: center;
-      gap: 0.25rem;
-      padding: 1rem 2rem 0;
-      max-width: 860px;
-      margin: 0 auto;
-    }
-    .lang-tab {
-      background: none;
-      border: 1px solid var(--border);
-      border-bottom: none;
-      padding: 0.5rem 1.25rem;
-      font-family: 'Inter', sans-serif;
-      font-size: 0.85rem;
-      font-weight: 500;
-      color: var(--muted);
-      cursor: pointer;
-      border-radius: 6px 6px 0 0;
-      transition: color 0.2s, background 0.2s;
-      min-height: 44px;
-      min-width: 44px;
-    }
-    .lang-tab:hover { color: var(--text); background: var(--light); }
-    .lang-tab.active {
-      color: var(--bordo);
-      background: var(--bg);
-      border-color: var(--bordo);
-      font-weight: 600;
-    }
-    .lang-tab:focus-visible {
-      outline: 2px solid var(--amber);
-      outline-offset: 2px;
-    }
-
-    /* Content */
-    .content, .declaration-content {
-      max-width: 860px;
-      margin: 0 auto;
-      padding: 2rem 2rem 3rem;
-      border-top: 2px solid var(--bordo);
-    }
-    .lang-content { display: none; }
-    .lang-content.active { display: block; }
-
-    .content h2 {
-      font-family: 'Instrument Serif', serif;
-      font-size: clamp(1.3rem, 3vw, 1.6rem);
-      font-weight: 400;
-      color: var(--bordo);
-      margin: 2.5rem 0 1rem;
-      padding-bottom: 0.5rem;
+      gap: 0.5rem;
+      padding: 1rem 2rem;
+      background: var(--light);
       border-bottom: 1px solid var(--border);
     }
-    .content h2:first-child { margin-top: 0; }
-    [data-lang="ru"] h2 { font-family: 'Playfair Display', Georgia, serif; }
-
-    .content p {
-      margin-bottom: 1rem;
-      font-size: 1.05rem;
-      line-height: 1.8;
-    }
-
-    .content strong {
-      color: var(--bordo);
-      font-weight: 600;
-    }
-
-    /* Illustrations */
-    .section-illustration {
-      margin: 2rem 0;
-      text-align: center;
-    }
-    .section-illustration img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 8px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-    }
-    .hero-illustration {
-      max-width: 600px;
-      width: 100%;
-    }
-
-    .principle {
-      margin-bottom: 1.25rem;
-      padding-left: 1rem;
-      border-left: 3px solid var(--sage-light);
-      position: relative;
-    }
-    .principle strong {
-      display: block;
-      font-size: 1rem;
-      margin-bottom: 0.25rem;
-    }
-    .principle-icon {
-      position: absolute;
-      left: -2.25rem;
-      top: 0.25rem;
-      width: 32px;
-      height: 32px;
-      border-radius: 50%;
-      background: var(--bg);
-      border: 2px solid var(--sage-light);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .principle-icon img {
-      width: 20px;
-      height: 20px;
-    }
-
-    /* Hero-06 closing with overlay */
-    .closing-section {
-      position: relative;
-      margin: 3rem 0;
-      text-align: center;
-    }
-    .closing-illustration {
-      position: relative;
+    .lang-pill {
       display: inline-block;
-      max-width: 600px;
-      width: 100%;
-    }
-    .closing-illustration img {
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-    }
-    .closing-overlay {
-      position: absolute;
-      top: 15%;
-      right: 5%;
-      width: 28%;
-      background: rgba(254, 252, 246, 0.95);
-      backdrop-filter: blur(8px);
-      border-radius: 8px;
-      padding: 1rem;
-      border: 1px solid rgba(125, 68, 80, 0.2);
-    }
-    .closing-overlay h3 {
-      font-family: 'Inter', sans-serif;
-      font-size: 1rem;
-      font-weight: 600;
-      color: var(--bordo);
-      margin-bottom: 0.5rem;
-      line-height: 1.3;
-    }
-    .closing-overlay p {
+      padding: 0.3rem 0.9rem;
+      border-radius: 999px;
       font-size: 0.85rem;
-      line-height: 1.4;
-      margin: 0;
-      color: var(--text);
+      font-weight: 500;
+      text-decoration: none;
+      color: var(--muted);
+      border: 1px solid var(--border);
+      transition: all 0.2s;
     }
-
-    /* CTA */
-    .cta {
-      text-align: center;
-      margin: 3rem 0 1rem;
-      padding: 2rem;
-      background: var(--light);
-      border-radius: 8px;
+    .lang-pill:hover {
+      color: var(--bordo);
+      border-color: var(--bordo);
     }
-    .cta-btn {
-      display: inline-block;
+    .lang-pill.active {
       background: var(--bordo);
       color: #fff;
-      text-decoration: none;
-      padding: 0.75rem 2rem;
-      border-radius: 6px;
-      font-weight: 600;
-      font-size: 1rem;
-      transition: background 0.2s, transform 0.15s;
-      min-height: 44px;
+      border-color: var(--bordo);
     }
-    .cta-btn:hover { background: var(--bordo-light); transform: translateY(-1px); }
-    .cta-btn:focus-visible { outline: 2px solid var(--amber); outline-offset: 3px; }
-
-    .print-btn {
-      display: inline-block;
-      background: none;
-      border: 1px solid var(--border);
-      color: var(--muted);
-      padding: 0.5rem 1.5rem;
-      border-radius: 6px;
-      font-family: 'Inter', sans-serif;
-      font-size: 0.85rem;
-      cursor: pointer;
-      margin-top: 0.75rem;
-      transition: color 0.2s, border-color 0.2s;
-      min-height: 44px;
-    }
-    .print-btn:hover { color: var(--text); border-color: var(--text); }
-    .print-btn:focus-visible { outline: 2px solid var(--amber); outline-offset: 2px; }
-
-    /* Footer */
-    .footer {
-      max-width: 860px;
-      margin: 0 auto;
-      padding: 1.5rem 2rem;
-      text-align: center;
-      font-size: 0.8rem;
-      color: var(--muted);
-      border-top: 1px solid var(--border);
-    }
-    .footer a { color: var(--bordo-light); text-decoration: none; }
-    .footer a:hover { text-decoration: underline; }
-    .footer a:focus-visible {
-      outline: 2px solid var(--amber);
-      outline-offset: 2px;
-      border-radius: 2px;
-    }
-    .footer-brand {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.25rem;
-    }
-    .footer-logo {
-      width: 16px;
-      height: 16px;
-      opacity: 0.7;
-    }
-
-    /* Ko-fi Support Button */
-    .footer-support {
-      margin: 1rem 0;
-    }
-    .kofi-support-button {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      background: var(--amber);
-      color: var(--text);
-      text-decoration: none;
-      padding: 0.6rem 1.2rem;
-      border-radius: 8px;
-      font-weight: 600;
-      font-size: 0.9rem;
-      transition: all 0.2s ease;
-      box-shadow: 0 2px 4px rgba(232, 173, 74, 0.2);
-      font-family: 'Inter', sans-serif;
-    }
-    .kofi-support-button:hover {
-      background: #dfa143;
-      transform: translateY(-1px);
-      box-shadow: 0 4px 8px rgba(232, 173, 74, 0.3);
-    }
-    .kofi-support-button:focus-visible {
+    .lang-pill:focus-visible {
       outline: 2px solid var(--bordo);
       outline-offset: 2px;
     }
-    .kofi-emoji {
-      font-size: 1rem;
-      filter: grayscale(1) brightness(0.8);
+    /* Main content */
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem 1rem;
     }
-    .kofi-text {
-      font-size: 0.85rem;
+    article h2 {
+      font-family: 'Instrument Serif', serif;
+      font-size: 1.6rem;
+      color: var(--bordo);
+      margin: 2.5rem 0 0.75rem;
+      padding-bottom: 0.3rem;
+      border-bottom: 1px solid var(--border);
     }
-
-    /* AI Transparency Notice */
-    .ai-notice {
-      background: var(--light);
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      padding: 1rem;
+    article p { margin: 0.7rem 0; }
+    article ul, article ol { margin: 0.7rem 0 0.7rem 1.5rem; }
+    article li { margin: 0.3rem 0; }
+    article hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 2.5rem 0;
+    }
+    article strong { font-weight: 600; }
+    a { color: var(--bordo); }
+    a:hover { text-decoration: none; }
+    a:focus-visible {
+      outline: 2px solid var(--bordo);
+      outline-offset: 2px;
+    }
+    /* Principles */
+    .principle {
+      margin: 1.5rem 0;
+      padding-left: 1rem;
+      border-left: 3px solid var(--border);
+    }
+    .principle p:first-child {
+      margin-top: 0;
+    }
+    .principle strong {
+      color: var(--bordo);
+      font-family: 'Instrument Serif', serif;
+      font-size: 1.1rem;
+      font-weight: 400;
+    }
+    /* Commitments list */
+    .commitments {
+      counter-reset: commitment;
+      list-style: none;
+      margin-left: 0;
+      padding-left: 0;
+    }
+    .commitments li {
+      counter-increment: commitment;
+      position: relative;
+      padding-left: 2.5rem;
       margin: 1rem 0;
-      font-size: 0.85rem;
-      color: var(--muted);
     }
-
-    /* Print */
-    @media print {
-      .header, .lang-tabs, .print-btn { display: none; }
-      .footer p { display: none; }
-      .footer .ai-notice { display: block; margin-bottom: 1rem; }
-      .lang-content { display: block !important; }
-      .lang-content:not(.active) { display: none !important; }
-      .content { border-top: none; padding-top: 0; }
-      .hero { background: none; color: var(--text); padding: 1rem 0; }
-      .hero h1 { color: var(--bordo); }
-      .cta { background: none; border: 1px solid var(--border); }
-      .section-illustration, .closing-section { break-inside: avoid; }
-      .principle { break-inside: avoid; }
-      .principle-icon { position: static; display: inline-block; margin-right: 0.5rem; }
-      .closing-overlay { position: static; background: var(--light); margin-top: 1rem; }
-      body { font-size: 11pt; }
-      h2 { break-after: avoid; }
-      @page { margin: 2cm; }
+    .commitments li::before {
+      content: counter(commitment) ".";
+      position: absolute;
+      left: 0;
+      top: 0;
+      font-family: 'Instrument Serif', serif;
+      font-size: 1.2rem;
+      color: var(--bordo);
+      font-weight: 400;
     }
-
-    /* Responsive */
-    @media (max-width: 768px) {
-      .principle-icon { display: none; }
-      .principle { padding-left: 0.75rem; }
-      .closing-overlay {
-        position: static;
-        width: auto;
-        margin-top: 1rem;
-        backdrop-filter: none;
-        background: var(--light);
-      }
-    }
-
-    @media (max-width: 600px) {
-      .header { padding: 1rem; }
-      .hero { padding: 2rem 1.25rem 1.5rem; }
-      .content { padding: 1.5rem 1.25rem 2.5rem; }
-      .lang-tabs { padding: 1rem 1.25rem 0; }
-    }
-
-    /* Educational Gallery Styles */
-
-    /* Educational divider */
-    .educational-divider {
+    /* Endorse section */
+    .endorse {
+      background: #f4f7f2;
+      border: 1px solid #d4ddd0;
+      border-radius: 8px;
+      padding: 2.5rem 2rem;
       margin: 3rem 0 2rem;
       text-align: center;
     }
-    .divider-line {
-      height: 1px;
-      background: linear-gradient(90deg,
-        transparent 0%,
-        var(--sage-light) 20%,
-        var(--bordo) 50%,
-        var(--sage-light) 80%,
-        transparent 100%);
-      max-width: 400px;
-      margin: 0 auto;
+    .endorse h2 {
+      font-family: 'Instrument Serif', serif;
+      font-size: 1.6rem;
+      color: var(--sage);
+      border-bottom: none;
+      margin: 0 0 0.75rem;
+      padding-bottom: 0;
     }
-
-    /* Educational gallery container */
-    .educational-gallery {
-      margin: 2rem 0 3rem;
+    .endorse p {
+      margin: 0.5rem 0;
+      max-width: 520px;
+      margin-left: auto;
+      margin-right: auto;
     }
-
-    /* Category sections */
-    .category-section {
-      margin-bottom: 2.5rem;
-    }
-    .category-section:last-child {
-      margin-bottom: 0;
-    }
-
-    .category-title {
-      font-size: 1.1rem;
+    .endorse-btn {
+      display: inline-block;
+      margin: 1.25rem 0;
+      padding: 0.75rem 2rem;
+      background: var(--sage);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
       font-weight: 600;
-      color: var(--bordo);
-      margin-bottom: 1rem;
-      text-align: center;
-      font-family: 'Inter', sans-serif;
-    }
-
-    /* Category grids - responsive layout */
-    .category-grid {
-      display: grid;
-      gap: 1rem;
-      justify-content: center;
-      max-width: 860px;
-      margin: 0 auto;
-    }
-
-    /* Rights category: 5 items - 3+2 layout */
-    .category-section:nth-child(1) .category-grid {
-      grid-template-columns: repeat(3, 1fr);
-      max-width: 600px;
-    }
-    .category-section:nth-child(1) .category-grid .gallery-item:nth-child(4),
-    .category-section:nth-child(1) .category-grid .gallery-item:nth-child(5) {
-      grid-column: span 1;
-    }
-    .category-section:nth-child(1) .category-grid .gallery-item:nth-child(4) {
-      justify-self: end;
-    }
-    .category-section:nth-child(1) .category-grid .gallery-item:nth-child(5) {
-      justify-self: start;
-    }
-
-    /* Participation category: 3 items - single row */
-    .category-section:nth-child(2) .category-grid {
-      grid-template-columns: repeat(3, 1fr);
-      max-width: 600px;
-    }
-
-    /* European values category: 3 items - single row */
-    .category-section:nth-child(3) .category-grid {
-      grid-template-columns: repeat(3, 1fr);
-      max-width: 600px;
-    }
-
-    /* Knowledge category: 1 item - centered */
-    .category-section:nth-child(4) .category-grid {
-      grid-template-columns: 1fr;
-      max-width: 200px;
-    }
-
-    /* Gallery items */
-    .gallery-item {
-      position: relative;
-      border-radius: 8px;
-      overflow: hidden;
-      background: var(--light);
-      border: 1px solid var(--border);
-      transition: transform 0.2s, box-shadow 0.2s;
-    }
-
-    .gallery-item:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-    }
-
-    /* Gallery buttons */
-    .gallery-button {
-      background: none;
-      border: none;
-      padding: 0;
-      cursor: pointer;
-      width: 100%;
-      text-align: left;
-      display: block;
-    }
-
-    .gallery-button:focus-visible {
-      outline: 3px solid var(--amber);
-      outline-offset: 2px;
-      border-radius: 8px;
-    }
-
-    /* Gallery images */
-    .gallery-item img {
-      width: 100%;
-      height: 180px;
-      object-fit: cover;
-      display: block;
-    }
-
-    /* Gallery captions */
-    .gallery-caption {
-      padding: 0.75rem;
-      font-size: 0.85rem;
-      font-weight: 500;
-      color: var(--text);
-      text-align: center;
-      font-family: 'Inter', sans-serif;
-    }
-
-    /* Modal system */
-    .educational-modal {
-      display: none;
-      position: fixed;
-      z-index: 1000;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0,0,0,0.8);
-      backdrop-filter: blur(4px);
-    }
-
-    .educational-modal.active {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 2rem;
-    }
-
-    .modal-overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0,0,0,0.8);
-    }
-
-    .modal-content {
-      position: relative;
-      max-width: 90vw;
-      max-height: 90vh;
-      background: var(--bg);
-      border-radius: 8px;
-      overflow: hidden;
-      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-      z-index: 1001;
-    }
-
-    .modal-header {
-      padding: 1.5rem 1.5rem 1rem;
-      border-bottom: 1px solid var(--border);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .modal-title {
-      font-size: 1.25rem;
-      font-weight: 600;
-      color: var(--bordo);
-      margin: 0;
-      font-family: 'Inter', sans-serif;
-    }
-
-    .modal-close {
-      background: none;
-      border: none;
-      font-size: 1.5rem;
-      color: var(--muted);
-      cursor: pointer;
-      width: 32px;
-      height: 32px;
-      border-radius: 4px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: color 0.2s, background 0.2s;
+      font-size: 1.05rem;
+      transition: background 0.2s, transform 0.1s;
       min-height: 44px;
       min-width: 44px;
     }
-
-    .modal-close:hover {
-      color: var(--text);
-      background: var(--light);
+    .endorse-btn:hover {
+      background: var(--sage-light);
+      color: #fff;
     }
-
-    .modal-close:focus-visible {
-      outline: 2px solid var(--amber);
+    .endorse-btn:active {
+      transform: scale(0.98);
+    }
+    .endorse-btn:focus-visible {
+      outline: 2px solid var(--sage);
       outline-offset: 2px;
     }
-
-    .modal-body {
-      padding: 1rem 1.5rem 1.5rem;
+    .endorse-note {
+      font-size: 0.9rem;
+      color: var(--muted);
     }
-
-    .modal-image {
+    .endorse-privacy {
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-top: 1rem;
+    }
+    /* Form */
+    .form-group { margin: 0 0 1.25rem; text-align: left; }
+    .form-group label { display: block; font-weight: 500; font-size: 0.9rem; margin-bottom: 0.35rem; color: var(--text); }
+    .form-group input[type="text"],
+    .form-group input[type="email"] {
+      width: 100%; padding: 0.7rem 0.85rem; border: 1px solid var(--border); border-radius: 6px;
+      font-size: 1rem; font-family: inherit; background: #fff; color: var(--text);
+      transition: border-color 0.2s; min-height: 44px;
+    }
+    .form-group input:focus { border-color: var(--sage); outline: 2px solid var(--sage); outline-offset: -2px; }
+    .form-group input.error { border-color: #c0392b; }
+    .form-group .field-error { color: #c0392b; font-size: 0.8rem; margin-top: 0.3rem; display: none; }
+    .form-group .field-error.visible { display: block; }
+    .form-group .hint { font-size: 0.8rem; color: var(--muted); margin-top: 0.2rem; }
+    .checkbox-group { display: flex; align-items: flex-start; gap: 0.5rem; margin: 0.75rem 0; text-align: left; }
+    .checkbox-group input[type="checkbox"] { margin-top: 0.2rem; min-width: 20px; min-height: 20px; accent-color: var(--sage); cursor: pointer; flex-shrink: 0; }
+    .checkbox-group label { font-size: 0.85rem; color: var(--text); cursor: pointer; line-height: 1.5; }
+    .endorse-form { max-width: 420px; margin: 0 auto; }
+    .form-submit {
+      display: inline-block; margin: 1rem 0 0; padding: 0.75rem 2rem; background: var(--sage); color: #fff;
+      border: none; border-radius: 6px; font-weight: 600; font-size: 1.05rem; cursor: pointer;
+      transition: background 0.2s, transform 0.1s; min-height: 44px; min-width: 44px; font-family: inherit;
       width: 100%;
-      height: auto;
-      display: block;
-      margin-bottom: 1rem;
-      border-radius: 4px;
     }
-
-    .modal-description {
+    .form-submit:hover { background: var(--sage-light); }
+    .form-submit:active { transform: scale(0.98); }
+    .form-submit:focus-visible { outline: 2px solid var(--sage); outline-offset: 2px; }
+    .form-submit:disabled { opacity: 0.7; cursor: not-allowed; }
+    .form-alert { margin: 1rem 0 0; padding: 0.75rem 1rem; border-radius: 6px; font-size: 0.9rem; display: none; text-align: center; }
+    .form-alert.form-error { display: block; background: #fdf0ee; color: #c0392b; border: 1px solid #e8c6c2; }
+    .form-alert.form-success { display: block; background: #f0f7ee; color: var(--sage); border: 1px solid #c5d9be; }
+    .hp { position: absolute; left: -9999px; opacity: 0; height: 0; width: 0; overflow: hidden; }
+    /* Metadata */
+    .meta {
+      text-align: center;
       color: var(--muted);
       font-size: 0.9rem;
-      line-height: 1.5;
-      margin: 0;
-      font-family: 'Inter', sans-serif;
+      font-style: italic;
+      margin: 2rem 0;
     }
-
-    /* Responsive breakpoints */
-    @media (max-width: 768px) {
-      /* All category grids become 2 columns on tablet */
-      .category-grid {
-        grid-template-columns: repeat(2, 1fr) !important;
-        max-width: 400px !important;
-        gap: 1rem;
-      }
-
-      /* Reset special layouts for mobile */
-      .category-section:nth-child(1) .category-grid .gallery-item:nth-child(4),
-      .category-section:nth-child(1) .category-grid .gallery-item:nth-child(5) {
-        grid-column: span 1;
-        justify-self: stretch;
-      }
-
-      .gallery-item img {
-        height: 150px;
-      }
-
-      .educational-modal {
-        padding: 1rem;
-      }
-
-      .modal-content {
-        max-width: 95vw;
-        max-height: 95vh;
-      }
-
-      .modal-header {
-        padding: 1rem 1rem 0.75rem;
-      }
-
-      .modal-body {
-        padding: 0.75rem 1rem 1rem;
-      }
+    .meta p { margin: 0.25rem 0; }
+    /* Footer */
+    .footer {
+      text-align: center;
+      padding: 2rem;
+      color: var(--muted);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--border);
     }
-
+    .footer a { color: var(--muted); }
+    .footer a:hover { color: var(--bordo); }
+    /* Responsive */
     @media (max-width: 600px) {
-      /* Single column on mobile */
-      .category-grid {
-        grid-template-columns: 1fr !important;
-        max-width: 280px !important;
-      }
-
-      .gallery-item img {
-        height: 200px;
-      }
-
-      .category-title {
-        font-size: 1rem;
-      }
-
-      .educational-divider {
-        margin: 2rem 0 1.5rem;
-      }
+      .header { padding: 1rem; }
+      .hero { padding: 2rem 1rem 1.5rem; }
+      .hero h1 { font-size: 1.8rem; }
+      .epigraph { font-size: 1rem; padding: 1rem; }
+      main { padding: 1.5rem 1rem 1rem; }
+      article h2 { font-size: 1.3rem; }
+      .principle { padding-left: 0.75rem; }
+      .endorse { padding: 1.5rem 1rem; }
     }
-
-    /* High contrast support */
-    @media (prefers-contrast: high) {
-      .gallery-item {
-        border: 2px solid var(--text);
-      }
-      .gallery-item:hover {
-        border-color: var(--bordo);
-      }
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      *, *::before, *::after { transition: none !important; }
-      .gallery-item {
-        transition: none;
-      }
-      .educational-modal {
-        backdrop-filter: none;
-      }
+    /* Print */
+    @media print {
+      .header, .lang-bar, .endorse, .footer { display: none; }
+      .hero { background: none; color: var(--text); padding: 1rem 0; }
+      main { padding: 0; }
     }
   </style>
 </head>
 <body>
-  <!-- Skip to main content for keyboard users -->
-  <a href="#main-content" class="skip-link">Skip to main content</a>
-
-  <header class="header" role="banner">
+  <header class="header">
     <div class="header-inner">
-      <a href="/" class="brand">
-        <img src="/images/folkup-lantern.png" alt="FolkUp" class="brand-logo">
-        <span class="brand-text">FolkUp</span>
-      </a>
-      <nav role="navigation" aria-label="Main navigation">
-        <a href="/" class="nav-link active" aria-current="page">Declaration</a>
-        <a href="/guide/" class="nav-link">Guide</a>
+      <a href="/" class="brand">FolkUp</a>
+      <nav aria-label="Site navigation">
+        <a href="/" class="nav-link active">Declaration</a>
+        <a href="/terms.html" class="nav-link">Terms</a>
+        <a href="/privacy.html" class="nav-link">Privacy</a>
+        <a href="/cookies.html" class="nav-link">Cookies</a>
       </nav>
     </div>
   </header>
 
-  <section class="hero" role="banner" aria-labelledby="hero-title">
+  <section class="hero" role="banner">
     <div class="hero-inner">
-      <div class="lang-content active" data-lang="en">
-        <h1 id="hero-title">The Unenclosed Knowledge Declaration</h1>
-        <p class="subtitle">Initiated by FolkUp. Open for signature.</p>
-      </div>
-      <div class="lang-content" data-lang="ru">
-        <h1 id="hero-title">Декларация незакрытого знания</h1>
-        <p class="subtitle">Инициировано FolkUp. Открыто для подписи.</p>
-      </div>
-      <div class="lang-content" data-lang="pt">
-        <h1 id="hero-title">A Declaração do Conhecimento Livre</h1>
-        <p class="subtitle">Iniciado pelo FolkUp. Aberto para assinatura.</p>
-      </div>
+      <h1>The Unenclosed Knowledge Declaration</h1>
+      <p class="subtitle">Initiated by FolkUp. Open for signature.</p>
+      <blockquote class="epigraph">
+        "I am, somehow, less interested in the weight and convolutions of Einstein's brain than in the near certainty that people of equal talent have lived and died in cotton fields and sweatshops."
+        <cite>— Stephen Jay Gould, <em>The Panda's Thumb</em> (1980)</cite>
+      </blockquote>
     </div>
   </section>
 
-  <!-- Language Selection Tabs -->
-  <div class="lang-tabs">
-    <button class="lang-tab language-tab active" data-lang="en" aria-label="Switch to English">EN</button>
-    <button class="lang-tab language-tab" data-lang="ru" aria-label="Switch to Russian">РУ</button>
-    <button class="lang-tab language-tab" data-lang="pt" aria-label="Switch to Portuguese">PT</button>
+  <div class="lang-bar" role="navigation" aria-label="Language selection">
+    <a href="/" class="lang-pill active" lang="en" aria-current="page">English</a>
+    <a href="/ru/" class="lang-pill" lang="ru" hreflang="ru">Русский</a>
+    <a href="/pt/" class="lang-pill" lang="pt" hreflang="pt">Português</a>
   </div>
 
-  <main id="main-content" class="declaration-content" role="main">
-    <!-- English Content -->
-    <div class="lang-content active" data-lang="en">
-      <blockquote>
-        "I am, somehow, less interested in the weight and convolutions of Einstein's brain than in the near certainty that people of equal talent have lived and died in cotton fields and sweatshops."
-        <br>— Stephen Jay Gould, <em>The Panda's Thumb</em> (1980)
-      </blockquote>
-
-      <hr>
-
-      <h2>Preamble</h2>
-
+  <main>
+    <article>
+      <h2 id="preamble">Preamble</h2>
       <p>Humanity has never had better tools for sharing knowledge. And yet, more of it is locked away than at any point in modern history. Paywalled. Gated by algorithms that serve ad revenue, not understanding. Treated as a commodity measured in clicks rather than clarity.</p>
-
       <p>This is the new enclosure.</p>
-
       <p>Centuries ago, common lands were fenced off from the people who tended them. Today, the same thing is happening to knowledge itself. Research that the public paid for sits behind subscription gates. Cultural heritage is buried in proprietary databases. Our attention — the hours we spend reading, searching, learning — has become a raw material to be extracted and sold.</p>
-
       <p>We reject this enclosure, and we are building something better.</p>
 
       <hr>
 
-      <h2>Principles</h2>
+      <h2 id="principles">Principles</h2>
 
       <div class="principle">
         <p><strong>I. Knowledge belongs to humanity.</strong></p>
@@ -861,7 +451,7 @@
 
       <div class="principle">
         <p><strong>IV. Transparency is non-negotiable.</strong></p>
-        <p>Any system that shapes public knowledge — search engine, content platform, recommendation algorithm — must be subject to meaningful public accountability and independent audit. What cannot be examined cannot be trusted.</p>
+        <p>Any system that shapes public knowledge — whether search engine, content platform, or recommendation algorithm — must be subject to meaningful public accountability and independent audit. What cannot be examined cannot be trusted.</p>
       </div>
 
       <div class="principle">
@@ -881,862 +471,208 @@
 
       <hr>
 
-      <h2>What We Observe</h2>
-
+      <h2 id="observations">What We Observe</h2>
       <p>The enclosure is not abstract. It is specific and measurable:</p>
-
       <ul>
-        <li>Publicly funded research locked behind paywalls that charge the same taxpayers who funded it.</li>
+        <li>Publicly funded research locked behind paywalls that charge those who paid for it.</li>
         <li>Algorithms that amplify division because division drives engagement, and engagement drives revenue.</li>
         <li>Cultural heritage digitized by public institutions, then licensed exclusively to private platforms.</li>
         <li>Educational resources priced beyond the reach of the communities that need them most.</li>
         <li>Personal data harvested from every act of reading, searching, and learning — then sold to shape the very information we receive.</li>
         <li>Platforms originally built for human conversation, transformed into delivery systems where recommendation algorithms determine what millions read, watch, and believe — optimizing not for knowledge but for time spent.</li>
       </ul>
-
       <p>These are not inevitable consequences of technology. They are choices. And choices can be made differently.</p>
 
       <hr>
 
-      <h2>Our Commitments</h2>
-
+      <h2 id="commitments">Our Commitments</h2>
       <p>By endorsing this Declaration, we pledge to:</p>
-
-      <ol>
-        <li><strong>Create and share openly.</strong> Where we produce knowledge, we will make it accessible under open licenses that permit sharing, adaptation, and redistribution.</li>
-        <li><strong>Respect the law and work within it.</strong> We do not advocate circumvention or destruction. We build legal, sustainable, open alternatives.</li>
-        <li><strong>Protect privacy as a condition of access.</strong> We will not require surveillance as payment for knowledge.</li>
+      <ol class="commitments">
+        <li><strong>Create and share</strong> openly. Where we produce knowledge, we will make it accessible under open licenses that permit sharing, adaptation, and redistribution.</li>
+        <li><strong>Respect the law</strong> and work within it. We do not advocate circumvention or destruction. We build legal, sustainable, open alternatives.</li>
+        <li><strong>Protect privacy</strong> as a condition of access. We will not require surveillance as payment for knowledge.</li>
         <li><strong>Support open infrastructure</strong> — open-source tools, open standards, open protocols — that no single entity can enclose.</li>
         <li><strong>Demand transparency</strong> from systems that shape public knowledge, and practice it in our own work.</li>
         <li><strong>Navigate machine learning with principle.</strong> Open knowledge must not become a loophole for uncredited extraction by automated systems. We support transparent, fair frameworks for how knowledge trains technology — frameworks that respect creators and remain open to scrutiny.</li>
-        <li><strong>Stand with those who lack access.</strong> The value of open knowledge is measured by who can reach it, not by who already has it.</li>
+        <li><strong>Stand with those</strong> who lack access. The value of open knowledge is measured by who can reach it, not by who already has it.</li>
       </ol>
 
       <hr>
 
-      <h2>A Call to Action</h2>
-
+      <h2 id="call-to-action">A Call to Action</h2>
       <p>We invite every person and organization to endorse this Declaration.</p>
-
       <p>By adding your name, you join a growing community of builders: librarians, educators, researchers, developers, archivists, journalists, and citizens working to keep knowledge open. If your institution, project, or community shares these principles, make it official.</p>
-
-      <p>Read the full text, add your signature, and share it: <strong>folkup.app/declaration</strong></p>
-
-      <hr>
-
-      <p><em>Initiated by <a href="https://folkup.app">FolkUp</a> — Knowledge, organized.</em></p>
-
-      <p><em>This Declaration is a living document, subject to periodic review and revision by its signatories.</em></p>
-
-      <p><em>Version 1.2 — March 2026</em></p>
-
-      <p><em>To endorse this Declaration, visit: <a href="https://folkup.app/declaration">folkup.app/declaration</a></em></p>
-    </div>
-
-    <!-- Russian Content -->
-    <div class="lang-content" data-lang="ru">
-      <blockquote>
-        «Меня меньше интересует вес и извилины мозга Эйнштейна, чем почти безусловная уверенность в том, что люди равных талантов жили и умирали на хлопковых полях и в потогонных цехах.»
-        <br>— Стивен Джей Гулд, <em>«Большой палец панды»</em> (1980)
-      </blockquote>
-
-      <hr>
-
-      <h2>Преамбула</h2>
-
-      <p>У человечества никогда не было лучших инструментов для обмена знаниями. И всё же, больше знаний заперто, чем в любой момент современной истории. За платными барьерами. Ограничено алгоритмами, служащими доходам от рекламы, а не пониманию. К знанию относятся как к товару, измеряемому кликами, а не ясностью.</p>
-
-      <p>Это новое огораживание.</p>
-
-      <p>Века назад общие земли были отгорожены от людей, которые их обрабатывали. Сегодня то же самое происходит с самими знаниями. Исследования, финансируемые общественностью, находятся за подписными барьерами. Культурное наследие похоронено в проприетарных базах данных. Наше внимание — часы, которые мы тратим на чтение, поиск, обучение — стало сырьём для извлечения и продажи.</p>
-
-      <p>Мы отвергаем это огораживание и строим что-то лучшее.</p>
-
-      <hr>
-
-      <h2>Принципы</h2>
-
-      <div class="principle">
-        <p><strong>I. Знание принадлежит человечеству.</strong></p>
-        <p>Знания, полученные за счёт государственного финансирования, совместных исследований и коллективных культурных усилий, должны оставаться доступными для всех. Ни одна корпорация или правительство не может законно претендовать на исключительную собственность на то, что сообщества, исследователи и культуры построили вместе. Мы уважаем закон об интеллектуальной собственности, выступая за его реформу там, где он не служит общественным интересам.</p>
-      </div>
-
-      <div class="principle">
-        <p><strong>II. Внимание суверенно.</strong></p>
-        <p>Каждый человек имеет право направлять своё внимание без манипуляций. Системы, предназначенные для захвата внимания через петли зависимости, усиление возмущения или искусственный дефицит, нарушают это право. Суверенное внимание не подразумевает права на усиление или свободу от ответственности.</p>
-        <p>Интернет был создан для диалога — чтобы люди обменивались знаниями, оспаривали идеи и учились друг у друга. Рекомендательные системы, предназначенные для максимизации вовлечённости, а не понимания, заменили этот обмен бесконечным пассивным потреблением. Когда алгоритм определяет, что вы увидите дальше, ваше внимание больше не суверенно. Оно собирается.</p>
-      </div>
-
-      <div class="principle">
-        <p><strong>III. Создание должно предшествовать извлечению.</strong></p>
-        <p>Системы, которые ничего не производят, но захватывают всё, нарушают основное соглашение, которое удерживает общее достояние вместе: вы вносите вклад, прежде чем брать. Информационная экономика, которая вознаграждает огораживание над вкладом, подрывает свою собственную основу.</p>
-      </div>
-
-      <div class="principle">
-        <p><strong>IV. Прозрачность не подлежит обсуждению.</strong></p>
-        <p>Любая система, которая формирует общественные знания — поисковая система, контентная платформа, алгоритм рекомендаций — должна подвергаться значимой общественной отчётности и независимому аудиту. То, что нельзя проверить, нельзя доверять.</p>
-      </div>
-
-      <div class="principle">
-        <p><strong>V. Доступ без слежения.</strong></p>
-        <p>Цена знания никогда не должна быть сдачей приватности. Никого не следует отслеживать, профилировать или монетизировать за акт обучения. Чтение — это не транзакция. Любопытство — это не точка данных.</p>
-      </div>
-
-      <div class="principle">
-        <p><strong>VI. Местная мудрость, глобальное достояние.</strong></p>
-        <p>Культурные и общинные знания должны свободно течь через границы, уважая их происхождение. Энциклопедия деревни — её рецепты, средства, истории — принадлежит миру. Но мир должен чтить деревню, с осознанного согласия и участием её жителей. Открытый доступ — это не извлечение под другим именем.</p>
-      </div>
-
-      <div class="principle">
-        <p><strong>VII. Строительство, а не разрушение.</strong></p>
-        <p>Мы строим альтернативы в рамках закона. Мы не сносим то, что существует — мы строим то, что должно существовать рядом с ним. Наши инструменты — прозрачность, сотрудничество, открытые стандарты и терпеливая работа по обеспечению доступности знаний.</p>
-      </div>
-
-      <hr>
-
-      <h2>Что мы наблюдаем</h2>
-
-      <p>Огораживание не абстрактно. Оно конкретно и измеримо:</p>
-
-      <ul>
-        <li>Государственно финансируемые исследования заперты за платными барьерами, которые взимают плату с тех же налогоплательщиков, которые их финансировали.</li>
-        <li>Алгоритмы, которые усиливают разделение, потому что разделение стимулирует вовлечённость, а вовлечённость приносит доход.</li>
-        <li>Культурное наследие, оцифрованное общественными институтами, затем лицензированное исключительно частным платформам.</li>
-        <li>Образовательные ресурсы по цене, недоступной сообществам, которые больше всего в них нуждаются.</li>
-        <li>Личные данные, собираемые с каждого акта чтения, поиска и обучения — затем продаваемые для формирования той самой информации, которую мы получаем.</li>
-        <li>Платформы, изначально созданные для человеческого разговора, превращённые в системы доставки, где алгоритмы рекомендаций определяют, что миллионы читают, смотрят и во что верят — оптимизируя не знания, а проведённое время.</li>
-      </ul>
-
-      <p>Это не неизбежные последствия технологий. Это выборы. И выборы можно делать по-другому.</p>
-
-      <hr>
-
-      <h2>Наши обязательства</h2>
-
-      <p>Поддерживая эту Декларацию, мы обязуемся:</p>
-
-      <ol>
-        <li><strong>Создавать и делиться открыто.</strong> Где мы производим знания, мы сделаем их доступными под открытыми лицензиями, которые разрешают обмен, адаптацию и перераспределение.</li>
-        <li><strong>Уважать закон и работать в его рамках.</strong> Мы не выступаем за обход или разрушение. Мы строим законные, устойчивые, открытые альтернативы.</li>
-        <li><strong>Защищать приватность как условие доступа.</strong> Мы не будем требовать слежения как плату за знания.</li>
-        <li><strong>Поддерживать открытую инфраструктуру</strong> — инструменты с открытым исходным кодом, открытые стандарты, открытые протоколы — которые ни одна единственная организация не может огородить.</li>
-        <li><strong>Требовать прозрачности</strong> от систем, которые формируют общественные знания, и практиковать её в нашей собственной работе.</li>
-        <li><strong>Направлять машинное обучение с принципом.</strong> Открытые знания не должны становиться лазейкой для некредитованного извлечения автоматизированными системами. Мы поддерживаем прозрачные, справедливые структуры того, как знания обучают технологии — структуры, которые уважают создателей и остаются открытыми для проверки.</li>
-        <li><strong>Стоять с теми, кто лишён доступа.</strong> Ценность открытых знаний измеряется тем, кто может их достичь, а не теми, кто уже их имеет.</li>
-      </ol>
-
-      <hr>
-
-      <h2>Призыв к действию</h2>
-
-      <p>Мы приглашаем каждого человека и организацию поддержать эту Декларацию.</p>
-
-      <p>Добавив своё имя, вы присоединяетесь к растущему сообществу строителей: библиотекарей, преподавателей, исследователей, разработчиков, архивистов, журналистов и граждан, работающих над тем, чтобы знания оставались открытыми. Если ваше учреждение, проект или сообщество разделяют эти принципы, сделайте это официально.</p>
-
-      <p>Прочитайте полный текст, добавьте свою подпись и поделитесь им: <strong>folkup.app/declaration</strong></p>
-
-      <hr>
-
-      <p><em>Инициировано <a href="https://folkup.app">FolkUp</a> — Знания, организованные.</em></p>
-
-      <p><em>Эта Декларация — живой документ, подлежащий периодическому пересмотру и редакции её подписантами.</em></p>
-
-      <p><em>Версия 1.2 — март 2026</em></p>
-
-      <p><em>Чтобы поддержать эту Декларацию, посетите: <a href="https://folkup.app/declaration">folkup.app/declaration</a></em></p>
-    </div>
-
-    <!-- Portuguese Content -->
-    <div class="lang-content" data-lang="pt">
-      <blockquote>
-        "Eu estou, de alguma forma, menos interessado no peso e nas convoluções do cérebro de Einstein do que na quase certeza de que pessoas de igual talento viveram e morreram em plantações de algodão e fábricas de exploração."
-        <br>— Stephen Jay Gould, <em>O Polegar do Panda</em> (1980)
-      </blockquote>
-
-      <hr>
-
-      <h2>Preâmbulo</h2>
-
-      <p>A humanidade nunca teve melhores ferramentas para partilhar conhecimento. E ainda assim, mais conhecimento está bloqueado do que em qualquer momento da história moderna. Atrás de paywalls. Controlado por algoritmos que servem receitas publicitárias, não compreensão. Tratado como uma commodity medida em cliques em vez de clareza.</p>
-
-      <p>Esta é a nova cerca.</p>
-
-      <p>Séculos atrás, as terras comuns foram vedadas às pessoas que as cultivavam. Hoje, a mesma coisa está acontecendo com o próprio conhecimento. Pesquisa que o público pagou fica atrás de portões de assinatura. O patrimônio cultural está enterrado em bases de dados proprietárias. A nossa atenção — as horas que passamos lendo, pesquisando, aprendendo — tornou-se uma matéria-prima a ser extraída e vendida.</p>
-
-      <p>Rejeitamos esta cerca e estamos construindo algo melhor.</p>
-
-      <hr>
-
-      <h2>Princípios</h2>
-
-      <div class="principle">
-        <p><strong>I. O conhecimento pertence à humanidade.</strong></p>
-        <p>O conhecimento produzido através de financiamento público, investigação partilhada e esforço cultural coletivo deve permanecer acessível a todos. Nenhuma corporação ou governo pode legitimamente reivindicar propriedade exclusiva sobre o que comunidades, investigadores e culturas construíram juntos. Respeitamos a lei de propriedade intelectual enquanto defendemos a sua reforma onde falha o interesse público.</p>
-      </div>
-
-      <div class="principle">
-        <p><strong>II. A atenção é soberana.</strong></p>
-        <p>Toda pessoa tem o direito de direcionar a sua própria atenção sem manipulação. Sistemas projetados para sequestrar atenção através de loops viciantes, amplificação de indignação ou escassez fabricada violam esse direito. Atenção soberana não implica um direito à amplificação ou liberdade de responsabilidade.</p>
-        <p>A internet foi construída para diálogo — para as pessoas trocarem conhecimento, desafiarem ideias e aprenderem uns com os outros. Sistemas de recomendação, projetados para maximizar engajamento em vez de compreensão, substituíram essa troca por consumo passivo infinito. Quando um algoritmo determina o que você vê a seguir, a sua atenção já não é soberana. É colhida.</p>
-      </div>
-
-      <div class="principle">
-        <p><strong>III. A criação deve preceder a extração.</strong></p>
-        <p>Sistemas que não produzem nada mas capturam tudo quebram o acordo básico que mantém os comuns unidos: você contribui antes de tomar. Uma economia de informação que recompensa a cerca sobre a contribuição mina a sua própria fundação.</p>
-      </div>
-
-      <div class="principle">
-        <p><strong>IV. A transparência é inegociável.</strong></p>
-        <p>Qualquer sistema que molde o conhecimento público — motor de busca, plataforma de conteúdo, algoritmo de recomendação — deve estar sujeito a responsabilidade pública significativa e auditoria independente. O que não pode ser examinado não pode ser confiável.</p>
-      </div>
-
-      <div class="principle">
-        <p><strong>V. Acesso sem vigilância.</strong></p>
-        <p>O preço do conhecimento nunca deve ser a rendição da privacidade. Ninguém deve ser rastreado, perfilado ou monetizado pelo ato de aprender. Ler não é uma transação. Curiosidade não é um ponto de dados.</p>
-      </div>
-
-      <div class="principle">
-        <p><strong>VI. Sabedoria local, bens comuns globais.</strong></p>
-        <p>O conhecimento cultural e comunitário deve fluir livremente através das fronteiras, respeitando as suas origens. A enciclopédia de uma aldeia — as suas receitas, os seus remédios, as suas histórias — pertence ao mundo. Mas o mundo deve honrar a aldeia, com o consentimento informado e a participação do seu povo. Acesso aberto não é extração com outro nome.</p>
-      </div>
-
-      <div class="principle">
-        <p><strong>VII. Construir, não queimar.</strong></p>
-        <p>Construímos alternativas dentro da lei. Não derrubamos o que existe — construímos o que deve existir ao lado disso. As nossas ferramentas são transparência, cooperação, padrões abertos e o trabalho paciente de tornar o conhecimento acessível.</p>
-      </div>
-
-      <hr>
-
-      <h2>O que observamos</h2>
-
-      <p>A cerca não é abstrata. É específica e mensurável:</p>
-
-      <ul>
-        <li>Pesquisa financiada publicamente bloqueada atrás de paywalls que cobram dos mesmos contribuintes que a financiaram.</li>
-        <li>Algoritmos que amplificam a divisão porque a divisão impulsiona o engajamento, e o engajamento gera receita.</li>
-        <li>Patrimônio cultural digitalizado por instituições públicas, depois licenciado exclusivamente para plataformas privadas.</li>
-        <li>Recursos educacionais com preços além do alcance das comunidades que mais precisam deles.</li>
-        <li>Dados pessoais colhidos de cada ato de leitura, pesquisa e aprendizagem — depois vendidos para moldar a própria informação que recebemos.</li>
-        <li>Plataformas originalmente construídas para conversação humana, transformadas em sistemas de entrega onde algoritmos de recomendação determinam o que milhões leem, assistem e acreditam — otimizando não para conhecimento mas para tempo gasto.</li>
-      </ul>
-
-      <p>Estas não são consequências inevitáveis da tecnologia. São escolhas. E as escolhas podem ser feitas de forma diferente.</p>
-
-      <hr>
-
-      <h2>Os nossos compromissos</h2>
-
-      <p>Ao endossar esta Declaração, comprometemo-nos a:</p>
-
-      <ol>
-        <li><strong>Criar e partilhar abertamente.</strong> Onde produzimos conhecimento, vamos torná-lo acessível sob licenças abertas que permitam partilha, adaptação e redistribuição.</li>
-        <li><strong>Respeitar a lei e trabalhar dentro dela.</strong> Não defendemos contorno ou destruição. Construímos alternativas legais, sustentáveis e abertas.</li>
-        <li><strong>Proteger a privacidade como condição de acesso.</strong> Não vamos exigir vigilância como pagamento pelo conhecimento.</li>
-        <li><strong>Apoiar infraestrutura aberta</strong> — ferramentas de código aberto, padrões abertos, protocolos abertos — que nenhuma entidade única pode cercar.</li>
-        <li><strong>Exigir transparência</strong> dos sistemas que moldam o conhecimento público, e praticá-la no nosso próprio trabalho.</li>
-        <li><strong>Navegar na aprendizagem automática com princípio.</strong> O conhecimento aberto não deve tornar-se uma brecha para extração sem crédito por sistemas automatizados. Apoiamos estruturas transparentes e justas para como o conhecimento treina tecnologia — estruturas que respeitam criadores e permanecem abertas ao escrutínio.</li>
-        <li><strong>Ficar com aqueles que carecem de acesso.</strong> O valor do conhecimento aberto é medido por quem pode alcançá-lo, não por quem já o tem.</li>
-      </ol>
-
-      <hr>
-
-      <h2>Um apelo à ação</h2>
-
-      <p>Convidamos toda pessoa e organização a endossar esta Declaração.</p>
-
-      <p>Ao adicionar o seu nome, junta-se a uma comunidade crescente de construtores: bibliotecários, educadores, investigadores, desenvolvedores, arquivistas, jornalistas e cidadãos trabalhando para manter o conhecimento aberto. Se a sua instituição, projeto ou comunidade partilha estes princípios, torne-o oficial.</p>
-
-      <p>Leia o texto completo, adicione a sua assinatura e partilhe-o: <strong>folkup.app/declaration</strong></p>
-
-      <hr>
-
-      <p><em>Iniciado pelo <a href="https://folkup.app">FolkUp</a> — Conhecimento, organizado.</em></p>
-
-      <p><em>Esta Declaração é um documento vivo, sujeito a revisão e revisão periódica pelos seus signatários.</em></p>
-
-      <p><em>Versão 1.2 — março de 2026</em></p>
-
-      <p><em>Para endossar esta Declaração, visite: <a href="https://folkup.app/declaration">folkup.app/declaration</a></em></p>
-    </div>
-
-    <!-- Educational Gallery Section -->
-    <div class="educational-divider">
-      <div class="divider-line"></div>
-    </div>
-
-    <!-- Educational Gallery - Multilingual -->
-    <div class="educational-gallery">
-      <!-- Rights Category -->
-      <div class="category-section">
-        <div class="lang-content" data-lang="en">
-          <h3 class="category-title">Rights & Freedoms</h3>
-        </div>
-        <div class="lang-content" data-lang="ru">
-          <h3 class="category-title">Права и свободы</h3>
-        </div>
-        <div class="lang-content" data-lang="pt">
-          <h3 class="category-title">Direitos e liberdades</h3>
+    </article>
+
+    <!-- Endorsement form -->
+    <section class="endorse" id="endorse" aria-labelledby="endorse-heading">
+      <h2 id="endorse-heading">Endorse this Declaration</h2>
+      <p>Join a growing community of builders working to keep knowledge open.</p>
+
+      <form id="endorse-form" class="endorse-form" novalidate>
+        <div class="form-group">
+          <label for="endorse-name">Full Name <span aria-hidden="true">*</span></label>
+          <input type="text" id="endorse-name" name="name" required autocomplete="name" aria-required="true" aria-describedby="name-error">
+          <div id="name-error" class="field-error" role="alert" aria-live="polite"></div>
         </div>
 
-        <div class="category-grid">
-          <div class="gallery-item">
-            <button class="gallery-button" onclick="openModal('rights-1')">
-              <img src="/images/hero-01.png" alt="Knowledge Access Rights">
-              <div class="lang-content" data-lang="en">
-                <div class="gallery-caption">Knowledge Access Rights</div>
-              </div>
-              <div class="lang-content" data-lang="ru">
-                <div class="gallery-caption">Права доступа к знаниям</div>
-              </div>
-              <div class="lang-content" data-lang="pt">
-                <div class="gallery-caption">Direitos de acesso ao conhecimento</div>
-              </div>
-            </button>
-          </div>
-
-          <div class="gallery-item">
-            <button class="gallery-button" onclick="openModal('rights-2')">
-              <img src="/images/hero-02.png" alt="Attention Sovereignty">
-              <div class="lang-content" data-lang="en">
-                <div class="gallery-caption">Attention Sovereignty</div>
-              </div>
-              <div class="lang-content" data-lang="ru">
-                <div class="gallery-caption">Суверенитет внимания</div>
-              </div>
-              <div class="lang-content" data-lang="pt">
-                <div class="gallery-caption">Soberania da atenção</div>
-              </div>
-            </button>
-          </div>
-
-          <div class="gallery-item">
-            <button class="gallery-button" onclick="openModal('rights-3')">
-              <img src="/images/hero-03.png" alt="Privacy Protection">
-              <div class="lang-content" data-lang="en">
-                <div class="gallery-caption">Privacy Protection</div>
-              </div>
-              <div class="lang-content" data-lang="ru">
-                <div class="gallery-caption">Защита приватности</div>
-              </div>
-              <div class="lang-content" data-lang="pt">
-                <div class="gallery-caption">Proteção da privacidade</div>
-              </div>
-            </button>
-          </div>
-
-          <div class="gallery-item">
-            <button class="gallery-button" onclick="openModal('rights-4')">
-              <img src="/images/hero-04.png" alt="Cultural Heritage">
-              <div class="lang-content" data-lang="en">
-                <div class="gallery-caption">Cultural Heritage</div>
-              </div>
-              <div class="lang-content" data-lang="ru">
-                <div class="gallery-caption">Культурное наследие</div>
-              </div>
-              <div class="lang-content" data-lang="pt">
-                <div class="gallery-caption">Patrimônio cultural</div>
-              </div>
-            </button>
-          </div>
-
-          <div class="gallery-item">
-            <button class="gallery-button" onclick="openModal('rights-5')">
-              <img src="/images/hero-05.png" alt="Digital Commons">
-              <div class="lang-content" data-lang="en">
-                <div class="gallery-caption">Digital Commons</div>
-              </div>
-              <div class="lang-content" data-lang="ru">
-                <div class="gallery-caption">Цифровые общие ресурсы</div>
-              </div>
-              <div class="lang-content" data-lang="pt">
-                <div class="gallery-caption">Bens comuns digitais</div>
-              </div>
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <!-- Participation Category -->
-      <div class="category-section">
-        <div class="lang-content" data-lang="en">
-          <h3 class="category-title">Participation & Collaboration</h3>
-        </div>
-        <div class="lang-content" data-lang="ru">
-          <h3 class="category-title">Участие и сотрудничество</h3>
-        </div>
-        <div class="lang-content" data-lang="pt">
-          <h3 class="category-title">Participação e colaboração</h3>
+        <div class="form-group">
+          <label for="endorse-email">Email <span aria-hidden="true">*</span></label>
+          <input type="email" id="endorse-email" name="email" required autocomplete="email" aria-required="true" aria-describedby="email-error email-hint">
+          <div id="email-hint" class="hint">We will send a confirmation email. Your address will not be published.</div>
+          <div id="email-error" class="field-error" role="alert" aria-live="polite"></div>
         </div>
 
-        <div class="category-grid">
-          <div class="gallery-item">
-            <button class="gallery-button" onclick="openModal('participation-1')">
-              <img src="/images/hero-07.png" alt="Open Collaboration">
-              <div class="lang-content" data-lang="en">
-                <div class="gallery-caption">Open Collaboration</div>
-              </div>
-              <div class="lang-content" data-lang="ru">
-                <div class="gallery-caption">Открытое сотрудничество</div>
-              </div>
-              <div class="lang-content" data-lang="pt">
-                <div class="gallery-caption">Colaboração aberta</div>
-              </div>
-            </button>
-          </div>
-
-          <div class="gallery-item">
-            <button class="gallery-button" onclick="openModal('participation-2')">
-              <img src="/images/hero-08.png" alt="Community Building">
-              <div class="lang-content" data-lang="en">
-                <div class="gallery-caption">Community Building</div>
-              </div>
-              <div class="lang-content" data-lang="ru">
-                <div class="gallery-caption">Создание сообщества</div>
-              </div>
-              <div class="lang-content" data-lang="pt">
-                <div class="gallery-caption">Construção de comunidade</div>
-              </div>
-            </button>
-          </div>
-
-          <div class="gallery-item">
-            <button class="gallery-button" onclick="openModal('participation-3')">
-              <img src="/images/hero-09.png" alt="Knowledge Sharing">
-              <div class="lang-content" data-lang="en">
-                <div class="gallery-caption">Knowledge Sharing</div>
-              </div>
-              <div class="lang-content" data-lang="ru">
-                <div class="gallery-caption">Обмен знаниями</div>
-              </div>
-              <div class="lang-content" data-lang="pt">
-                <div class="gallery-caption">Partilha de conhecimento</div>
-              </div>
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <!-- European Values Category -->
-      <div class="category-section">
-        <div class="lang-content" data-lang="en">
-          <h3 class="category-title">European Values & Global Impact</h3>
-        </div>
-        <div class="lang-content" data-lang="ru">
-          <h3 class="category-title">Европейские ценности и глобальное влияние</h3>
-        </div>
-        <div class="lang-content" data-lang="pt">
-          <h3 class="category-title">Valores europeus e impacto global</h3>
+        <div class="form-group">
+          <label for="endorse-org">Organization <span class="hint">(optional)</span></label>
+          <input type="text" id="endorse-org" name="organization" autocomplete="organization" aria-describedby="org-error">
+          <div id="org-error" class="field-error" role="alert" aria-live="polite"></div>
         </div>
 
-        <div class="category-grid">
-          <div class="gallery-item">
-            <button class="gallery-button" onclick="openModal('values-1')">
-              <img src="/images/hero-10.png" alt="Democratic Transparency">
-              <div class="lang-content" data-lang="en">
-                <div class="gallery-caption">Democratic Transparency</div>
-              </div>
-              <div class="lang-content" data-lang="ru">
-                <div class="gallery-caption">Демократическая прозрачность</div>
-              </div>
-              <div class="lang-content" data-lang="pt">
-                <div class="gallery-caption">Transparência democrática</div>
-              </div>
-            </button>
-          </div>
-
-          <div class="gallery-item">
-            <button class="gallery-button" onclick="openModal('values-2')">
-              <img src="/images/hero-11.png" alt="Legal Framework">
-              <div class="lang-content" data-lang="en">
-                <div class="gallery-caption">Legal Framework</div>
-              </div>
-              <div class="lang-content" data-lang="ru">
-                <div class="gallery-caption">Правовая база</div>
-              </div>
-              <div class="lang-content" data-lang="pt">
-                <div class="gallery-caption">Estrutura legal</div>
-              </div>
-            </button>
-          </div>
-
-          <div class="gallery-item">
-            <button class="gallery-button" onclick="openModal('values-3')">
-              <img src="/images/hero-12.png" alt="Global Standards">
-              <div class="lang-content" data-lang="en">
-                <div class="gallery-caption">Global Standards</div>
-              </div>
-              <div class="lang-content" data-lang="ru">
-                <div class="gallery-caption">Глобальные стандарты</div>
-              </div>
-              <div class="lang-content" data-lang="pt">
-                <div class="gallery-caption">Padrões globais</div>
-              </div>
-            </button>
-          </div>
+        <div class="checkbox-group">
+          <input type="checkbox" id="endorse-consent" name="consent" aria-required="true" aria-describedby="consent-error">
+          <label for="endorse-consent">I consent to the processing of my personal data as described in the <a href="/privacy.html">Privacy Policy</a> (section 3.6).</label>
         </div>
-      </div>
+        <div id="consent-error" class="field-error" role="alert" aria-live="polite" style="padding-left:1.75rem"></div>
 
-      <!-- Knowledge Category -->
-      <div class="category-section">
-        <div class="lang-content" data-lang="en">
-          <h3 class="category-title">Future of Knowledge</h3>
+        <div class="checkbox-group">
+          <input type="checkbox" id="endorse-age" name="age" aria-required="true" aria-describedby="age-error">
+          <label for="endorse-age">I confirm that I am 16 years of age or older.</label>
         </div>
-        <div class="lang-content" data-lang="ru">
-          <h3 class="category-title">Будущее знаний</h3>
-        </div>
-        <div class="lang-content" data-lang="pt">
-          <h3 class="category-title">Futuro do conhecimento</h3>
-        </div>
+        <div id="age-error" class="field-error" role="alert" aria-live="polite" style="padding-left:1.75rem"></div>
 
-        <div class="category-grid">
-          <div class="gallery-item">
-            <button class="gallery-button" onclick="openModal('knowledge-1')">
-              <img src="/images/hero-06.png" alt="Future Vision">
-              <div class="closing-overlay">
-                <div class="lang-content" data-lang="en">
-                  <h3>Building Tomorrow</h3>
-                  <p>A future where knowledge flows freely across all barriers.</p>
-                </div>
-                <div class="lang-content" data-lang="ru">
-                  <h3>Строительство завтра</h3>
-                  <p>Будущее, где знания свободно текут через все барьеры.</p>
-                </div>
-                <div class="lang-content" data-lang="pt">
-                  <h3>Construindo o amanhã</h3>
-                  <p>Um futuro onde o conhecimento flui livremente através de todas as barreiras.</p>
-                </div>
-              </div>
-            </button>
-          </div>
+        <!-- Honeypot -->
+        <div class="hp" aria-hidden="true">
+          <label for="endorse-website">Website</label>
+          <input type="text" id="endorse-website" name="website" tabindex="-1" autocomplete="off">
         </div>
-      </div>
-    </div>
+        <input type="hidden" name="_ts" id="endorse-ts">
 
-    <!-- Call to Action Section -->
-    <div class="cta">
-      <div class="lang-content" data-lang="en">
-        <h2>Join the Movement</h2>
-        <p>Add your voice to the growing community building a more open future for knowledge.</p>
-        <a href="https://folkup.app/declaration/sign" class="cta-btn">Sign the Declaration</a>
-        <button onclick="window.print()" class="print-btn">Print Declaration</button>
-      </div>
-      <div class="lang-content" data-lang="ru">
-        <h2>Присоединяйтесь к движению</h2>
-        <p>Добавьте свой голос к растущему сообществу, строящему более открытое будущее для знаний.</p>
-        <a href="https://folkup.app/declaration/sign" class="cta-btn">Подписать декларацию</a>
-        <button onclick="window.print()" class="print-btn">Печать декларации</button>
-      </div>
-      <div class="lang-content" data-lang="pt">
-        <h2>Junte-se ao movimento</h2>
-        <p>Adicione a sua voz à comunidade crescente construindo um futuro mais aberto para o conhecimento.</p>
-        <a href="https://folkup.app/declaration/sign" class="cta-btn">Assinar a declaração</a>
-        <button onclick="window.print()" class="print-btn">Imprimir declaração</button>
-      </div>
+        <button type="submit" class="form-submit" id="endorse-submit">Add My Endorsement</button>
+
+        <div id="form-alert" class="form-alert" role="alert"></div>
+      </form>
+
+      <p class="endorse-privacy">Your name and organization (if provided) may be displayed publicly as signatories. You can <a href="/withdraw.html?lang=en">withdraw your endorsement</a> at any time.</p>
+    </section>
+
+    <div class="meta">
+      <p>Initiated by <a href="https://folkup.app">FolkUp</a> — Knowledge, organized.</p>
+      <p>This Declaration is a living document, subject to periodic review and revision by its signatories.</p>
+      <p>Version 1.2 — March 2026</p>
     </div>
   </main>
 
-  <!-- Educational Modals -->
-  <div id="educational-modal" class="educational-modal">
-    <div class="modal-overlay" onclick="closeModal()"></div>
-    <div class="modal-content">
-      <div class="modal-header">
-        <h2 id="modal-title" class="modal-title"></h2>
-        <button class="modal-close" onclick="closeModal()" aria-label="Close modal">&times;</button>
-      </div>
-      <div class="modal-body">
-        <img id="modal-image" class="modal-image" src="" alt="">
-        <p id="modal-description" class="modal-description"></p>
-      </div>
-    </div>
-  </div>
-
-  <footer class="footer" role="contentinfo">
-    <div class="footer-brand">
-      <img src="/images/folkup-lantern.png" alt="FolkUp logo" class="footer-logo">
-      <span class="footer-text">FolkUp — Knowledge, organized</span>
-    </div>
-
-    <div class="footer-support">
-      <a href="https://ko-fi.com/folkup" class="kofi-support-button" target="_blank" rel="noopener noreferrer" aria-label="Support FolkUp on Ko-fi">
-        <span class="kofi-emoji">☕</span>
-        <span class="kofi-text">Support on Ko-fi</span>
-      </a>
-    </div>
-
-    <nav class="legal-links" aria-label="Legal information">
-      <a href="/privacy/">Privacy Policy</a>
-      <a href="/terms/">Terms of Use</a>
-      <a href="/cookies/">Cookie Policy</a>
-    </nav>
+  <footer class="footer">
+    <p>FolkUp · Open content · Built with passion</p>
+    <p><a href="mailto:contact@folkup.app">contact@folkup.app</a> · <a href="/privacy.html">Privacy Policy</a></p>
   </footer>
-
-  <!-- Educational Modal Content Data -->
   <script>
-    const modalContent = {
-      'rights-1': {
-        en: {
-          title: 'Knowledge Access Rights',
-          description: 'Every person has the fundamental right to access knowledge that was created through public funding and collective cultural effort. This principle challenges the current system where taxpayer-funded research sits behind paywalls.'
-        },
-        ru: {
-          title: 'Права доступа к знаниям',
-          description: 'Каждый человек имеет фундаментальное право на доступ к знаниям, созданным за счет государственного финансирования и коллективных культурных усилий. Этот принцип бросает вызов нынешней системе, где финансируемые налогоплательщиками исследования находятся за платными барьерами.'
-        },
-        pt: {
-          title: 'Direitos de acesso ao conhecimento',
-          description: 'Toda pessoa tem o direito fundamental de aceder ao conhecimento que foi criado através de financiamento público e esforço cultural coletivo. Este princípio desafia o sistema atual onde a pesquisa financiada pelos contribuintes fica atrás de paywalls.'
-        }
-      },
-      'rights-2': {
-        en: {
-          title: 'Attention Sovereignty',
-          description: 'Your attention belongs to you. Systems designed to hijack attention through addictive loops and algorithmic manipulation violate your right to direct your own mental focus and learning journey.'
-        },
-        ru: {
-          title: 'Суверенитет внимания',
-          description: 'Ваше внимание принадлежит вам. Системы, предназначенные для захвата внимания через петли зависимости и алгоритмические манипуляции, нарушают ваше право направлять свой собственный умственный фокус и путь обучения.'
-        },
-        pt: {
-          title: 'Soberania da atenção',
-          description: 'A sua atenção pertence a si. Sistemas projetados para sequestrar atenção através de loops viciantes e manipulação algorítmica violam o seu direito de direcionar o seu próprio foco mental e jornada de aprendizagem.'
-        }
-      },
-      'rights-3': {
-        en: {
-          title: 'Privacy Protection',
-          description: 'Learning should never require surveillance. The act of reading, researching, and exploring ideas must remain private. Your intellectual curiosity is not a commodity to be tracked and monetized.'
-        },
-        ru: {
-          title: 'Защита приватности',
-          description: 'Обучение никогда не должно требовать слежения. Акт чтения, исследования и изучения идей должен оставаться частным. Ваше интеллектуальное любопытство — это не товар для отслеживания и монетизации.'
-        },
-        pt: {
-          title: 'Proteção da privacidade',
-          description: 'Aprender nunca deve exigir vigilância. O ato de ler, pesquisar e explorar ideias deve permanecer privado. A sua curiosidade intelectual não é uma commodity para ser rastreada e monetizada.'
-        }
-      },
-      'rights-4': {
-        en: {
-          title: 'Cultural Heritage',
-          description: 'The wisdom of communities — their recipes, remedies, and stories — belongs to the world while honoring its origins. Digital preservation must respect source communities and include them in the conversation.'
-        },
-        ru: {
-          title: 'Культурное наследие',
-          description: 'Мудрость сообществ — их рецепты, средства и истории — принадлежит миру, честно чтя их происхождение. Цифровое сохранение должно уважать исходные сообщества и включать их в разговор.'
-        },
-        pt: {
-          title: 'Patrimônio cultural',
-          description: 'A sabedoria das comunidades — as suas receitas, remédios e histórias — pertence ao mundo honrando as suas origens. A preservação digital deve respeitar as comunidades de origem e incluí-las na conversa.'
-        }
-      },
-      'rights-5': {
-        en: {
-          title: 'Digital Commons',
-          description: 'Open infrastructure built with open-source tools, open standards, and open protocols ensures that no single entity can enclose our shared digital knowledge commons.'
-        },
-        ru: {
-          title: 'Цифровые общие ресурсы',
-          description: 'Открытая инфраструктура, построенная с помощью инструментов с открытым исходным кодом, открытых стандартов и открытых протоколов, гарантирует, что ни одна единственная организация не может огородить наше общее цифровое достояние знаний.'
-        },
-        pt: {
-          title: 'Bens comuns digitais',
-          description: 'Infraestrutura aberta construída com ferramentas de código aberto, padrões abertos e protocolos abertos garante que nenhuma entidade única possa cercar os nossos bens comuns de conhecimento digital partilhado.'
-        }
-      },
-      'participation-1': {
-        en: {
-          title: 'Open Collaboration',
-          description: 'True collaboration requires transparent processes where all participants can contribute meaningfully. Open source methodology extends beyond software to all forms of knowledge creation.'
-        },
-        ru: {
-          title: 'Открытое сотрудничество',
-          description: 'Настоящее сотрудничество требует прозрачных процессов, где все участники могут вносить значимый вклад. Методология открытого исходного кода распространяется за пределы программного обеспечения на все формы создания знаний.'
-        },
-        pt: {
-          title: 'Colaboração aberta',
-          description: 'A verdadeira colaboração requer processos transparentes onde todos os participantes podem contribuir significativamente. A metodologia de código aberto estende-se além do software para todas as formas de criação de conhecimento.'
-        }
-      },
-      'participation-2': {
-        en: {
-          title: 'Community Building',
-          description: 'Strong communities form around shared values of openness, transparency, and mutual support. Building sustainable communities requires both technical infrastructure and social frameworks.'
-        },
-        ru: {
-          title: 'Создание сообщества',
-          description: 'Сильные сообщества формируются вокруг общих ценностей открытости, прозрачности и взаимной поддержки. Создание устойчивых сообществ требует как технической инфраструктуры, так и социальных рамок.'
-        },
-        pt: {
-          title: 'Construção de comunidade',
-          description: 'Comunidades fortes formam-se em torno de valores partilhados de abertura, transparência e apoio mútuo. Construir comunidades sustentáveis requer tanto infraestrutura técnica quanto estruturas sociais.'
-        }
-      },
-      'participation-3': {
-        en: {
-          title: 'Knowledge Sharing',
-          description: 'Effective knowledge sharing requires both the right to share and the infrastructure to make sharing meaningful. This includes attribution, version control, and sustainable funding models.'
-        },
-        ru: {
-          title: 'Обмен знаниями',
-          description: 'Эффективный обмен знаниями требует как права делиться, так и инфраструктуры для того, чтобы обмен был значимым. Это включает атрибуцию, контроль версий и устойчивые модели финансирования.'
-        },
-        pt: {
-          title: 'Partilha de conhecimento',
-          description: 'A partilha eficaz de conhecimento requer tanto o direito de partilhar quanto a infraestrutura para tornar a partilha significativa. Isto inclui atribuição, controle de versão e modelos de financiamento sustentáveis.'
-        }
-      },
-      'values-1': {
-        en: {
-          title: 'Democratic Transparency',
-          description: 'Democratic societies require transparent institutions and accountable systems. Any platform that shapes public discourse must be subject to public oversight and independent audit.'
-        },
-        ru: {
-          title: 'Демократическая прозрачность',
-          description: 'Демократические общества требуют прозрачных институтов и подотчетных систем. Любая платформа, которая формирует общественный дискурс, должна подвергаться общественному надзору и независимому аудиту.'
-        },
-        pt: {
-          title: 'Transparência democrática',
-          description: 'Sociedades democráticas requerem instituições transparentes e sistemas responsáveis. Qualquer plataforma que molde o discurso público deve estar sujeita à supervisão pública e auditoria independente.'
-        }
-      },
-      'values-2': {
-        en: {
-          title: 'Legal Framework',
-          description: 'We work within legal frameworks while advocating for reform where law fails the public interest. This includes intellectual property reform and platform regulation.'
-        },
-        ru: {
-          title: 'Правовая база',
-          description: 'Мы работаем в правовых рамках, выступая за реформы там, где закон не служит общественным интересам. Это включает реформу интеллектуальной собственности и регулирование платформ.'
-        },
-        pt: {
-          title: 'Estrutura legal',
-          description: 'Trabalhamos dentro de estruturas legais enquanto defendemos a reforma onde a lei falha o interesse público. Isto inclui reforma de propriedade intelectual e regulação de plataformas.'
-        }
-      },
-      'values-3': {
-        en: {
-          title: 'Global Standards',
-          description: 'Knowledge flows across borders and cultures. We need global standards that respect local wisdom while enabling worldwide collaboration and knowledge sharing.'
-        },
-        ru: {
-          title: 'Глобальные стандарты',
-          description: 'Знания текут через границы и культуры. Нам нужны глобальные стандарты, которые уважают местную мудрость, обеспечивая при этом всемирное сотрудничество и обмен знаниями.'
-        },
-        pt: {
-          title: 'Padrões globais',
-          description: 'O conhecimento flui através de fronteiras e culturas. Precisamos de padrões globais que respeitem a sabedoria local enquanto permitem colaboração mundial e partilha de conhecimento.'
-        }
-      },
-      'knowledge-1': {
-        en: {
-          title: 'Future Vision',
-          description: 'We envision a future where knowledge flows freely across all barriers — technical, legal, economic, and cultural. This requires patient work building alternatives within existing systems.'
-        },
-        ru: {
-          title: 'Будущее видение',
-          description: 'Мы видим будущее, где знания свободно текут через все барьеры — технические, правовые, экономические и культурные. Это требует терпеливой работы по созданию альтернатив в существующих системах.'
-        },
-        pt: {
-          title: 'Visão do futuro',
-          description: 'Visionamos um futuro onde o conhecimento flui livremente através de todas as barreiras — técnicas, legais, económicas e culturais. Isto requer trabalho paciente construindo alternativas dentro dos sistemas existentes.'
-        }
+    (function() {
+      var form = document.getElementById('endorse-form');
+      if (!form) return;
+      document.getElementById('endorse-ts').value = Date.now();
+
+      var E = {
+        name_required: 'This field is required.',
+        name_invalid: 'Please enter your full name (2\u2013100 characters).',
+        email_required: 'This field is required.',
+        email_invalid: 'Please enter a valid email address.',
+        consent_required: 'You must consent to data processing.',
+        age_required: 'You must confirm your age.',
+        already_endorsed: 'This email has already endorsed the Declaration. Please check your inbox for the confirmation email.',
+        server_error: 'Something went wrong. Please try again later.',
+        rate_limit: 'Too many requests. Please try again later.'
+      };
+
+      function showErr(id, msg) {
+        var el = document.getElementById(id);
+        if (el) { el.textContent = msg; el.classList.add('visible'); }
       }
-    };
-
-    // Language switching functionality
-    function switchLanguage(lang) {
-      // Hide all content
-      document.querySelectorAll('.lang-content').forEach(el => {
-        el.style.display = 'none';
-        el.classList.remove('active');
-      });
-
-      // Show target language content
-      document.querySelectorAll(`.lang-content[data-lang="${lang}"]`).forEach(el => {
-        el.style.display = 'block';
-        el.classList.add('active');
-      });
-
-      // Update active tab
-      document.querySelectorAll('.language-tab').forEach(tab => {
-        tab.classList.remove('active');
-      });
-      const activeTab = document.querySelector(`.language-tab[data-lang="${lang}"]`);
-      if (activeTab) activeTab.classList.add('active');
-
-      // Update page language
-      document.documentElement.lang = lang === 'ru' ? 'ru' : lang === 'pt' ? 'pt' : 'en';
-    }
-
-    // Modal functionality
-    function openModal(contentId) {
-      const currentLang = document.querySelector('.language-tab.active')?.dataset.lang || 'en';
-      const content = modalContent[contentId];
-
-      if (content && content[currentLang]) {
-        document.getElementById('modal-title').textContent = content[currentLang].title;
-        document.getElementById('modal-description').textContent = content[currentLang].description;
-        document.getElementById('modal-image').src = `/images/${contentId.replace('-', '-')}.png`;
-        document.getElementById('modal-image').alt = content[currentLang].title;
-        document.getElementById('educational-modal').classList.add('active');
-
-        // Prevent body scrolling
-        document.body.style.overflow = 'hidden';
+      function clearErr(id) {
+        var el = document.getElementById(id);
+        if (el) { el.textContent = ''; el.classList.remove('visible'); }
       }
-    }
+      function clearAll() {
+        form.querySelectorAll('.field-error').forEach(function(el) { el.textContent = ''; el.classList.remove('visible'); });
+        form.querySelectorAll('input.error').forEach(function(el) { el.classList.remove('error'); });
+        var a = document.getElementById('form-alert'); a.className = 'form-alert'; a.textContent = '';
+      }
 
-    function closeModal() {
-      document.getElementById('educational-modal').classList.remove('active');
-      document.body.style.overflow = '';
-    }
-
-    // URL detection and routing
-    function detectLanguageFromURL() {
-      const path = window.location.pathname;
-      if (path.includes('/ru/')) return 'ru';
-      if (path.includes('/pt/')) return 'pt';
-      if (path.includes('/en/')) return 'en';
-      return 'en'; // default
-    }
-
-    // Initialize page
-    function init() {
-      const currentLang = detectLanguageFromURL();
-      switchLanguage(currentLang);
-
-      // Language tab click handlers
-      document.querySelectorAll('.language-tab').forEach(tab => {
-        tab.addEventListener('click', function(e) {
-          e.preventDefault();
-          const lang = this.dataset.lang;
-
-          // Update URL with pushState
-          const newPath = lang === 'en' ? '/' : `/${lang}/`;
-          history.pushState({lang}, '', newPath);
-          switchLanguage(lang);
-        });
-      });
-
-      // Keyboard navigation for modal
-      document.addEventListener('keydown', function(e) {
-        if (e.key === 'Escape') {
-          closeModal();
+      function validate(field) {
+        var v;
+        switch (field) {
+          case 'name':
+            v = form.querySelector('[name="name"]').value.trim();
+            if (!v) { showErr('name-error', E.name_required); form.querySelector('[name="name"]').classList.add('error'); return false; }
+            if (v.length < 2 || v.length > 100) { showErr('name-error', E.name_invalid); form.querySelector('[name="name"]').classList.add('error'); return false; }
+            clearErr('name-error'); form.querySelector('[name="name"]').classList.remove('error'); return true;
+          case 'email':
+            v = form.querySelector('[name="email"]').value.trim();
+            if (!v) { showErr('email-error', E.email_required); form.querySelector('[name="email"]').classList.add('error'); return false; }
+            if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v)) { showErr('email-error', E.email_invalid); form.querySelector('[name="email"]').classList.add('error'); return false; }
+            clearErr('email-error'); form.querySelector('[name="email"]').classList.remove('error'); return true;
+          case 'consent':
+            if (!form.querySelector('[name="consent"]').checked) { showErr('consent-error', E.consent_required); return false; }
+            clearErr('consent-error'); return true;
+          case 'age':
+            if (!form.querySelector('[name="age"]').checked) { showErr('age-error', E.age_required); return false; }
+            clearErr('age-error'); return true;
         }
+        return true;
+      }
+
+      ['name', 'email'].forEach(function(f) {
+        var inp = form.querySelector('[name="' + f + '"]');
+        if (inp) inp.addEventListener('blur', function() { validate(f); });
       });
-    }
+      ['consent', 'age'].forEach(function(f) {
+        var inp = form.querySelector('[name="' + f + '"]');
+        if (inp) inp.addEventListener('change', function() { validate(f); });
+      });
 
-    // Browser back/forward support
-    window.addEventListener('popstate', function(e) {
-      const lang = e.state?.lang || detectLanguageFromURL();
-      switchLanguage(lang);
-    });
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        clearAll();
+        var ok = true;
+        if (!validate('name')) ok = false;
+        if (!validate('email')) ok = false;
+        if (!validate('consent')) ok = false;
+        if (!validate('age')) ok = false;
+        if (!ok) { var fe = form.querySelector('.field-error.visible'); if (fe) fe.scrollIntoView({ behavior: 'smooth', block: 'center' }); return; }
 
-    // Initialize when DOM is ready
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', init);
-    } else {
-      init();
-    }
+        var btn = document.getElementById('endorse-submit');
+        var orig = btn.textContent;
+        btn.disabled = true; btn.textContent = 'Sending\u2026';
+
+        var data = {
+          name: form.querySelector('[name="name"]').value.trim(),
+          email: form.querySelector('[name="email"]').value.trim(),
+          organization: form.querySelector('[name="organization"]').value.trim(),
+          consent: form.querySelector('[name="consent"]').checked,
+          age: form.querySelector('[name="age"]').checked,
+          website: form.querySelector('[name="website"]').value,
+          _ts: form.querySelector('[name="_ts"]').value,
+          lang: 'en'
+        };
+
+        fetch('/api/endorse', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) })
+          .then(function(r) { return r.json().then(function(j) { return { status: r.status, body: j }; }); })
+          .then(function(r) {
+            if (r.body.success) { window.location.href = '/declaration/thank-you/?lang=en'; return; }
+            btn.disabled = false; btn.textContent = orig;
+            var al = document.getElementById('form-alert');
+            var ek = r.body.error || 'server_error';
+            if (r.status === 429) ek = 'rate_limit';
+            al.textContent = E[ek] || E.server_error; al.className = 'form-alert form-error';
+          })
+          .catch(function() {
+            btn.disabled = false; btn.textContent = orig;
+            var al = document.getElementById('form-alert');
+            al.textContent = E.server_error; al.className = 'form-alert form-error';
+          });
+      });
+    })();
   </script>
 </body>
 </html>
