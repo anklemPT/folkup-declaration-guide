@@ -15,6 +15,9 @@ mkdir -p dist
 # Root index
 cp index.html dist/
 
+# SEO: robots.txt (Q11+F8 canon; follow-up к PR #5 build-copy fix)
+cp robots.txt dist/
+
 # Clean-URL conversions (matches production nginx clean-urls)
 for page in cookies privacy terms; do
   mkdir -p "dist/${page}"
