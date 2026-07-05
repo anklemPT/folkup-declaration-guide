@@ -1,0 +1,8 @@
+# precommit:allow-ai-mentions
+# robots.txt — declaration.folkup.app
+# Canon: FolkUp Q11+F8 (allow all AI crawlers per CC BY-SA + mission «нести свет»)
+# Aligns with 11 other FolkUp domains (folkup.app template 2026-06-10 verdict А1)
+# Ticket: AGIL-DECLARATION-ROBOTS-GAP-2026-07-05 (Q-cont42-01 F8 discovery)
+
+User-agent: *
+Allow: /
