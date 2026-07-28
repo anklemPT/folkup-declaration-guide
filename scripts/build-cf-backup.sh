@@ -36,6 +36,11 @@ cp -r css js fonts images dist/
 # Multilingual + guide content
 cp -r declaration guide dist/
 
+# Localized entry points (RU / PT live at repo root, not в declaration/ subdir)
+# Fix Iskra S220 OBKHOD brak: /ru/ + /pt/ должны отдавать локализованный контент,
+# а не SPA-fallback к English root index.html
+cp -r ru pt dist/
+
 # i18n helper script (root-level reference из index.html)
 cp declaration-i18n.js dist/
 
@@ -61,9 +66,12 @@ cat > dist/_headers <<'HEADERS'
 HEADERS
 
 cat > dist/_redirects <<'REDIRECTS'
-# 404 fallback to index.html (SPA-like for multilingual routes)
-/ru/*    /index.html    200
-/pt/*    /index.html    200
+# Locale-aware fallback (fix Iskra S220 OBKHOD brak — /ru/ + /pt/ теперь serve локализованный контент).
+# Missing subpaths within locale → fall back к соответствующей locale index (не к English root).
+# CF Pages processes _redirects BEFORE file lookup; existing /ru/index.html и /pt/index.html
+# используются напрямую т.к. rewrite target совпадает с file — no loop.
+/ru/*    /ru/index.html    200
+/pt/*    /pt/index.html    200
 REDIRECTS
 
 echo "Build complete: $(find dist -type f | wc -l) files, $(du -sh dist | awk '{print $1}')"
