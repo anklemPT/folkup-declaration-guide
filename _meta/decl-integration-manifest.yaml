@@ -2,7 +2,7 @@
 # Created: 2026-04-26 for DECL-R01 inventory verification
 
 project: folkup-declaration-guide
-repository: https://github.com/anklemPT/folkup-declaration-guide
+repository: https://github.com/FolkUp/folkup-declaration-guide
 created_date: '2026-04-26'
 audit_date: '2026-04-26'
 audit_author: 'Enhanced Alice v2.0 Level 3'
