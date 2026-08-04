@@ -44,12 +44,6 @@ cp -r ru pt dist/
 # i18n helper script (root-level reference из index.html)
 cp declaration-i18n.js dist/
 
-# CF Pages Functions — backend endpoints (functions/api/endorse.js etc.)
-# Cont+48 2026-08-04: /api/endorse rebuild after INC-006 killed CX33 VPS Postgres
-if [ -d functions ]; then
-  cp -r functions dist/
-fi
-
 # CF Pages headers + redirects
 cat > dist/_headers <<'HEADERS'
 /*
